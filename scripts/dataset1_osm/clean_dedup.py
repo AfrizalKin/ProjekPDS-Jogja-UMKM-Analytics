@@ -1,168 +1,142 @@
 """
-Modul Pembersihan, Deduplikasi, dan Standardisasi Data OSM
-Projek PDS - UMKM Recommender
+Modul Pembersihan, Parsing, dan Deduplikasi Data Mentah OSM
+Projek PDS - Rekomendasi Kelayakan Usaha UMKM
 """
 
-import logging
-from typing import Dict, List, Optional
+import json
+import sys
+from pathlib import Path
+from typing import List, Dict
 import pandas as pd
-import numpy as np
 
-from .config import (
-    SEKTOR_MAPPING,
-    INTERIM_DATA_DIR,
-    PROCESSED_DATA_DIR
+# Menambahkan root project ke sys.path
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.append(str(BASE_DIR))
+
+from scripts.dataset1_osm.config import (
+    DATA_RAW_OSM_DIR,
+    DATA_PROCESSED_DIR
 )
 
-logger = logging.getLogger("CleanDedup")
 
-
-def parse_osm_elements(elements: List[Dict]) -> pd.DataFrame:
+def extract_poi_from_json(json_path: Path) -> List[Dict]:
     """
-    Mengekstrak informasi penting dari elemen mentah Overpass API (node & way).
-
-    Args:
-        elements: list elemen dari respon JSON Overpass
-
-    Returns:
-        pd.DataFrame dengan atribut-atribut POI
+    Mengekstrak data POI dari sebuah berkas JSON Overpass API mentah.
+    Nama file diasumsikan berformat: {wilayah}_{kategori}.json
     """
+    stem = json_path.stem
+    parts = stem.split("_", 1)
+    wilayah_id = parts[0] if len(parts) > 0 else "unknown"
+    kategori_id = parts[1] if len(parts) > 1 else "unknown"
+
+    with open(json_path, "r", encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            print(f"[Warning] Gagal membaca JSON: {json_path}")
+            return []
+
+    elements = data.get("elements", [])
     records = []
 
     for el in elements:
         el_type = el.get("type")
         el_id = el.get("id")
 
-        # Ambil koordinat
-        lat, lon = None, None
-        if el_type == "node":
-            lat = el.get("lat")
-            lon = el.get("lon")
-        elif el_type == "way":
-            # Way seringkali memiliki koordinat 'center' jika diminta 'out center'
+        # Koordinat: node memiliki 'lat' & 'lon', way memiliki 'center' jika diminta out center
+        lat = el.get("lat")
+        lon = el.get("lon")
+        if lat is None or lon is None:
             center = el.get("center", {})
             lat = center.get("lat")
             lon = center.get("lon")
 
-        # Jika tidak ada koordinat valid, lewati
+        # Lewati jika tidak ada koordinat yang valid
         if lat is None or lon is None:
             continue
 
         tags = el.get("tags", {})
-        if not tags:
-            continue
-
-        name = tags.get("name", "Tanpa Nama").strip()
-        amenity = tags.get("amenity")
-        shop = tags.get("shop")
-        craft = tags.get("craft")
-
-        # Abaikan jika tidak memiliki tag usaha relevan
-        if not (amenity or shop or craft):
-            continue
-
-        # Ekstrak metadata tambahan
-        street = tags.get("addr:street")
-        city = tags.get("addr:city")
-        phone = tags.get("phone") or tags.get("contact:phone")
-        website = tags.get("website") or tags.get("contact:website")
-        opening_hours = tags.get("opening_hours")
-        brand = tags.get("brand")
+        nama_tempat = tags.get("name", "Tanpa Nama").strip()
 
         records.append({
             "osm_id": f"{el_type}_{el_id}",
-            "raw_id": el_id,
-            "osm_type": el_type,
-            "latitude": float(lat),
-            "longitude": float(lon),
-            "nama_usaha": name,
-            "amenity": amenity,
-            "shop": shop,
-            "craft": craft,
-            "brand": brand,
-            "street": street,
-            "city": city,
-            "phone": phone,
-            "website": website,
-            "opening_hours": opening_hours,
+            "nama_tempat": nama_tempat,
+            "lat": float(lat),
+            "lon": float(lon),
+            "kategori": kategori_id,
+            "wilayah": wilayah_id
         })
 
-    df = pd.DataFrame(records)
-    logger.info(f"Berhasil mem-parsing {len(df)} entitas POI mentah.")
-    return df
+    return records
 
 
-def categorize_umkm(df: pd.DataFrame) -> pd.DataFrame:
+def clean_and_deduplicate() -> pd.DataFrame:
     """
-    Menentukan kategori primer dan menstandardisasi sektor UMKM.
+    Membaca semua file JSON di data/raw/osm/, mem-parsing, menghapus duplikasi,
+    dan menyimpan hasilnya ke data/processed/kompetitor_per_wilayah.csv.
     """
-    if df.empty:
-        df["subsektor"] = []
-        df["sektor_umkm"] = []
-        return df
+    json_files = list(DATA_RAW_OSM_DIR.glob("*.json"))
 
-    def get_subsektor(row):
-        # Prioritas: shop -> amenity -> craft
-        if pd.notna(row["shop"]):
-            return row["shop"]
-        if pd.notna(row["amenity"]):
-            return row["amenity"]
-        if pd.notna(row["craft"]):
-            return row["craft"]
-        return "unknown"
+    if not json_files:
+        print(f"[Perhatian] Tidak ada file JSON ditemukan di: {DATA_RAW_OSM_DIR}")
+        print("Silakan jalankan main.py terlebih dahulu untuk mengambil data.")
+        return pd.DataFrame()
 
-    df["subsektor"] = df.apply(get_subsektor, axis=1)
-    df["sektor_umkm"] = df["subsektor"].map(SEKTOR_MAPPING).fillna("Lainnya / Umum")
+    print(f"Membaca {len(json_files)} file JSON dari {DATA_RAW_OSM_DIR}...")
+    all_records = []
+    for jf in json_files:
+        records = extract_poi_from_json(jf)
+        all_records.extend(records)
 
-    return df
+    if not all_records:
+        print("[Perhatian] Tidak ada POI yang berhasil diekstrak dari file JSON.")
+        return pd.DataFrame()
+
+    df = pd.DataFrame(all_records)
+    total_awal = len(df)
+
+    # 1. Hapus duplikat berdasarkan osm_id (dan kategori)
+    df_dedup = df.drop_duplicates(subset=["osm_id", "kategori"]).copy()
+    total_dedup_id = len(df_dedup)
+
+    # 2. Hapus duplikat spasial (koordinat sama persis + nama tempat sama)
+    df_dedup["lat_rounded"] = df_dedup["lat"].round(5)
+    df_dedup["lon_rounded"] = df_dedup["lon"].round(5)
+
+    mask_named = df_dedup["nama_tempat"] != "Tanpa Nama"
+    named_df = df_dedup[mask_named].drop_duplicates(
+        subset=["nama_tempat", "lat_rounded", "lon_rounded", "kategori"]
+    )
+    unnamed_df = df_dedup[~mask_named].drop_duplicates(
+        subset=["lat_rounded", "lon_rounded", "kategori"]
+    )
+
+    df_final = pd.concat([named_df, unnamed_df], ignore_index=True)
+    total_final = len(df_final)
+
+    # Pilih kolom final sesuai spesifikasi: nama_tempat, lat, lon, kategori, wilayah
+    kolom_final = ["nama_tempat", "lat", "lon", "kategori", "wilayah"]
+    df_output = df_final[kolom_final].copy()
+
+    output_path = DATA_PROCESSED_DIR / "kompetitor_per_wilayah.csv"
+    df_output.to_csv(output_path, index=False, encoding="utf-8")
+
+    print("\n" + "=" * 70)
+    print("HASIL PEMBERSIHAN & DEDUPLIKASI DATASET 1")
+    print("=" * 70)
+    print(f"Total POI Awal                 : {total_awal}")
+    print(f"Setelah Dedup ID               : {total_dedup_id} (-{total_awal - total_dedup_id})")
+    print(f"Total Bersih Final             : {total_final} (-{total_dedup_id - total_final})")
+    print(f"File Hasil Disimpan ke         : {output_path}")
+    print("\nRekap Jumlah Kompetitor per Kategori:")
+    print(df_output["kategori"].value_counts().to_string())
+    print("\nRekap Jumlah Kompetitor per Wilayah:")
+    print(df_output["wilayah"].value_counts().to_string())
+    print("=" * 70)
+
+    return df_output
 
 
-def deduplicate_records(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Melakukan deduplikasi data:
-    1. Berdasarkan osm_id unik (menghilangkan duplikasi akibat pembagian query grid).
-    2. Berdasarkan nama usaha dan kedekatan koordinat yang identik.
-    """
-    initial_count = len(df)
-    if initial_count == 0:
-        return df
-
-    # Dedup berdasarkan osm_id
-    df_dedup = df.drop_duplicates(subset=["osm_id"]).copy()
-    step1_count = len(df_dedup)
-    logger.info(f"Deduplikasi OSM ID: dari {initial_count} menjadi {step1_count} baris (-{initial_count - step1_count}).")
-
-    # Dedup berdasarkan kesamaan nama (selain 'Tanpa Nama') dan koordinat dibulatkan (~11 meter)
-    df_dedup["lat_round4"] = df_dedup["latitude"].round(4)
-    df_dedup["lon_round4"] = df_dedup["longitude"].round(4)
-
-    mask_named = df_dedup["nama_usaha"] != "Tanpa Nama"
-    named_df = df_dedup[mask_named].drop_duplicates(subset=["nama_usaha", "lat_round4", "lon_round4"])
-    unnamed_df = df_dedup[~mask_named]
-
-    final_df = pd.concat([named_df, unnamed_df], ignore_index=True)
-    final_df.drop(columns=["lat_round4", "lon_round4"], inplace=True)
-
-    final_count = len(final_df)
-    logger.info(f"Deduplikasi Spasial/Nama: dari {step1_count} menjadi {final_count} baris (-{step1_count - final_count}).")
-    return final_df
-
-
-def save_interim_data(df: pd.DataFrame, filename: str) -> str:
-    """
-    Menyimpan hasil parsing awal ke data/interim/
-    """
-    path = INTERIM_DATA_DIR / filename
-    df.to_csv(path, index=False, encoding="utf-8")
-    logger.info(f"Data interim disimpan ke: {path}")
-    return str(path)
-
-
-def save_processed_data(df: pd.DataFrame, filename: str) -> str:
-    """
-    Menyimpan hasil final siap analisis ke data/processed/
-    """
-    path = PROCESSED_DATA_DIR / filename
-    df.to_csv(path, index=False, encoding="utf-8")
-    logger.info(f"Data processed final disimpan ke: {path}")
-    return str(path)
+if __name__ == "__main__":
+    clean_and_deduplicate()

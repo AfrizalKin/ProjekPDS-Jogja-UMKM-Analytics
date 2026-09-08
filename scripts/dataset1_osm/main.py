@@ -1,204 +1,84 @@
 """
-Orchestrator Pipeline Dataset 1: OpenStreetMap (Overpass API)
-Projek PDS - UMKM Recommender
+Orchestrator Pipeline Pengambilan Data Kompetitor UMKM (Overpass API)
+Projek PDS - Rekomendasi Kelayakan Usaha UMKM
 """
 
-import argparse
-import datetime
-import logging
 import sys
 import time
 from pathlib import Path
+from tqdm import tqdm
 
-# Memastikan import modul lokal bekerja dengan baik
-current_dir = Path(__file__).resolve().parent
-if str(current_dir.parent.parent) not in sys.path:
-    sys.path.append(str(current_dir.parent.parent))
+# Menambahkan root project ke sys.path
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.append(str(BASE_DIR))
 
 from scripts.dataset1_osm.config import (
-    BBOX_WILAYAH,
-    DEFAULT_WILAYAH,
-    DEFAULT_TIMEOUT,
-    LOG_DIR,
-    RAW_DATA_DIR
+    TARGET_WILAYAH,
+    KATEGORI_UMKM,
+    DATA_RAW_OSM_DIR,
+    OUTPUTS_LOGS_DIR
 )
-from scripts.dataset1_osm.fetch_overpass import (
-    build_overpass_query,
-    fetch_osm_data,
-    save_raw_response
-)
-from scripts.dataset1_osm.grid_sampling import create_bbox_grid
-from scripts.dataset1_osm.clean_dedup import (
-    parse_osm_elements,
-    categorize_umkm,
-    deduplicate_records,
-    save_interim_data,
-    save_processed_data
-)
+from scripts.dataset1_osm.fetch_overpass import fetch_overpass_data
 
 
-def setup_logger(log_filename: str = "pipeline_osm.log"):
+def run_pipeline():
     """
-    Mengatur logging ke file dan konsol.
+    Menjalankan loop pengambilan data untuk setiap kombinasi wilayah x kategori.
     """
-    log_file = LOG_DIR / log_filename
+    total_kombinasi = len(TARGET_WILAYAH) * len(KATEGORI_UMKM)
+    
+    print("=" * 70)
+    print("DATASET 1: PENGAMBILAN DATA KOMPETITOR UMKM (OVERPASS API)")
+    print("=" * 70)
+    print(f"Total Wilayah Target  : {len(TARGET_WILAYAH)}")
+    print(f"Total Kategori UMKM   : {len(KATEGORI_UMKM)}")
+    print(f"Total Kombinasi Query : {total_kombinasi}")
+    print(f"Direktori Output Raw  : {DATA_RAW_OSM_DIR}")
+    print(f"Direktori Output Log  : {OUTPUTS_LOGS_DIR}")
+    print("=" * 70)
 
-    # Konfigurasi root logger
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] [%(name)s] %(message)s",
-        handlers=[
-            logging.FileHandler(log_file, encoding="utf-8"),
-            logging.StreamHandler(sys.stdout)
-        ]
-    )
-    return logging.getLogger("PipelineOSM")
+    # Buat daftar seluruh kombinasi task
+    tasks = []
+    for w in TARGET_WILAYAH:
+        for k in KATEGORI_UMKM:
+            tasks.append((w, k))
 
+    sukses_count = 0
+    gagal_count = 0
 
-def run_pipeline(
-    wilayah_key: str = DEFAULT_WILAYAH,
-    custom_bbox: tuple = None,
-    use_grid: bool = True,
-    grid_rows: int = 2,
-    grid_cols: int = 2,
-    timeout: int = DEFAULT_TIMEOUT
-):
-    logger = setup_logger()
-    logger.info("=" * 60)
-    logger.info("MEMULAI PIPELINE EKSTRAKSI DATASET 1 (OSM UMKM)")
-    logger.info("=" * 60)
+    # Progress bar interaktif menggunakan tqdm
+    with tqdm(total=len(tasks), desc="Progress Fetching", unit="query") as pbar:
+        for wilayah, kategori in tasks:
+            desc_text = f"{wilayah['id']} x {kategori['id']}"
+            pbar.set_postfix_str(desc_text)
 
-    # 1. Tentukan Bounding Box
-    if custom_bbox:
-        bbox = custom_bbox
-        nama_wilayah = f"custom_{bbox[0]}_{bbox[1]}"
-        logger.info(f"Menggunakan Custom BBox: {bbox}")
-    else:
-        info = BBOX_WILAYAH.get(wilayah_key, BBOX_WILAYAH[DEFAULT_WILAYAH])
-        bbox = info["bbox"]
-        nama_wilayah = wilayah_key
-        logger.info(f"Target Wilayah: {info['nama']} (Key: {wilayah_key})")
-        logger.info(f"Koordinat BBox: {bbox}")
+            sukses, _, pesan = fetch_overpass_data(
+                wilayah_id=wilayah["id"],
+                nama_wilayah_query=wilayah["nama_query"],
+                kategori_id=kategori["id"],
+                tag_key=kategori["key"],
+                tag_value=kategori["value"],
+                admin_level=wilayah.get("admin_level", "6")
+            )
 
-    all_elements = []
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-
-    # 2. Pengambilan Data (Grid vs Single BBox)
-    if use_grid:
-        grid_cells = create_bbox_grid(bbox, n_rows=grid_rows, n_cols=grid_cols)
-        logger.info(f"Mode Grid aktif: Membagi wilayah menjadi {len(grid_cells)} sub-grid ({grid_rows}x{grid_cols}).")
-
-        for idx, cell in enumerate(grid_cells, 1):
-            logger.info(f"--> [Grid {idx}/{len(grid_cells)}] Mengambil data untuk cell {cell['grid_id']}...")
-            query = build_overpass_query(bbox=cell["bbox"], timeout=timeout)
-            res_json = fetch_osm_data(query)
-
-            if res_json and "elements" in res_json:
-                elements = res_json["elements"]
-                logger.info(f"    Ditemukan {len(elements)} elemen pada {cell['grid_id']}.")
-                all_elements.extend(elements)
-
-                # Simpan mentah per cell
-                raw_filename = f"{nama_wilayah}_{cell['grid_id']}_{timestamp}.json"
-                save_raw_response(res_json, raw_filename)
+            if sukses:
+                sukses_count += 1
             else:
-                logger.warning(f"    Gagal mengambil elemen untuk {cell['grid_id']}.")
+                gagal_count += 1
 
-            # Jeda sopan antar request agar tidak diblokir Overpass API
-            if idx < len(grid_cells):
-                time.sleep(3)
-    else:
-        logger.info("Mode Single BBox aktif.")
-        query = build_overpass_query(bbox=bbox, timeout=timeout)
-        res_json = fetch_osm_data(query)
+            pbar.update(1)
 
-        if res_json and "elements" in res_json:
-            all_elements = res_json["elements"]
-            raw_filename = f"{nama_wilayah}_single_{timestamp}.json"
-            save_raw_response(res_json, raw_filename)
-            logger.info(f"Ditemukan {len(all_elements)} elemen.")
-        else:
-            logger.error("Gagal mengambil data OSM.")
-            return
-
-    if not all_elements:
-        logger.warning("Tidak ada elemen yang berhasil diambil dari Overpass API. Pipeline berhenti.")
-        return
-
-    # 3. Parsing Elemen Mentah
-    logger.info("Mem-parsing elemen mentah...")
-    df_raw = parse_osm_elements(all_elements)
-    interim_file = f"{nama_wilayah}_interim_{timestamp}.csv"
-    save_interim_data(df_raw, interim_file)
-
-    # 4. Standardisasi Sektor & Deduplikasi
-    logger.info("Menstandardisasi kategori UMKM...")
-    df_categorized = categorize_umkm(df_raw)
-
-    logger.info("Menjalankan deduplikasi...")
-    df_final = deduplicate_records(df_categorized)
-
-    # 5. Ekspor Data Final
-    processed_file = f"{nama_wilayah}_umkm_final.csv"
-    saved_path = save_processed_data(df_final, processed_file)
-
-    # 6. Ringkasan Hasil
-    logger.info("=" * 60)
-    logger.info("RINGKASAN EKSTRAKSI & PEMBERSIHAN DATA UMKM")
-    logger.info("=" * 60)
-    logger.info(f"Total POI Mentah Terambil : {len(df_raw)}")
-    logger.info(f"Total POI Bersih & Unik   : {len(df_final)}")
-    logger.info(f"File Hasil Disimpan ke    : {saved_path}")
-    logger.info("\nDistribusi Sektor UMKM:")
-    for sektor, count in df_final["sektor_umkm"].value_counts().items():
-        logger.info(f"  - {sektor:<25}: {count} POI")
-    logger.info("=" * 60)
-    logger.info("Pipeline Selesai dengan Sukses!")
-
-
-def main():
-    parser = argparse.ArgumentParser(description="Pipeline Dataset 1 OSM - Projek PDS UMKM Recommender")
-    parser.add_argument(
-        "--wilayah",
-        type=str,
-        default=DEFAULT_WILAYAH,
-        choices=list(BBOX_WILAYAH.keys()),
-        help=f"Pilihan preset wilayah (default: {DEFAULT_WILAYAH})"
-    )
-    parser.add_argument(
-        "--no-grid",
-        action="store_true",
-        help="Gunakan single query BBox tanpa membagi menjadi grid"
-    )
-    parser.add_argument(
-        "--grid-rows",
-        type=int,
-        default=2,
-        help="Jumlah baris grid (default: 2)"
-    )
-    parser.add_argument(
-        "--grid-cols",
-        type=int,
-        default=2,
-        help="Jumlah kolom grid (default: 2)"
-    )
-    parser.add_argument(
-        "--timeout",
-        type=int,
-        default=DEFAULT_TIMEOUT,
-        help=f"Timeout query dalam detik (default: {DEFAULT_TIMEOUT})"
-    )
-
-    args = parser.parse_args()
-
-    run_pipeline(
-        wilayah_key=args.wilayah,
-        use_grid=not args.no_grid,
-        grid_rows=args.grid_rows,
-        grid_cols=args.grid_cols,
-        timeout=args.timeout
-    )
+    print("\n" + "=" * 70)
+    print("PENGAMBILAN DATA SELESAI")
+    print("=" * 70)
+    print(f"Query Sukses : {sukses_count}/{total_kombinasi}")
+    print(f"Query Gagal  : {gagal_count}/{total_kombinasi}")
+    if gagal_count > 0:
+        print(f"Detail error tercatat di: {OUTPUTS_LOGS_DIR / 'fetch_errors.log'}")
+    print("Langkah berikutnya: Jalankan clean_dedup.py untuk memproses data mentah.")
+    print("=" * 70)
 
 
 if __name__ == "__main__":
-    main()
+    run_pipeline()
