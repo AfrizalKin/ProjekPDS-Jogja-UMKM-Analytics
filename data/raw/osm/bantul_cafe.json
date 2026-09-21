@@ -1,0 +1,542 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:24:51Z",
+    "timestamp_areas_base": "2026-09-07T14:50:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2564051181,
+      "lat": -7.816468,
+      "lon": 110.3437243,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:housename": "Nitiprayan",
+        "addr:street": "Jalan Jomegatan",
+        "amenity": "cafe",
+        "name": "Angkringan Wongso"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4754834422,
+      "lat": -7.8012501,
+      "lon": 110.3441265,
+      "tags": {
+        "amenity": "cafe",
+        "name": "MARKO milk & coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4863815021,
+      "lat": -7.8680486,
+      "lon": 110.3905995,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Sate Klatak pak Pong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4946539428,
+      "lat": -7.8075515,
+      "lon": 110.3391423,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "italian;indonesian;noodles",
+        "internet_access": "wlan",
+        "name": "Hidden Milk and Meals",
+        "opening_hours": "Mo-Su 12:00-23:55"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5502639524,
+      "lat": -7.8197766,
+      "lon": 110.4038274,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Jl. Pelem Wulung",
+        "amenity": "cafe",
+        "email": "kopiluwakmataram@yahoo.com",
+        "name": "Mataram Loewak Coffee",
+        "name:ru": "Mataram Loewak Coffee",
+        "phone": "+6287839996661"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6984812085,
+      "lat": -7.8196821,
+      "lon": 110.3431958,
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "1",
+        "addr:postcode": "55181",
+        "addr:street": "Jalan Keloran - Nitiprayan",
+        "amenity": "cafe",
+        "cuisine": "tea;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Saorsa Selatan",
+        "opening_hours": "Mo-Su 14:00-02:00",
+        "phone": "+62 899 1745 660"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7058286085,
+      "lat": -8.0130591,
+      "lon": 110.2903423,
+      "tags": {
+        "amenity": "cafe",
+        "name": "ocean food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097562134,
+      "lat": -7.8071804,
+      "lon": 110.3395054,
+      "tags": {
+        "addr:housenumber": "457",
+        "addr:street": "Jalan Nosewu Baru",
+        "amenity": "cafe",
+        "name": "Kingli",
+        "phone": "+62-822-10330812"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8147526423,
+      "lat": -7.8406161,
+      "lon": 110.2979491,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "ice_cream",
+        "name": "Museum Coklat Monggo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11541865783,
+      "lat": -7.7876079,
+      "lon": 110.4038625,
+      "tags": {
+        "addr:postcode": "55281",
+        "addr:street": "Jalan Kampung Ambarrukmo",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kopi Kampung Ambarrukmo",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12468698004,
+      "lat": -8.023048,
+      "lon": 110.3315137,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Warung Makan Amin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583061751,
+      "lat": -7.828852,
+      "lon": 110.3802925,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Bumi Seduh Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12848222396,
+      "lat": -7.7808184,
+      "lon": 110.3499445,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "cuisine": "bubble_tea",
+        "name": "Chatime",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12850023467,
+      "lat": -7.8739116,
+      "lon": 110.3450824,
+      "tags": {
+        "addr:housename": "Dua Tiga",
+        "addr:unit": "Cafe",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Dua Tiga Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12861793152,
+      "lat": -7.8627949,
+      "lon": 110.3360177,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Sewon",
+        "addr:housename": "Juice Al Kareem",
+        "addr:neighbourhood": "Cepit",
+        "addr:postcode": "55185",
+        "addr:province": "Daerah Istimewa Yogyakarta",
+        "addr:street": "Jalan Desa Pendowoharjo",
+        "addr:subdistrict": "Pendowoharjo",
+        "amenity": "cafe",
+        "cuisine": "juice",
+        "name": "Jus Al Kareem",
+        "opening_hours": "Mo-Fr 09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12866147178,
+      "lat": -7.8145488,
+      "lon": 110.4146606,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "description": "Coffee shop bernuansa pedesaan",
+        "name": "Kopi Inah",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13572704602,
+      "lat": -7.8413146,
+      "lon": 110.3263463,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Bulak Pari view (warung)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13792761343,
+      "lat": -7.8413312,
+      "lon": 110.325352,
+      "tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Champa Jogja",
+        "phone": "+6288994121499",
+        "website": "https://www.instagram.com/champa.jogja/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14102203703,
+      "lat": -7.7987469,
+      "lon": 110.4090773,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Ekstens Coffee"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431339869,
+      "center": {
+        "lat": -7.8464181,
+        "lon": 110.4794987
+      },
+      "nodes": [
+        4305463641,
+        4305463640,
+        4305463642,
+        4305463643,
+        4305463644,
+        4305463645,
+        4305463646,
+        4305463647,
+        4305463649,
+        4305463651,
+        4305463654,
+        4305463653,
+        4305463655,
+        4305463657,
+        4305463658,
+        4305463659,
+        4305463660,
+        4305463656,
+        4305463652,
+        4305463650,
+        4305463648,
+        4305463641
+      ],
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884126,
+      "center": {
+        "lat": -7.811266,
+        "lon": 110.3444817
+      },
+      "nodes": [
+        5146743159,
+        5146743161,
+        5146743160,
+        5146743158,
+        5146743162,
+        5146743165,
+        5146743164,
+        5146743163,
+        5146743159
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jl. Nitiprayan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55182",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Kedai Angkringan Tata Kahuripan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659573,
+      "center": {
+        "lat": -7.9676648,
+        "lon": 110.2711638
+      },
+      "nodes": [
+        5152520644,
+        5152520641,
+        5152520642,
+        5152520643,
+        5152520644
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Win Win"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659618,
+      "center": {
+        "lat": -7.9693642,
+        "lon": 110.2715008
+      },
+      "nodes": [
+        5152520812,
+        5152520809,
+        5152520810,
+        5152520811,
+        5152520812
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "kafe angringan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 536012599,
+      "center": {
+        "lat": -7.8326113,
+        "lon": 110.4210284
+      },
+      "nodes": [
+        5193536693,
+        5193536692,
+        5193536691,
+        5193536690,
+        5193536693
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "rinjani coffee time",
+        "opening_hours": "07:00-00:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 536437635,
+      "center": {
+        "lat": -7.833978,
+        "lon": 110.3998912
+      },
+      "nodes": [
+        5196579038,
+        5196579037,
+        5196579036,
+        5196579035,
+        5196579038
+      ],
+      "tags": {
+        "addr:district": "Bantul",
+        "addr:postcode": "55171",
+        "addr:province": "D.I. Yogyakarta",
+        "addr:street": "Gang Satu",
+        "addr:subdistrict": "Banguntapan",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop;chicken;jamu",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Lokanusa Kotagede",
+        "opening_hours": "Mo-Su 14:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+62 851-9007-8856"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610105574,
+      "center": {
+        "lat": -7.798093,
+        "lon": 110.4056958
+      },
+      "nodes": [
+        5778379215,
+        5778379214,
+        5778379219,
+        5778379218,
+        5778379213,
+        5778379212,
+        13361028495,
+        5778379215
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop;chicken",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Rekaya Artisan Coffee & Eatery",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167898072,
+      "center": {
+        "lat": -7.810518,
+        "lon": 110.3232564
+      },
+      "nodes": [
+        10861824388,
+        10861824387,
+        10861824386,
+        10861824385,
+        10861824388
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cafe 1912",
+        "opening_hours": "Mo-Sa 08:00-15:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519363343,
+      "center": {
+        "lat": -7.7987708,
+        "lon": 110.4077611
+      },
+      "nodes": [
+        8574332749,
+        8574332752,
+        8574332751,
+        8574332750,
+        8574332749
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Banguntapan",
+        "addr:housename": "Anatra Coffee and Kitchen",
+        "addr:housenumber": "387",
+        "addr:postcode": "55198",
+        "addr:province": "DIY",
+        "addr:street": "Jalan Janti",
+        "addr:subdistrict": "Banguntapan",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Anatra Coffee and Kitchen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519562025,
+      "center": {
+        "lat": -7.7984498,
+        "lon": 110.4076443
+      },
+      "nodes": [
+        13866365882,
+        13866365883,
+        13866365884,
+        13866365885,
+        13866365882
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Banguntapan",
+        "addr:housename": "Jus Buah Banguntapan",
+        "addr:postcode": "55198",
+        "addr:province": "DIY",
+        "addr:street": "Jalan Janti",
+        "addr:subdistrict": "Banguntapan",
+        "amenity": "cafe",
+        "building": "retail",
+        "cuisine": "juice",
+        "name": "Jus Buah Banguntapan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1536589617,
+      "center": {
+        "lat": -7.7988151,
+        "lon": 110.4059257
+      },
+      "nodes": [
+        13998114692,
+        13998114693,
+        13998114694,
+        13998114697,
+        13998114696,
+        13998114695,
+        13998114692
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "fixme": "Estimated area (Aerial image not updated yet)",
+        "name": "Furi & Co"
+      }
+    }
+  ]
+}

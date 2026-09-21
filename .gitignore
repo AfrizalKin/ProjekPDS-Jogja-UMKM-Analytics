@@ -13,21 +13,21 @@ ENV/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Data (opsional: jika ukuran data raw/interim sangat besar)
-# Un-comment jika tidak ingin upload data besar ke git:
-# data/raw/osm/*.json
-# data/interim/*.csv
-# data/processed/*.csv
-
-# Kecualikan .gitkeep agar struktur folder tetap terlacak git
-!.gitkeep
+# Microsoft Office Temp Files (Word / Excel lock files)
+~$*
+*.tmp
 
 # Logs
+*.log
 outputs/logs/*.log
 
-# VS Code / IDE
+# Operating System & IDE
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
 *.swp
 *~
-.DS_Store
+
+# Kecualikan .gitkeep agar struktur folder tetap terlacak git
+!.gitkeep

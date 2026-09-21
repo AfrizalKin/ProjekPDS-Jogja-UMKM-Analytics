@@ -26,7 +26,8 @@ def extract_poi_from_json(json_path: Path) -> List[Dict]:
     Nama file diasumsikan berformat: {wilayah}_{kategori}.json
     """
     stem = json_path.stem
-    parts = stem.split("_", 1)
+    # Gunakan rsplit agar nama wilayah bergaris bawah (seperti kota_yogyakarta, kulon_progo) terurai benar
+    parts = stem.rsplit("_", 1)
     wilayah_id = parts[0] if len(parts) > 0 else "unknown"
     kategori_id = parts[1] if len(parts) > 1 else "unknown"
 

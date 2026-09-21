@@ -1,0 +1,463 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:56:30Z",
+    "timestamp_areas_base": "2026-09-07T14:50:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4333309662,
+      "lat": -7.9677816,
+      "lon": 110.5980014,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Teras Coffee Fruit juice"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6454922285,
+      "lat": -7.9625796,
+      "lon": 110.6220634,
+      "tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Katamata",
+        "opening_hours": "Mo-Su 18:00-12:00",
+        "website": "http://katamata.biz.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6929894776,
+      "lat": -7.9317664,
+      "lon": 110.5715279,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "burger;coffee_shop",
+        "name": "empat%",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9179658778,
+      "lat": -8.0830979,
+      "lon": 110.7737772,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "pizza;coffee_shop;chicken",
+        "name": "SEBLAK CORNER",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10020007934,
+      "lat": -7.9700408,
+      "lon": 110.5831057,
+      "tags": {
+        "amenity": "cafe",
+        "delivery": "yes",
+        "name": "Kandang Ogut",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10198647882,
+      "lat": -7.8288029,
+      "lon": 110.73189,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Rumah Indah"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12953093883,
+      "lat": -7.8150537,
+      "lon": 110.7666249,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Warung lek karni"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13362660125,
+      "lat": -7.9668427,
+      "lon": 110.5898854,
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13362660126,
+      "lat": -7.9800823,
+      "lon": 110.5399222,
+      "tags": {
+        "addr:city": "Gunungkidul",
+        "addr:district": "Paliyan",
+        "addr:housename": "Kanca Curhat Snack 🥨 Cafe",
+        "addr:postcode": "55871",
+        "addr:province": "DIY",
+        "addr:street": "Jl. Paliyan-Playen",
+        "addr:subdistrict": "Grogol",
+        "amenity": "cafe",
+        "cuisine": "snack;grosir_san_ecer_snack;tahu_bakso;wonton;ricebowl;jamu;apanese;lokal_taste;coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kanca Curhat Snack 🥨 Cafe",
+        "opening_hours": "08:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+6285385240040"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947781981,
+      "lat": -7.9724565,
+      "lon": 110.6072112,
+      "tags": {
+        "amenity": "cafe",
+        "contact:instagram": "pule.coffee.eatery",
+        "description": "Coffee and food yard",
+        "name": "Pule",
+        "opening_hours": "Mo-Fr 08:00-23:00; Sa 08:00-00:00; Su 08:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085017723,
+      "lat": -7.9614106,
+      "lon": 110.6010041,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Kedai Picpic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062447,
+      "lat": -7.9610697,
+      "lon": 110.596222,
+      "tags": {
+        "amenity": "cafe",
+        "branch": "Wonosari",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062448,
+      "lat": -7.9612964,
+      "lon": 110.5959194,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Timber Coffee",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062449,
+      "lat": -7.9706871,
+      "lon": 110.6010313,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Warung HL KopilanbrongkoS",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062451,
+      "lat": -7.9692918,
+      "lon": 110.6044992,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Sender",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062452,
+      "lat": -7.9675129,
+      "lon": 110.6046906,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Raye Coffee",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062453,
+      "lat": -7.9678262,
+      "lon": 110.6048532,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Belikopi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085062454,
+      "lat": -7.9717846,
+      "lon": 110.6071571,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;billiard",
+        "internet_access": "wlan",
+        "name": "Homwok",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085098835,
+      "lat": -7.9665797,
+      "lon": 110.6016776,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "ice_cream;tea",
+        "name": "Momoyo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085098837,
+      "lat": -7.9476332,
+      "lon": 110.5841034,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Roha Coffee Books & Creative Space"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085098844,
+      "lat": -7.9327631,
+      "lon": 110.5707413,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Aroem Gendhis",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085161549,
+      "lat": -7.9754022,
+      "lon": 110.5960666,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Haes Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085161553,
+      "lat": -7.9704555,
+      "lon": 110.5969761,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Roetin Caffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085161555,
+      "lat": -7.9622813,
+      "lon": 110.6017742,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "Mixue",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14085161558,
+      "lat": -7.9738187,
+      "lon": 110.6087522,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "Mixue",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14127615901,
+      "lat": -7.9934199,
+      "lon": 110.6421037,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Nitik Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14127615906,
+      "lat": -7.991891,
+      "lon": 110.6396652,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Foodtosyntesa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14127615907,
+      "lat": -7.9607432,
+      "lon": 110.6035155,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Un Caffe & Resto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14127615908,
+      "lat": -7.9583857,
+      "lon": 110.6036363,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Semesta Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14127615909,
+      "lat": -7.9681364,
+      "lon": 110.5923452,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Zarvé Coffee by Alzara"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431339869,
+      "center": {
+        "lat": -7.8464181,
+        "lon": 110.4794987
+      },
+      "nodes": [
+        4305463641,
+        4305463640,
+        4305463642,
+        4305463643,
+        4305463644,
+        4305463645,
+        4305463646,
+        4305463647,
+        4305463649,
+        4305463651,
+        4305463654,
+        4305463653,
+        4305463655,
+        4305463657,
+        4305463658,
+        4305463659,
+        4305463660,
+        4305463656,
+        4305463652,
+        4305463650,
+        4305463648,
+        4305463641
+      ],
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "way",
+      "id": 875379448,
+      "center": {
+        "lat": -7.9140644,
+        "lon": 110.5701818
+      },
+      "nodes": [
+        8148041150,
+        8148041151,
+        8148041152,
+        8148041153,
+        8148041150
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923589306,
+      "center": {
+        "lat": -8.1458087,
+        "lon": 110.6055059
+      },
+      "nodes": [
+        3661346319,
+        8573354588,
+        8573354587,
+        8573354586,
+        8573354585,
+        8573354584,
+        8573354583,
+        3661346319
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "booking": "recommended",
+        "contact:instagram": "southshore.yk",
+        "contact:phone": "+6281770003768",
+        "contact:website": "https://southshore.id/",
+        "name": "South Shore"
+      }
+    }
+  ]
+}

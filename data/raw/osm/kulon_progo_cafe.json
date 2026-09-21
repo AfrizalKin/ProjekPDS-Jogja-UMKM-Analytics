@@ -1,0 +1,834 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T15:22:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6571816871,
+      "lat": -7.7098579,
+      "lon": 110.0127367,
+      "tags": {
+        "amenity": "cafe",
+        "name": "The Smith Caffe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6616109857,
+      "lat": -7.6472978,
+      "lon": 110.1802021,
+      "tags": {
+        "amenity": "cafe",
+        "name": "D'WEDHANK WISATA SUROLOYO"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6782405185,
+      "lat": -7.7502655,
+      "lon": 110.1912738,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Kopi Ampirono"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6794624941,
+      "lat": -7.7123664,
+      "lon": 110.011234,
+      "tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Cozy Coffee Corner Purworejo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6956952785,
+      "lat": -7.75014,
+      "lon": 110.1915045,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Kopi Ampirono"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8313786011,
+      "lat": -7.7177708,
+      "lon": 110.221719,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "kopi;makanan;minuman",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Kedai Kopi Gong Kulon Progo",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+6281227379333"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10609419824,
+      "lat": -7.6603553,
+      "lon": 110.1570444,
+      "tags": {
+        "addr:city": "Trayu, Ngargosari, Samigaluh, Kulon Progo",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "RIZ BAKERY & CAFE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10609419837,
+      "lat": -7.6567428,
+      "lon": 110.1475931,
+      "tags": {
+        "amenity": "cafe",
+        "name": "PAWON WIDOSARI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10770127716,
+      "lat": -7.8985472,
+      "lon": 110.0596921,
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11895270371,
+      "lat": -7.6930097,
+      "lon": 110.0323958,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Angkringan Mbak Sum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078121075,
+      "lat": -7.8999209,
+      "lon": 110.0579842,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14005115701,
+      "lat": -7.8680352,
+      "lon": 110.1550436,
+      "tags": {
+        "addr:postcode": "55651",
+        "addr:street": "Jalan Pahlawan",
+        "amenity": "cafe",
+        "check_date": "2026-07-07",
+        "contact:instagram": "kar.sa.co",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Karsa Cafe"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659573,
+      "center": {
+        "lat": -7.9676648,
+        "lon": 110.2711638
+      },
+      "nodes": [
+        5152520644,
+        5152520641,
+        5152520642,
+        5152520643,
+        5152520644
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Win Win"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659618,
+      "center": {
+        "lat": -7.9693642,
+        "lon": 110.2715008
+      },
+      "nodes": [
+        5152520812,
+        5152520809,
+        5152520810,
+        5152520811,
+        5152520812
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "kafe angringan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 886386388,
+      "center": {
+        "lat": -7.8582467,
+        "lon": 110.1586903
+      },
+      "nodes": [
+        10695991479,
+        10695991480,
+        10695991477,
+        10695991478,
+        10695991479
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "D'Srupat Sruput",
+        "opening_hours": "Mo-Sa 11:00-24:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 913643480,
+      "center": {
+        "lat": -7.6935651,
+        "lon": 110.0225602
+      },
+      "nodes": [
+        8487102135,
+        8487102136,
+        8487102137,
+        8487102138,
+        8487102135
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916430886,
+      "center": {
+        "lat": -7.6754416,
+        "lon": 110.0102617
+      },
+      "nodes": [
+        8511724245,
+        8511724246,
+        8511724247,
+        8511724248,
+        8511724245
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916758860,
+      "center": {
+        "lat": -7.6684829,
+        "lon": 110.0496701
+      },
+      "nodes": [
+        8514817488,
+        8514817489,
+        8514817490,
+        8514817491,
+        8514817492,
+        8514817493,
+        8514817494,
+        8514817488
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 918985612,
+      "center": {
+        "lat": -7.7572557,
+        "lon": 110.0327152
+      },
+      "nodes": [
+        8534609837,
+        8534609838,
+        8534609839,
+        8534609840,
+        8534609837
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920235071,
+      "center": {
+        "lat": -7.7030648,
+        "lon": 110.0041682
+      },
+      "nodes": [
+        8544997924,
+        8544997925,
+        8544997926,
+        8544997927,
+        8544997924
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924607800,
+      "center": {
+        "lat": -7.7197792,
+        "lon": 110.0241362
+      },
+      "nodes": [
+        8581316030,
+        8581316031,
+        8581316032,
+        8581316033,
+        8581316030
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924808297,
+      "center": {
+        "lat": -7.6965577,
+        "lon": 110.0267925
+      },
+      "nodes": [
+        8582891102,
+        8582891103,
+        8582891104,
+        8582891105,
+        8582891102
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924940925,
+      "center": {
+        "lat": -7.7064288,
+        "lon": 110.0245766
+      },
+      "nodes": [
+        8584216072,
+        8584216073,
+        8584216074,
+        8584216075,
+        8584216072
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924940941,
+      "center": {
+        "lat": -7.7063653,
+        "lon": 110.0264416
+      },
+      "nodes": [
+        8584216154,
+        8584216155,
+        8584216156,
+        8584216157,
+        8584216158,
+        8584216159,
+        8584216160,
+        8584216161,
+        8584216154
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925593480,
+      "center": {
+        "lat": -7.6879308,
+        "lon": 110.0040678
+      },
+      "nodes": [
+        8589998506,
+        8589998507,
+        8589998508,
+        8589998509,
+        8589998506
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926404430,
+      "center": {
+        "lat": -7.7026482,
+        "lon": 110.0209888
+      },
+      "nodes": [
+        8596949760,
+        8596949761,
+        8596949762,
+        8596949763,
+        8596949760
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926750433,
+      "center": {
+        "lat": -7.6932287,
+        "lon": 110.0292267
+      },
+      "nodes": [
+        8599430122,
+        8599430124,
+        8599430125,
+        8599430123,
+        8599430122
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926763706,
+      "center": {
+        "lat": -7.686546,
+        "lon": 110.0194187
+      },
+      "nodes": [
+        8599522608,
+        8599522609,
+        8599522610,
+        8599522611,
+        8599522608
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926815215,
+      "center": {
+        "lat": -7.6861631,
+        "lon": 110.0338603
+      },
+      "nodes": [
+        8599864103,
+        8599864104,
+        8599864105,
+        8599864106,
+        8599864107,
+        8599864108,
+        8599864109,
+        8599864110,
+        8599864111,
+        8599864112,
+        8599864103
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931179523,
+      "center": {
+        "lat": -7.6993883,
+        "lon": 110.0093685
+      },
+      "nodes": [
+        8633420982,
+        8633420983,
+        8633420984,
+        8633420985,
+        8633420982
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931223191,
+      "center": {
+        "lat": -7.7189897,
+        "lon": 110.0318527
+      },
+      "nodes": [
+        8633713707,
+        8633713714,
+        8633713708,
+        8633713709,
+        8633713710,
+        8633713711,
+        8633713707
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 941890904,
+      "center": {
+        "lat": -7.7457598,
+        "lon": 110.0179219
+      },
+      "nodes": [
+        8722422141,
+        8722422142,
+        8722422143,
+        8722422144,
+        8722422141
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 944405801,
+      "center": {
+        "lat": -7.732441,
+        "lon": 110.0475464
+      },
+      "nodes": [
+        8743661385,
+        8743661384,
+        8743661383,
+        8743661382,
+        8743661385
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945703985,
+      "center": {
+        "lat": -7.7201734,
+        "lon": 110.0337497
+      },
+      "nodes": [
+        8755026937,
+        8755026938,
+        8755026939,
+        8755026940,
+        8755026937
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945703996,
+      "center": {
+        "lat": -7.720466,
+        "lon": 110.0390061
+      },
+      "nodes": [
+        8755026983,
+        8755026984,
+        8755026985,
+        8755026986,
+        8755026983
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945705521,
+      "center": {
+        "lat": -7.7297158,
+        "lon": 110.0477365
+      },
+      "nodes": [
+        8755038941,
+        8755038942,
+        8755038943,
+        8755038944,
+        8755038941
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945710841,
+      "center": {
+        "lat": -7.7307936,
+        "lon": 110.0467523
+      },
+      "nodes": [
+        8755119691,
+        8755119692,
+        8755119693,
+        8755119694,
+        8755119695,
+        8755119696,
+        8755119691
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945769394,
+      "center": {
+        "lat": -7.69606,
+        "lon": 110.014249
+      },
+      "nodes": [
+        8755587292,
+        8755587293,
+        8755587294,
+        8755587295,
+        8755587292
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 947060905,
+      "center": {
+        "lat": -7.8002676,
+        "lon": 110.0055088
+      },
+      "nodes": [
+        8766522728,
+        8766522729,
+        8766522730,
+        8766522731,
+        8766522728
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 947060910,
+      "center": {
+        "lat": -7.7992832,
+        "lon": 110.0052178
+      },
+      "nodes": [
+        8766522750,
+        8766522751,
+        8766522752,
+        8766522753,
+        8766522750
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 948373716,
+      "center": {
+        "lat": -7.7378628,
+        "lon": 110.0424845
+      },
+      "nodes": [
+        8778488337,
+        8778488338,
+        8778488339,
+        8778488340,
+        8778488337
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 948564811,
+      "center": {
+        "lat": -7.7420143,
+        "lon": 110.0305176
+      },
+      "nodes": [
+        8780130249,
+        8780130250,
+        8780130251,
+        8780130252,
+        8780130253,
+        8780130254,
+        8780130255,
+        8780130256,
+        8780130249
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 953223594,
+      "center": {
+        "lat": -7.7297842,
+        "lon": 110.0274384
+      },
+      "nodes": [
+        8822912444,
+        8822912445,
+        8822912446,
+        8822912447,
+        8822912448,
+        8822912449,
+        8822912450,
+        8822912451,
+        8822912452,
+        8822912453,
+        8822912454,
+        8822912455,
+        8822912444
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005175491,
+      "center": {
+        "lat": -7.7595833,
+        "lon": 110.0059923
+      },
+      "nodes": [
+        9274238872,
+        9274238873,
+        9274238874,
+        9274238875,
+        9274238872
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005617864,
+      "center": {
+        "lat": -7.6889849,
+        "lon": 110.0404243
+      },
+      "nodes": [
+        9278161003,
+        9278161004,
+        9278161005,
+        9278161006,
+        9278161003
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1094675437,
+      "center": {
+        "lat": -7.7931979,
+        "lon": 110.2577487
+      },
+      "nodes": [
+        10026118111,
+        10026118112,
+        10026118113,
+        10026118114,
+        10026118111
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Bendosari Kopi"
+      }
+    }
+  ]
+}

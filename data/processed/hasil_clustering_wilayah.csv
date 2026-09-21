@@ -1,0 +1,6 @@
+wilayah,wilayah_label,cluster_id,cluster_label,cluster_deskripsi,pca_x,pca_y,pdrb_per_kapita,pengeluaran_per_kapita,kepadatan_penduduk,harga_sewa_per_m2_tahun,avg_rasio_kompetitor_per_1000,rasio_umkm_total_per_1000
+sleman,Kabupaten Sleman,0,Pasar Berkembang & Biaya Menengah,Keseimbangan yang baik antara biaya sewa terjangkau dan populasi berkembang pesat.,0.5614,2.0017,54501.31,2181883.0,2052.0,725000.0,1.1806,96.36
+bantul,Kabupaten Bantul,1,Pasar Perintis & Biaya Terjangkau,"Biaya sewa sangat ekonomis, cocok untuk usaha perintis dan segmen pasar berbasis komunitas lokal.",-0.4161,-0.9278,35842.51,1730515.0,2024.0,450000.0,0.2953,91.84
+kulon_progo,Kabupaten Kulon Progo,1,Pasar Perintis & Biaya Terjangkau,"Biaya sewa sangat ekonomis, cocok untuk usaha perintis dan segmen pasar berbasis komunitas lokal.",-1.6805,-0.6996,37976.68,1152288.0,763.0,275000.0,0.5703,85.75
+gunungkidul,Kabupaten Gunungkidul,1,Pasar Perintis & Biaya Terjangkau,"Biaya sewa sangat ekonomis, cocok untuk usaha perintis dan segmen pasar berbasis komunitas lokal.",-2.2316,0.2126,35503.53,1163499.0,507.0,220000.0,0.9125,78.32
+kota_yogyakarta,Kota Yogyakarta,2,Pasar Padat & Biaya Tinggi,"Daya beli & densitas penduduk sangat tinggi, namun harga sewa tinggi dan kompetisi ketat.",3.7668,-0.5869,131433.33,2248145.0,11562.0,850000.0,0.427,114.87

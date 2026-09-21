@@ -1,0 +1,379 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:56:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3487442211,
+      "lat": -7.8213441,
+      "lon": 110.3638049,
+      "tags": {
+        "name": "Laundry Hijau",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4058092414,
+      "lat": -7.79384,
+      "lon": 110.3631167,
+      "tags": {
+        "name": "Elfon laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4212103489,
+      "lat": -7.8010476,
+      "lon": 110.3565847,
+      "tags": {
+        "check_date": "2025-07-17",
+        "name": "King Laundry",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5530317474,
+      "lat": -7.8155194,
+      "lon": 110.3651856,
+      "tags": {
+        "name": "GG Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583703623,
+      "lat": -7.8210832,
+      "lon": 110.3730623,
+      "tags": {
+        "name": "Laundry service",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583703722,
+      "lat": -7.8202279,
+      "lon": 110.3732047,
+      "tags": {
+        "name": "Laundry service",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583703723,
+      "lat": -7.8189236,
+      "lon": 110.3732047,
+      "tags": {
+        "name": "Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583704721,
+      "lat": -7.8191969,
+      "lon": 110.3732176,
+      "tags": {
+        "name": "Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583704723,
+      "lat": -7.8190632,
+      "lon": 110.3702862,
+      "tags": {
+        "name": "Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6699652885,
+      "lat": -7.8189523,
+      "lon": 110.362116,
+      "tags": {
+        "name": "Green wash",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097534162,
+      "lat": -7.8088803,
+      "lon": 110.3406517,
+      "tags": {
+        "addr:street": "Jalan Soboman",
+        "name": "Ohie-Ohie",
+        "phone": "+62-896-02853805",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7808417597,
+      "lat": -7.7886114,
+      "lon": 110.377343,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7859897350,
+      "lat": -7.7853721,
+      "lon": 110.3756742,
+      "tags": {
+        "laundry_service": "yes",
+        "name": "Melia Counter",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9191142223,
+      "lat": -7.787283,
+      "lon": 110.3791319,
+      "tags": {
+        "name": "Unicorn Laundry",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9191142226,
+      "lat": -7.7885512,
+      "lon": 110.37974,
+      "tags": {
+        "name": "Laundry Mutiara",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9191142227,
+      "lat": -7.787425,
+      "lon": 110.3795484,
+      "tags": {
+        "name": "Widya Laundry",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9205485634,
+      "lat": -7.787477,
+      "lon": 110.3801261,
+      "tags": {
+        "name": "Laundry K21",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9208431566,
+      "lat": -7.7875154,
+      "lon": 110.3803094,
+      "tags": {
+        "name": "Top Laundry",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9697468024,
+      "lat": -7.7911192,
+      "lon": 110.446729,
+      "tags": {
+        "name": "Mataair Laundry Keluarga",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11853095138,
+      "lat": -7.9335125,
+      "lon": 110.3311712,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Bambanglipuro",
+        "addr:neighbourhood": "Gersik",
+        "addr:postcode": "55764",
+        "addr:province": "DI Yogyakarta",
+        "addr:subdistrict": "Sumbermulyo",
+        "name": "Dido Loundry",
+        "operator": "Dido",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12471093202,
+      "lat": -7.8188946,
+      "lon": 110.3693972,
+      "tags": {
+        "name": "Annas Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12473335888,
+      "lat": -7.8179997,
+      "lon": 110.3727063,
+      "tags": {
+        "name": "Barakallah Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14088640501,
+      "lat": -7.8092088,
+      "lon": 110.3673084,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:postcode": "55131",
+        "addr:street": "Jalan Mantrigawen Lor",
+        "name": "LCC Laundry",
+        "name:en": "LCC Laundry",
+        "name:id": "LCC Laundry",
+        "opening_hours": "Su-Fr 09:00-18:00",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481468644,
+      "center": {
+        "lat": -7.7890979,
+        "lon": 110.3732017
+      },
+      "nodes": [
+        4744043842,
+        10770034200,
+        10770034199,
+        4744043844,
+        4744043842
+      ],
+      "tags": {
+        "building": "yes",
+        "laundry_service": "yes",
+        "name": "Gasbhi Laundry",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530064199,
+      "center": {
+        "lat": -7.8108232,
+        "lon": 110.40308
+      },
+      "nodes": [
+        5148145544,
+        5148145543,
+        5148145542,
+        5148145541,
+        5148145544
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tin",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "4",
+        "name": "Fresh",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613182193,
+      "center": {
+        "lat": -7.9335126,
+        "lon": 110.3311776
+      },
+      "nodes": [
+        5802670019,
+        5802670018,
+        5802670017,
+        5802670016,
+        5802670019
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Bambanglipuro",
+        "addr:neighbourhood": "Gersik",
+        "addr:postcode": "55764",
+        "addr:province": "DI Yogyakarta",
+        "addr:subdistrict": "Sumbermulyo",
+        "building": "yes",
+        "name": "Dido Loundry",
+        "operator": "Dido Saputra",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797060955,
+      "center": {
+        "lat": -7.8232012,
+        "lon": 110.4144812
+      },
+      "nodes": [
+        7454501461,
+        7454501458,
+        7454501459,
+        7454501460,
+        7454501461
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Arafah Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797061006,
+      "center": {
+        "lat": -7.8249251,
+        "lon": 110.4140923
+      },
+      "nodes": [
+        7454501723,
+        7454501720,
+        7454501721,
+        7454501722,
+        7454501723
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Ashalina Laundry",
+        "shop": "laundry"
+      }
+    }
+  ]
+}

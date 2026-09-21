@@ -22,52 +22,67 @@ for d in [DATA_RAW_OSM_DIR, DATA_INTERIM_DIR, DATA_PROCESSED_DIR, OUTPUTS_LOGS_D
 # ==============================================================================
 # 2. KONFIGURASI OVERPASS API
 # ==============================================================================
-OVERPASS_ENDPOINT = "https://overpass-api.de/api/interpreter"
-REQUEST_TIMEOUT = 90          # detik per request
+OVERPASS_ENDPOINTS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://lz4.overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+]
+OVERPASS_ENDPOINT = OVERPASS_ENDPOINTS[0]
+REQUEST_TIMEOUT = 35          # detik per request
 MAX_RETRIES = 3              # maksimum percobaan ulang jika gagal / timeout
 RETRY_DELAY = 10             # detik jeda jika terjadi error HTTP 429 atau 504
-SLEEP_BETWEEN_REQUESTS = 2.5 # jeda minimal antar request berturut-turut (detik)
+SLEEP_BETWEEN_REQUESTS = 3.0 # jeda minimal antar request berturut-turut (detik)
 USER_AGENT = "ProjekPDS-UMKM-Recommender/1.0 (Academic Research)"
 
 # ==============================================================================
 # 3. DAFTAR WILAYAH TARGET (KABUPATEN / KOTA)
-# Di Indonesia, batas administratif kabupaten/kota di OpenStreetMap umumnya
-# bertingkat admin_level="6". 
+# Di D.I. Yogyakarta, batas administratif kabupaten/kota di OpenStreetMap
+# bertingkat admin_level="5" (admin_level="6" adalah batas Kecamatan).
 # 
-# Catatan Validasi:
-# Di OSM Indonesia, tag `name` pada relasi kabupaten/kota sering kali berupa 
-# nama singkat (contoh: "Sleman", "Bantul") atau nama lengkap (contoh: "Kota Yogyakarta").
+# Catatan Validasi OSM:
+# - Kota Yogyakarta: name="Kota Yogyakarta", admin_level="5"
+# - Sleman: name="Sleman", admin_level="5"
+# - Bantul: name="Bantul", admin_level="5"
+# - Kulon Progo: name="Kulonprogo" (tanpa spasi di OSM), admin_level="5"
+# - Gunungkidul: name="Gunungkidul", admin_level="5"
+#
+# BBox format: (min_lat, min_lon, max_lat, max_lon)
 # ==============================================================================
 TARGET_WILAYAH = [
     {
         "id": "sleman",
         "nama_query": "Sleman",
         "label": "Kabupaten Sleman",
-        "admin_level": "6"
+        "admin_level": "5",
+        "bbox": (-7.8376, 110.2159, -7.5413, 110.5499)
     },
     {
         "id": "kota_yogyakarta",
         "nama_query": "Kota Yogyakarta",
         "label": "Kota Yogyakarta",
-        "admin_level": "6"
+        "admin_level": "5",
+        "bbox": (-7.8402, 110.3443, -7.7665, 110.4068)
     },
     {
         "id": "bantul",
         "nama_query": "Bantul",
         "label": "Kabupaten Bantul",
-        "admin_level": "6"
+        "admin_level": "5",
+        "bbox": (-8.0282, 110.2039, -7.7680, 110.5213)
     },
     {
         "id": "kulon_progo",
-        "nama_query": "Kulon Progo",
+        "nama_query": "Kulonprogo",
         "label": "Kabupaten Kulon Progo",
-        "admin_level": "6"
+        "admin_level": "5",
+        "bbox": (-7.9832, 110.0036, -7.6416, 110.2741)
     },
     {
         "id": "gunungkidul",
         "nama_query": "Gunungkidul",
         "label": "Kabupaten Gunungkidul",
-        "admin_level": "6"
+        "admin_level": "5",
+        "bbox": (-8.2043, 110.3306, -7.7820, 110.8387)
     }
 ]
 

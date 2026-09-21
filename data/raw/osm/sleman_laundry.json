@@ -1,0 +1,677 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:16:41Z",
+    "timestamp_areas_base": "2026-09-07T14:50:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3451492129,
+      "lat": -7.7617185,
+      "lon": 110.3755937,
+      "tags": {
+        "name": "Mahel",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3451899395,
+      "lat": -7.7642952,
+      "lon": 110.3872122,
+      "tags": {
+        "name": "Funny Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3451899405,
+      "lat": -7.7560868,
+      "lon": 110.3757209,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4585547407,
+      "lat": -7.7663411,
+      "lon": 110.4100029,
+      "tags": {
+        "name": "Laundry Zone",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4585547416,
+      "lat": -7.7657362,
+      "lon": 110.4107132,
+      "tags": {
+        "name": "Total Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8364772404,
+      "lat": -7.7612878,
+      "lon": 110.3722324,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9697468024,
+      "lat": -7.7911192,
+      "lon": 110.446729,
+      "tags": {
+        "name": "Mataair Laundry Keluarga",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704569293,
+      "lat": -7.7355442,
+      "lon": 110.4371498,
+      "tags": {
+        "name": "Wulan Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9705063295,
+      "lat": -7.7364397,
+      "lon": 110.4814583,
+      "tags": {
+        "laundry_service": "yes",
+        "name": "Rista Laundry",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9722497013,
+      "lat": -7.7674759,
+      "lon": 110.4484429,
+      "tags": {
+        "name": "Mulia Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9722509401,
+      "lat": -7.7636656,
+      "lon": 110.4489591,
+      "tags": {
+        "laundry_service": "yes",
+        "name": "Griya Laundry",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9740816331,
+      "lat": -7.7402188,
+      "lon": 110.4552477,
+      "tags": {
+        "name": "Alfa Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9740826260,
+      "lat": -7.7392248,
+      "lon": 110.4522554,
+      "tags": {
+        "laundry_service": "yes",
+        "name": "Rose Laundry",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9763744041,
+      "lat": -7.7384619,
+      "lon": 110.3762907,
+      "tags": {
+        "description": "Premium laundry by Simply Fresh",
+        "name": "SimplyPrime",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9769689958,
+      "lat": -7.7529929,
+      "lon": 110.4445322,
+      "tags": {
+        "alt_name": "Ominatu",
+        "contact:whatsapp": "+6281717111121",
+        "description": "One stop laundry",
+        "laundry_service": "yes",
+        "name": "Minatu",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9778615461,
+      "lat": -7.7435084,
+      "lon": 110.407528,
+      "tags": {
+        "name": "Keen Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9778852357,
+      "lat": -7.7362827,
+      "lon": 110.4291297,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9778852730,
+      "lat": -7.7446585,
+      "lon": 110.4069499,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9778855390,
+      "lat": -7.7348835,
+      "lon": 110.4336662,
+      "tags": {
+        "name": "Lily Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9780982679,
+      "lat": -7.7581356,
+      "lon": 110.4098683,
+      "tags": {
+        "name": "Cemerlang Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120494903,
+      "lat": -7.7362152,
+      "lon": 110.4824206,
+      "tags": {
+        "name": "Amanah Laundry",
+        "phone": "+62 815-2787-3798",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10154499460,
+      "lat": -7.7663759,
+      "lon": 110.3816901,
+      "tags": {
+        "addr:street": "Jalan Agro",
+        "name": "King's Laundry",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:cash": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10656706192,
+      "lat": -7.7086938,
+      "lon": 110.415515,
+      "tags": {
+        "name": "Cahaya laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11549906824,
+      "lat": -7.647125,
+      "lon": 110.4257924,
+      "tags": {
+        "name": "Anjani Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337502006,
+      "lat": -7.7566509,
+      "lon": 110.369947,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12338231186,
+      "lat": -7.7563591,
+      "lon": 110.3709504,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12338747962,
+      "lat": -7.7586389,
+      "lon": 110.3791674,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357573605,
+      "lat": -7.7517958,
+      "lon": 110.3652782,
+      "tags": {
+        "name": "Miracle Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357606620,
+      "lat": -7.7537812,
+      "lon": 110.3659983,
+      "tags": {
+        "name": "Puri Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357612411,
+      "lat": -7.7528496,
+      "lon": 110.3649614,
+      "tags": {
+        "name": "Gulawentah Pro Art",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357612416,
+      "lat": -7.7530386,
+      "lon": 110.3659894,
+      "tags": {
+        "name": "Laundry Mbak Mun",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357642492,
+      "lat": -7.7560232,
+      "lon": 110.3660763,
+      "tags": {
+        "name": "griya anie (laundri)",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357642494,
+      "lat": -7.7564308,
+      "lon": 110.3660143,
+      "tags": {
+        "name": "room laundri",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357642499,
+      "lat": -7.7572611,
+      "lon": 110.365683,
+      "tags": {
+        "name": "jessy laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13172465926,
+      "lat": -7.7735519,
+      "lon": 110.3902208,
+      "tags": {
+        "check_date": "2025-09-26",
+        "name": "Mom's Laundry Bromo",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13233865957,
+      "lat": -7.6866971,
+      "lon": 110.4184414,
+      "tags": {
+        "name": "Bara Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13573738720,
+      "lat": -7.7398099,
+      "lon": 110.4243737,
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:district": "ngemplak",
+        "addr:housenumber": "1",
+        "addr:neighbourhood": "42",
+        "addr:postcode": "55584",
+        "addr:province": "DIY",
+        "addr:street": "Jalan Dahlia",
+        "addr:subdistrict": "malangrejo",
+        "laundry": "binatu",
+        "name": "Violet Exclusive Clean Expert Laundry",
+        "opening_hours": "Mo-Su 07:00-21:30",
+        "payment:qris": "yes",
+        "payment:transfer_from_the_card": "yes",
+        "payment:tunai": "yes",
+        "phone": "+6285713022380",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362019939,
+      "center": {
+        "lat": -7.7560426,
+        "lon": 110.3660709
+      },
+      "nodes": [
+        3664123232,
+        3664123236,
+        3664123256,
+        3664123254,
+        3664123232
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "griya anie (laundri)",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362019984,
+      "center": {
+        "lat": -7.756439,
+        "lon": 110.3660348
+      },
+      "nodes": [
+        3664123301,
+        3664123289,
+        3664123291,
+        3664123305,
+        3664123301
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "room laundri",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362020107,
+      "center": {
+        "lat": -7.7572649,
+        "lon": 110.3656802
+      },
+      "nodes": [
+        3664123499,
+        3664123468,
+        3664123483,
+        3664123508,
+        3664123499
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "jessy laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362165234,
+      "center": {
+        "lat": -7.7012916,
+        "lon": 110.4150058
+      },
+      "nodes": [
+        3665260094,
+        5149295692,
+        3665260077,
+        3665260083,
+        3665260096,
+        3665260094
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Kenes Laundry",
+        "opening_hours": "08:30-12:30,15:30-20:00",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362394910,
+      "center": {
+        "lat": -7.7147867,
+        "lon": 110.4067305
+      },
+      "nodes": [
+        3667139344,
+        3667139348,
+        3667139365,
+        3667139362,
+        3667139344
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Smiley Laundry",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362528436,
+      "center": {
+        "lat": -7.7633618,
+        "lon": 110.3835568
+      },
+      "nodes": [
+        3668148236,
+        3668148238,
+        3668148295,
+        3668148288,
+        3668148236
+      ],
+      "tags": {
+        "addr:city": "Kabupaten Sleman",
+        "addr:district": "Depok",
+        "addr:housenumber": "G-1",
+        "addr:neighbourhood": "Karangwuni",
+        "addr:postcode": "55281",
+        "addr:province": "Daerah Istimewa Yogyakarta",
+        "addr:street": "Gang Gayamsari 3",
+        "addr:subdistrict": "Caturtunggal",
+        "building": "yes",
+        "name": "ANOKA Laundry",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "phone": "+6285880018811",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362683852,
+      "center": {
+        "lat": -7.6965548,
+        "lon": 110.4177174
+      },
+      "nodes": [
+        3669542022,
+        5152217426,
+        3669541997,
+        3669542021,
+        3669542036,
+        3669542022
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Laundry C24",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362686397,
+      "center": {
+        "lat": -7.6971994,
+        "lon": 110.4173134
+      },
+      "nodes": [
+        3669558828,
+        3669558810,
+        3669558820,
+        3669558841,
+        3669558828
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Berjaya Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362689127,
+      "center": {
+        "lat": -7.6969226,
+        "lon": 110.4171889
+      },
+      "nodes": [
+        3669579249,
+        3669579222,
+        3669579232,
+        3669579264,
+        3669579249
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362956412,
+      "center": {
+        "lat": -7.7652787,
+        "lon": 110.3962416
+      },
+      "nodes": [
+        3671819784,
+        3671819715,
+        3671819725,
+        3671819796,
+        3671819784
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Money Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363411154,
+      "center": {
+        "lat": -7.7503398,
+        "lon": 110.4116986
+      },
+      "nodes": [
+        3675786949,
+        3675786958,
+        3675786979,
+        3675786966,
+        3675786949
+      ],
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:district": "Condong Catur",
+        "addr:postcode": "55283",
+        "addr:province": "Yogyakarta",
+        "addr:street": "Jalan Candi Gebang",
+        "addr:subdistrict": "Gempol, Karangasem",
+        "building": "yes",
+        "name": "Harmony Laundry",
+        "opening_hours": "08:00-21:00",
+        "operator": "operator:website=harmonylaundrys.com",
+        "payment:cash": "yes",
+        "payment:dana": "yes",
+        "payment:gopay_id": "yes",
+        "phone": "+62895363324517",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 510478149,
+      "center": {
+        "lat": -7.731459,
+        "lon": 110.3829381
+      },
+      "nodes": [
+        4994785046,
+        4994785043,
+        4994785044,
+        4994785045,
+        4994785046
+      ],
+      "tags": {
+        "addr:full": "Jl. Damai 2 - 51",
+        "building": "yes",
+        "name": "Laundry Zone",
+        "shop": "laundry"
+      }
+    }
+  ]
+}

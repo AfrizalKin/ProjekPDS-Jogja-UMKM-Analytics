@@ -1,0 +1,244 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:25:51Z",
+    "timestamp_areas_base": "2026-09-08T04:44:05Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2751368991,
+      "lat": -7.8869587,
+      "lon": 110.0765831,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5729356100,
+      "lat": -7.8837405,
+      "lon": 110.1094163,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078121076,
+      "lat": -7.9007765,
+      "lon": 110.0597524,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12119425191,
+      "lat": -7.8752934,
+      "lon": 110.2317773,
+      "tags": {
+        "name": "BiB Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12119484348,
+      "lat": -7.87446,
+      "lon": 110.2423111,
+      "tags": {
+        "name": "Toko Sugito",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12119484349,
+      "lat": -7.8743057,
+      "lon": 110.2423111,
+      "tags": {
+        "name": "Toko GD",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13666949847,
+      "lat": -7.7664443,
+      "lon": 110.2084575,
+      "tags": {
+        "name": "AM Mart",
+        "opening_hours": "Mo-Su 08:00-23:30",
+        "payment:cash": "yes",
+        "payment:qris": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031928,
+      "lat": -7.765959,
+      "lon": 110.2097688,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Tomira Nanggulan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031929,
+      "lat": -7.834364,
+      "lon": 110.220604,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Sentolo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031930,
+      "lat": -7.8268034,
+      "lon": 110.2239572,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Tomira (Indomaret) Sentolo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352975815,
+      "center": {
+        "lat": -7.887923,
+        "lon": 110.0360775
+      },
+      "nodes": [
+        3587638840,
+        3587638841,
+        3587638842,
+        3587638843,
+        3587638840
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353001828,
+      "center": {
+        "lat": -7.8869833,
+        "lon": 110.0765726
+      },
+      "nodes": [
+        3587866334,
+        3587866335,
+        3587866336,
+        3587866337,
+        3587866334
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "commercial",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 886416739,
+      "center": {
+        "lat": -7.857692,
+        "lon": 110.1469293
+      },
+      "nodes": [
+        8242460397,
+        8242460398,
+        8242460399,
+        8242460400,
+        8242460397
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "brand:wikipedia": "en:Alfamart",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1171035956,
+      "center": {
+        "lat": -7.8764683,
+        "lon": 110.1742229
+      },
+      "nodes": [
+        10882388401,
+        10882388402,
+        10882388403,
+        10882388404,
+        10882388401
+      ],
+      "tags": {
+        "addr:city": "Kulon Progo",
+        "addr:housenumber": "Blok B No 14",
+        "addr:postcode": "55651",
+        "addr:street": "Perumahan Ndalem Giripeni Blok B No 14, Kalikepek, Giripeni, Wates, Kulon Progo, DIY",
+        "building": "house",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOtBpXky33lhg4vtg0Gs8rp3BeGnVW-4krLgrZ5=w408-h306-k-no",
+        "name": "Toko Qita & Pawkan Petshop",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "payment:cash": "yes",
+        "phone": "+62 851-5676-2094",
+        "shop": "convenience"
+      }
+    }
+  ]
+}

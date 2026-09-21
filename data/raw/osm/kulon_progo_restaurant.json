@@ -1,0 +1,3744 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:25:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3359764341,
+      "lat": -7.807343,
+      "lon": 110.1291644,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3398518683,
+      "lat": -7.7148774,
+      "lon": 110.0086402,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Romansa Kuliner"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3623170405,
+      "lat": -7.7666747,
+      "lon": 110.1159859,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5289054923,
+      "lat": -7.8140138,
+      "lon": 110.2590265,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warung Bakso Pak Ambar",
+        "name:en": "Warung Bakso Pak Ambar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6009277234,
+      "lat": -7.824972,
+      "lon": 110.2293405,
+      "tags": {
+        "addr:city": "Sentolo",
+        "addr:housenumber": "23",
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "capacity": "25",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "name": "burjo",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6342471370,
+      "lat": -7.7620365,
+      "lon": 110.1205538,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access:fee": "yes",
+        "name": "Kedai Kopi Pari"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6571816865,
+      "lat": -7.711689,
+      "lon": 110.0084036,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rumah Makan Ayam Goreng Laos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6571816866,
+      "lat": -7.7133255,
+      "lon": 110.010622,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bebek Goreng H. Slamet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6579684083,
+      "lat": -7.7132766,
+      "lon": 110.015364,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Semarang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6579964229,
+      "lat": -7.7136546,
+      "lon": 110.0142434,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Geprek Move On"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6579964236,
+      "lat": -7.7249042,
+      "lon": 110.0239326,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sop KBM Purworejo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6598999085,
+      "lat": -7.7232706,
+      "lon": 110.0048211,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Pangena Family Resto & Coffee Shop",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+62 275 2972959"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6720311376,
+      "lat": -7.7257353,
+      "lon": 110.0038764,
+      "tags": {
+        "addr:city": "Purworejo",
+        "addr:postcode": "54115",
+        "addr:street": "Jalan Brigjend. Katamso",
+        "amenity": "restaurant",
+        "name": "Warung Lesehan Mbak Tin",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+62 858-6867-7092"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6720311377,
+      "lat": -7.7261416,
+      "lon": 110.0036982,
+      "tags": {
+        "addr:city": "Purworejo",
+        "addr:postcode": "54115",
+        "addr:street": "Jalan Brigjend. Katamso",
+        "amenity": "restaurant",
+        "name": "Resto & Cafe H. Dargo",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+62 275 321341"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6720311378,
+      "lat": -7.7245345,
+      "lon": 110.0049182,
+      "tags": {
+        "addr:city": "Purworejo",
+        "addr:postcode": "54115",
+        "addr:street": "Jalan Brigjend. Katamso",
+        "amenity": "restaurant",
+        "name": "Sambel Layah Purworejo",
+        "opening_hours": "Mo-Fr 08:00-21:45; Sa-Mo 08:00-22:00",
+        "phone": "+62 822-2158-0007"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6792967156,
+      "lat": -7.7064119,
+      "lon": 110.0081165,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakso & Mi Ayam Ceker Mas Nano"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6794624943,
+      "lat": -7.7087503,
+      "lon": 110.0123217,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Salur Bu Mul"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6794624944,
+      "lat": -7.7156576,
+      "lon": 110.0151884,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Kharisma"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7106596558,
+      "lat": -7.7113903,
+      "lon": 110.0085899,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Salero Minang Group",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7106596559,
+      "lat": -7.7111923,
+      "lon": 110.0082895,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "internet_access:fee": "yes",
+        "name": "Oye Oye Pizza and Platter",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7106596560,
+      "lat": -7.7098727,
+      "lon": 110.0068706,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Keik Tape 57 Purworejo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7106596561,
+      "lat": -7.7084427,
+      "lon": 110.0115967,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Bebek Goreng Pak H.Dargo",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7119275592,
+      "lat": -7.7229762,
+      "lon": 110.0234225,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Bakmi Jowo Mas Yono"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7119275595,
+      "lat": -7.7199914,
+      "lon": 110.0242943,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Sate Tambak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7119275596,
+      "lat": -7.7152749,
+      "lon": 110.0188319,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Bakso Rudal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7119275657,
+      "lat": -7.7133466,
+      "lon": 110.0159325,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warung Makan Reny"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8242311049,
+      "lat": -7.8193809,
+      "lon": 110.1209326,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Gendhis Resto",
+        "opening_hours": "Mo-Su 08:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8736011970,
+      "lat": -7.8066074,
+      "lon": 110.2361593,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9331332723,
+      "lat": -7.8472975,
+      "lon": 110.2157772,
+      "tags": {
+        "addr:postcode": "55664",
+        "amenity": "restaurant",
+        "cuisine": "daerahregional;coffee_shop",
+        "name": "Terasloka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9392036388,
+      "lat": -7.7698252,
+      "lon": 110.1210249,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9729524951,
+      "lat": -7.761378,
+      "lon": 110.1180914,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kopi Mego"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9999574924,
+      "lat": -7.8913023,
+      "lon": 110.1241812,
+      "tags": {
+        "addr:housenumber": "KM 5",
+        "addr:street": "Jl. Wates - Purworejo, Toyan, Wates, Kulon Progo",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "contact:whatsapp": "+62 811-264-4418",
+        "cuisine": "javanese",
+        "description": "Bebek goreng - aneka soup - soto - bakmi jawa",
+        "highchair": "no",
+        "internet_access": "no",
+        "name": "Ayam Goreng Bu Hartin",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+62 811-2642-339",
+        "reservation": "yes",
+        "smoking": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10775632481,
+      "lat": -7.9321441,
+      "lon": 110.2651208,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mutiara Minang",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11010186927,
+      "lat": -7.7495962,
+      "lon": 110.2060595,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:instagram": "menoreh_view",
+        "contact:whatsapp": "+62 877-2234-5101",
+        "name": "Geblek Menoreh View",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "outdoor_seating": "yes",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11225132822,
+      "lat": -7.7528765,
+      "lon": 110.2069735,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:whatsapp": "+62 887-3052-6555",
+        "name": "Warung Makan Lesehan Bu Bono",
+        "phone": "+62 887-3052-6555"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11228498822,
+      "lat": -7.7458118,
+      "lon": 110.2058542,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Geblek Pari"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11228544484,
+      "lat": -7.7473426,
+      "lon": 110.2060139,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:instagram": "mahaloka_paradise",
+        "contact:whatsapp": "+62 812-2845-0800",
+        "name": "Mahaloka Paradise",
+        "phone": "+62 812-2845-0800"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11228814666,
+      "lat": -7.7525904,
+      "lon": 110.2280582,
+      "tags": {
+        "addr:street": "Jalan Godean",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "indon",
+        "highchair": "no",
+        "internet_access": "no",
+        "kids_area": "no",
+        "name": "Bakso & Mie Ayam Pak Bagong",
+        "opening_hours": "Mo-Su 10:00-20:30",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:wheelchair": "limited",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11245420374,
+      "lat": -7.7519855,
+      "lon": 110.2045843,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "KEMBANG LANGIT",
+        "name": "Kedai Kuliner Kembang Langit",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554875567,
+      "lat": -7.8202952,
+      "lon": 110.2412568,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "La Li Sa Farmer's Village"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11905900107,
+      "lat": -7.72482,
+      "lon": 110.0236449,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "diet:halal": "yes",
+        "name": "Pecel Lele Cak Parto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11934683658,
+      "lat": -7.7204438,
+      "lon": 110.0386037,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mbah Marsoem"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11977667526,
+      "lat": -7.981143,
+      "lon": 110.2236737,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "BAKSO (bantu ulas digoogle map)",
+        "name": "Mie Ayam Mas Huda",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13323530570,
+      "lat": -7.7324591,
+      "lon": 110.243338,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "asian;indonesian",
+        "diet:halal": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Sategedhe Pasar Minggir",
+        "opening_hours": "Mo-Su 12:00-20:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13611063201,
+      "lat": -7.8477477,
+      "lon": 110.1596675,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Angkingan (Modern) Tjakruk",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866094473,
+      "lat": -7.7727931,
+      "lon": 110.1916117,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "ayam",
+        "diet:halal": "yes",
+        "name": "ayam geprek shadian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866094474,
+      "lat": -7.7728354,
+      "lon": 110.1908413,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:halal": "yes",
+        "name": "Warung Makan Bu Rosella"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866094476,
+      "lat": -7.7730154,
+      "lon": 110.1923531,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:halal": "yes",
+        "name": "warung mie ayam"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866094477,
+      "lat": -7.772927,
+      "lon": 110.1921905,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:halal": "yes",
+        "name": "nasi padang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14000185079,
+      "lat": -7.7769327,
+      "lon": 110.1076419,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tebing Gunung Gajah"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352582334,
+      "center": {
+        "lat": -7.8850713,
+        "lon": 110.0403783
+      },
+      "nodes": [
+        3583401576,
+        3583401577,
+        3583401578,
+        3583401579,
+        3583401576
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530460865,
+      "center": {
+        "lat": -7.8607899,
+        "lon": 110.1643311
+      },
+      "nodes": [
+        5151059277,
+        5151059276,
+        5151059275,
+        5151059274,
+        5151059277
+      ],
+      "tags": {
+        "addr:city": "Kabupaten Kulon Progo",
+        "addr:country": "ID",
+        "addr:place": "Pengasih",
+        "addr:postcode": "55651",
+        "addr:province": "Daerah Istimewa Yogyakarta",
+        "addr:street": "Margosari",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "Mie Ayam Baso Ceker Miri"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530472127,
+      "center": {
+        "lat": -7.8623582,
+        "lon": 110.1631844
+      },
+      "nodes": [
+        5151157535,
+        5151157534,
+        5151157533,
+        5151157532,
+        5151157535
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mie Ayam Baso @Kriyanan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530472221,
+      "center": {
+        "lat": -7.8623615,
+        "lon": 110.1626587
+      },
+      "nodes": [
+        5151158204,
+        5151158203,
+        5151158202,
+        5151158201,
+        5151158204
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Angkringan Gaul"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530472223,
+      "center": {
+        "lat": -7.8618527,
+        "lon": 110.1619774
+      },
+      "nodes": [
+        5151158214,
+        5151158213,
+        5151158212,
+        5151158211,
+        5151158210,
+        5151158209,
+        5151158214
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Warung Afif"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659047,
+      "center": {
+        "lat": -7.9637342,
+        "lon": 110.2719917
+      },
+      "nodes": [
+        5152518298,
+        5152518297,
+        5152518296,
+        5152518295,
+        5152518298
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakmi Jawa Pak Ribut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659363,
+      "center": {
+        "lat": -7.9674926,
+        "lon": 110.2715432
+      },
+      "nodes": [
+        5152519414,
+        5152519413,
+        5152519412,
+        5152519411,
+        5152519414
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Nata De Coco Bp.Sudjadjo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659526,
+      "center": {
+        "lat": -7.9689585,
+        "lon": 110.2736711
+      },
+      "nodes": [
+        5152520354,
+        5152520353,
+        5152520352,
+        5152520351,
+        5152520354
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mi Ayam \"Tan Genggong\""
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659695,
+      "center": {
+        "lat": -7.9713742,
+        "lon": 110.2715108
+      },
+      "nodes": [
+        5152521198,
+        5152521197,
+        5152521196,
+        5152521195,
+        5152521198
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Baksi Mini Mansuri"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530767280,
+      "center": {
+        "lat": -7.798984,
+        "lon": 110.189898
+      },
+      "nodes": [
+        5153276146,
+        5153276145,
+        5153276144,
+        5153276143,
+        5153276146
+      ],
+      "tags": {
+        "addr:full": "Gendol, Kulonprogo, Banyuroto, Nanggulan, Banyuroto, Nanggulan, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta 55671, Indonesia",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warung Gepuro"
+      }
+    },
+    {
+      "type": "way",
+      "id": 587103182,
+      "center": {
+        "lat": -7.6946018,
+        "lon": 110.2232157
+      },
+      "nodes": [
+        5608601720,
+        5608602021,
+        5608602022,
+        5608602023,
+        5608601720
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Skiph"
+      }
+    },
+    {
+      "type": "way",
+      "id": 637400994,
+      "center": {
+        "lat": -7.8241893,
+        "lon": 110.23115
+      },
+      "nodes": [
+        6009264308,
+        6009264309,
+        6009264310,
+        6009264311,
+        6009264308
+      ],
+      "tags": {
+        "addr:city": "kulonprogo",
+        "addr:housenumber": "34",
+        "addr:postcode": "551990",
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "100",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "ele": "2",
+        "name": "rumah makan bu darmi",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 637408447,
+      "center": {
+        "lat": -7.826207,
+        "lon": 110.2272033
+      },
+      "nodes": [
+        6009310397,
+        6009310398,
+        6009310399,
+        6009310400,
+        6009310397
+      ],
+      "tags": {
+        "addr:city": "kulon progo",
+        "addr:housenumber": "200",
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "25",
+        "cuisine": "regional;coffee_shop",
+        "name": "burjo",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 698848027,
+      "center": {
+        "lat": -7.7053949,
+        "lon": 110.0068522
+      },
+      "nodes": [
+        6562527747,
+        6562527748,
+        6562527749,
+        6562527750,
+        6562527751,
+        6562527752,
+        6562527753,
+        6562527754,
+        6562527755,
+        6562527756,
+        6562527747
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 708514651,
+      "center": {
+        "lat": -7.6532157,
+        "lon": 110.0472951
+      },
+      "nodes": [
+        6657801962,
+        6657801963,
+        6657801964,
+        8561327203,
+        8561327202,
+        6657801965,
+        6657801962
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 709063589,
+      "center": {
+        "lat": -7.6502329,
+        "lon": 110.0473858
+      },
+      "nodes": [
+        6663006907,
+        6663006908,
+        6663006909,
+        6663006910,
+        6663006907
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 713194016,
+      "center": {
+        "lat": -7.6546188,
+        "lon": 110.0469013
+      },
+      "nodes": [
+        6704445142,
+        6704445143,
+        6704445144,
+        6704445145,
+        6704445142
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 822256614,
+      "center": {
+        "lat": -7.8058113,
+        "lon": 110.1151324
+      },
+      "nodes": [
+        7677610523,
+        7677610524,
+        7677610525,
+        7677610526,
+        7677610523
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional;tahuleg;gado-gado",
+        "diet:halal": "yes",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Tahuleg Bu Setun Sudi Mampir",
+        "opening_hours": "Mo-Su 09:00-04:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 860614736,
+      "center": {
+        "lat": -7.8842782,
+        "lon": 110.0375966
+      },
+      "nodes": [
+        8021467487,
+        8021467486,
+        8021467485,
+        8021467484,
+        8021467487
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "seafood",
+        "diet:halal": "yes",
+        "name": "YU SUM"
+      }
+    },
+    {
+      "type": "way",
+      "id": 866190899,
+      "center": {
+        "lat": -7.8860308,
+        "lon": 110.0612797
+      },
+      "nodes": [
+        8073717794,
+        8073717797,
+        8073717796,
+        8073717795,
+        8073717794
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "indonesian",
+        "name": "Rumah Makan Pandansari"
+      }
+    },
+    {
+      "type": "way",
+      "id": 874096406,
+      "center": {
+        "lat": -7.8124488,
+        "lon": 110.116321
+      },
+      "nodes": [
+        8137762681,
+        8137762682,
+        8137762683,
+        8137762684,
+        8137762685,
+        8137762686,
+        8137762681
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 874096407,
+      "center": {
+        "lat": -7.8124459,
+        "lon": 110.1164106
+      },
+      "nodes": [
+        8137762687,
+        8137762688,
+        8137762689,
+        8137762690,
+        8137762687
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Mie Ayam Ceker dan Bakso Mr. Kiting",
+        "opening_hours": "Mo-Su 10:00-18:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 901998672,
+      "center": {
+        "lat": -7.7504834,
+        "lon": 110.1970664
+      },
+      "nodes": [
+        8378470610,
+        8378470609,
+        8378470608,
+        8378470607,
+        8378470610
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "contact:email": "kopiklotokmenoreh@gmail.com",
+        "contact:facebook": "https://www.facebook.com/KopiKlotokMenoreh",
+        "contact:instagram": "kopiklotok_menoreh",
+        "name": "Kopi Klotok Menoreh",
+        "phone": "+62 882-1594-1154"
+      }
+    },
+    {
+      "type": "way",
+      "id": 913644736,
+      "center": {
+        "lat": -7.6714603,
+        "lon": 110.0565098
+      },
+      "nodes": [
+        8487111369,
+        8487111370,
+        8487111371,
+        8487111372,
+        8487111369
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 913646869,
+      "center": {
+        "lat": -7.6764446,
+        "lon": 110.0114454
+      },
+      "nodes": [
+        8487125200,
+        8487125201,
+        8487125202,
+        8487125203,
+        8487125200
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 913652111,
+      "center": {
+        "lat": -7.6736816,
+        "lon": 110.0103413
+      },
+      "nodes": [
+        8487151590,
+        8487151591,
+        8487151592,
+        8487151593,
+        8487151590
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 913660150,
+      "center": {
+        "lat": -7.6420932,
+        "lon": 110.0224051
+      },
+      "nodes": [
+        8487210985,
+        8487210986,
+        8487210987,
+        8487210988,
+        8487210985
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916422819,
+      "center": {
+        "lat": -7.6807232,
+        "lon": 110.0111548
+      },
+      "nodes": [
+        8511665762,
+        8511665763,
+        8511665764,
+        8511665765,
+        8511665762
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916424679,
+      "center": {
+        "lat": -7.6983648,
+        "lon": 110.0210394
+      },
+      "nodes": [
+        8511658060,
+        8511658061,
+        8511658062,
+        8511658063,
+        8511658060
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916424690,
+      "center": {
+        "lat": -7.6995056,
+        "lon": 110.020224
+      },
+      "nodes": [
+        8511658103,
+        8511658104,
+        8511658105,
+        8511658106,
+        8511658103
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916427495,
+      "center": {
+        "lat": -7.7025492,
+        "lon": 110.0228013
+      },
+      "nodes": [
+        8511688441,
+        8511688442,
+        8511688443,
+        8511688444,
+        8511688441
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916427498,
+      "center": {
+        "lat": -7.7026998,
+        "lon": 110.0231508
+      },
+      "nodes": [
+        8511688453,
+        8511688454,
+        8511688455,
+        8511688456,
+        8511688458,
+        8511688453
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916435973,
+      "center": {
+        "lat": -7.6694071,
+        "lon": 110.0181679
+      },
+      "nodes": [
+        8511755292,
+        8511755293,
+        8511755299,
+        8511755294,
+        8511755295,
+        8511755292
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916439051,
+      "center": {
+        "lat": -7.697451,
+        "lon": 110.0214731
+      },
+      "nodes": [
+        8511750946,
+        8511750947,
+        8511750948,
+        8511750949,
+        8511750946
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916442946,
+      "center": {
+        "lat": -7.702062,
+        "lon": 110.0254311
+      },
+      "nodes": [
+        8511790656,
+        8511790657,
+        8511790658,
+        8511790659,
+        8511790656
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916445535,
+      "center": {
+        "lat": -7.6520631,
+        "lon": 110.0598451
+      },
+      "nodes": [
+        8511811057,
+        8511811053,
+        8511811056,
+        8511811060,
+        8511811057
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916447399,
+      "center": {
+        "lat": -7.6724453,
+        "lon": 110.0515259
+      },
+      "nodes": [
+        8511822770,
+        8511822771,
+        8511822772,
+        8511822773,
+        8511822770
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916453266,
+      "center": {
+        "lat": -7.7028356,
+        "lon": 110.0273392
+      },
+      "nodes": [
+        8511848705,
+        8511848706,
+        8511848707,
+        8511848708,
+        8511848705
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916457560,
+      "center": {
+        "lat": -7.7015072,
+        "lon": 110.0250475
+      },
+      "nodes": [
+        8511804793,
+        8511804794,
+        8511804795,
+        8511804796,
+        8511804793
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916459394,
+      "center": {
+        "lat": -7.6611983,
+        "lon": 110.0263537
+      },
+      "nodes": [
+        8511898060,
+        8511898066,
+        8511898061,
+        8511898062,
+        8511898063,
+        8511898060
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916459405,
+      "center": {
+        "lat": -7.6606494,
+        "lon": 110.0261926
+      },
+      "nodes": [
+        8511898102,
+        8511898103,
+        8511898104,
+        8511898105,
+        8511898106,
+        8511898107,
+        8511898102
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916459511,
+      "center": {
+        "lat": -7.6969627,
+        "lon": 110.019774
+      },
+      "nodes": [
+        8511892552,
+        8511892553,
+        8511892554,
+        8511892555,
+        8511892552
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916461862,
+      "center": {
+        "lat": -7.6866617,
+        "lon": 110.0093065
+      },
+      "nodes": [
+        8511896393,
+        8511896394,
+        8511896395,
+        8511896396,
+        8511896393
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916468754,
+      "center": {
+        "lat": -7.6898137,
+        "lon": 110.0170485
+      },
+      "nodes": [
+        8511967245,
+        8511967246,
+        8511967247,
+        8511967248,
+        8511967245
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916758851,
+      "center": {
+        "lat": -7.6681046,
+        "lon": 110.0481082
+      },
+      "nodes": [
+        8514817444,
+        8514817445,
+        8514817446,
+        8514817447,
+        8514817444
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919733909,
+      "center": {
+        "lat": -7.6674973,
+        "lon": 110.0293999
+      },
+      "nodes": [
+        8541047062,
+        8541047063,
+        8541047064,
+        8541047065,
+        8541047062
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919786685,
+      "center": {
+        "lat": -7.646387,
+        "lon": 110.048912
+      },
+      "nodes": [
+        8541518482,
+        8541518483,
+        8541518484,
+        8541518485,
+        8541518482
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919786712,
+      "center": {
+        "lat": -7.6481303,
+        "lon": 110.0488137
+      },
+      "nodes": [
+        8541544189,
+        8541544190,
+        8541544191,
+        8541544192,
+        8541544189
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919786719,
+      "center": {
+        "lat": -7.6478722,
+        "lon": 110.0482971
+      },
+      "nodes": [
+        8541544224,
+        8541544225,
+        8541544226,
+        8541544227,
+        8541544224
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919786754,
+      "center": {
+        "lat": -7.6478204,
+        "lon": 110.0479747
+      },
+      "nodes": [
+        8541544372,
+        8541544373,
+        8541544374,
+        8541544375,
+        8541544372
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919942783,
+      "center": {
+        "lat": -7.6575436,
+        "lon": 110.0596041
+      },
+      "nodes": [
+        8487076224,
+        8542734847,
+        8542734848,
+        8542734849,
+        8487076224
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 919942792,
+      "center": {
+        "lat": -7.6575421,
+        "lon": 110.0594329
+      },
+      "nodes": [
+        8542734882,
+        8542734883,
+        8542734884,
+        8542734885,
+        8542734882
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920145088,
+      "center": {
+        "lat": -7.7058613,
+        "lon": 110.0222675
+      },
+      "nodes": [
+        8544317970,
+        8544317971,
+        8544317972,
+        8544317973,
+        8544317970
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920174807,
+      "center": {
+        "lat": -7.6622809,
+        "lon": 110.050024
+      },
+      "nodes": [
+        8544531616,
+        8544531817,
+        8544531818,
+        8544531819,
+        8544531616
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920181677,
+      "center": {
+        "lat": -7.6606544,
+        "lon": 110.050208
+      },
+      "nodes": [
+        8544585405,
+        8544585406,
+        8544585407,
+        8544585408,
+        8544585405
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920235072,
+      "center": {
+        "lat": -7.7033777,
+        "lon": 110.0040355
+      },
+      "nodes": [
+        8544997928,
+        8544997929,
+        8544997930,
+        8544997931,
+        8544997928
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920235088,
+      "center": {
+        "lat": -7.703645,
+        "lon": 110.0044062
+      },
+      "nodes": [
+        8544998004,
+        8544998005,
+        8544998006,
+        8544998004
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920943864,
+      "center": {
+        "lat": -7.6599952,
+        "lon": 110.0565415
+      },
+      "nodes": [
+        8550541777,
+        8550541778,
+        8550541779,
+        8550541780,
+        8550541781,
+        8550541782,
+        8550541783,
+        8550541777
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920966247,
+      "center": {
+        "lat": -7.6591455,
+        "lon": 110.0452619
+      },
+      "nodes": [
+        8550739749,
+        6659697240,
+        8550739750,
+        8550739751,
+        8550739752,
+        8550739753,
+        8550739754,
+        8550739749
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 920977431,
+      "center": {
+        "lat": -7.6672241,
+        "lon": 110.0492891
+      },
+      "nodes": [
+        8550810878,
+        8550810879,
+        8550810880,
+        8550810881,
+        8550810878
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 921010681,
+      "center": {
+        "lat": -7.6915752,
+        "lon": 110.0301865
+      },
+      "nodes": [
+        8551106598,
+        8551106599,
+        8551106600,
+        8551106601,
+        8551106598
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 921053873,
+      "center": {
+        "lat": -7.6602691,
+        "lon": 110.0498725
+      },
+      "nodes": [
+        8551461379,
+        8551461380,
+        8551461381,
+        8551461382,
+        8551461383,
+        8551461384,
+        8551461379
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 921053875,
+      "center": {
+        "lat": -7.6601185,
+        "lon": 110.0493164
+      },
+      "nodes": [
+        8551461391,
+        8551461392,
+        8551461393,
+        8551461394,
+        8551461395,
+        8551461396,
+        8551461397,
+        8551461398,
+        8551461391
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 921535723,
+      "center": {
+        "lat": -7.7060146,
+        "lon": 110.0288221
+      },
+      "nodes": [
+        8555593822,
+        8555593823,
+        8555593824,
+        8555593825,
+        8555593822
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 921885043,
+      "center": {
+        "lat": -7.6487079,
+        "lon": 110.0477175
+      },
+      "nodes": [
+        8558649439,
+        8558649445,
+        8558649440,
+        8558649441,
+        8558649442,
+        8558649443,
+        8558649444,
+        8558649439
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 922441596,
+      "center": {
+        "lat": -7.6595358,
+        "lon": 110.0314341
+      },
+      "nodes": [
+        8563287879,
+        8563287880,
+        8563287881,
+        8563287882,
+        8563287879
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 922527990,
+      "center": {
+        "lat": -7.6429623,
+        "lon": 110.0227139
+      },
+      "nodes": [
+        8564382727,
+        8564382728,
+        8564382729,
+        8564382730,
+        8564382727
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 922527992,
+      "center": {
+        "lat": -7.6430407,
+        "lon": 110.0227153
+      },
+      "nodes": [
+        8564382737,
+        8564382738,
+        8564382739,
+        8564382740,
+        8564382737
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 922708875,
+      "center": {
+        "lat": -7.6952055,
+        "lon": 110.0129286
+      },
+      "nodes": [
+        8565620914,
+        8565620915,
+        8565620916,
+        8565625417,
+        8565620914
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 922972951,
+      "center": {
+        "lat": -7.6445633,
+        "lon": 110.049673
+      },
+      "nodes": [
+        8567979304,
+        8567979305,
+        8567979308,
+        8567979306,
+        8567979307,
+        8567979304
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923423431,
+      "center": {
+        "lat": -7.6424358,
+        "lon": 110.0504838
+      },
+      "nodes": [
+        8572119278,
+        8572119279,
+        8572119280,
+        8572119281,
+        8572119282,
+        8572119283,
+        8572119278
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923821075,
+      "center": {
+        "lat": -7.6434445,
+        "lon": 110.046082
+      },
+      "nodes": [
+        8575526659,
+        8575526660,
+        8575526661,
+        8575526662,
+        8575526659
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923832373,
+      "center": {
+        "lat": -7.6917908,
+        "lon": 110.0175886
+      },
+      "nodes": [
+        8575616683,
+        8575616684,
+        8575616685,
+        8575616686,
+        8575616683
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924391223,
+      "center": {
+        "lat": -7.6860127,
+        "lon": 110.0085392
+      },
+      "nodes": [
+        8579353157,
+        8579353158,
+        8579353159,
+        8579353160,
+        8579353161,
+        8579353162,
+        8579353163,
+        8579353164,
+        8579353165,
+        8579353166,
+        8579353167,
+        8579353168,
+        8579353169,
+        8579353170,
+        8579353157
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924391226,
+      "center": {
+        "lat": -7.6860746,
+        "lon": 110.0088826
+      },
+      "nodes": [
+        8579353179,
+        8579353180,
+        8579353181,
+        8579353182,
+        8595371445,
+        8579353179
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924391261,
+      "center": {
+        "lat": -7.6848052,
+        "lon": 110.0071766
+      },
+      "nodes": [
+        8579353377,
+        8579353378,
+        8579353379,
+        8579353380,
+        8579353377
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924607799,
+      "center": {
+        "lat": -7.7201347,
+        "lon": 110.0241721
+      },
+      "nodes": [
+        8581316026,
+        10653962084,
+        8581316027,
+        8581316028,
+        8581316029,
+        8581316026
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924632421,
+      "center": {
+        "lat": -7.7170688,
+        "lon": 110.0248862
+      },
+      "nodes": [
+        8581417774,
+        8581417775,
+        8581417776,
+        8581417777,
+        8581417774
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924633169,
+      "center": {
+        "lat": -7.7167346,
+        "lon": 110.0265011
+      },
+      "nodes": [
+        8581421815,
+        8581421816,
+        8581428117,
+        8581428118,
+        8581421815
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924819631,
+      "center": {
+        "lat": -7.6502505,
+        "lon": 110.0248386
+      },
+      "nodes": [
+        8583023302,
+        8583023303,
+        8583023304,
+        8583023305,
+        8583023302
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924940895,
+      "center": {
+        "lat": -7.7065839,
+        "lon": 110.023965
+      },
+      "nodes": [
+        8584215914,
+        8584215915,
+        8584215916,
+        8584215917,
+        8584215918,
+        8584215919,
+        8584215920,
+        8584215921,
+        8584215914
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924940952,
+      "center": {
+        "lat": -7.705977,
+        "lon": 110.02538
+      },
+      "nodes": [
+        8584216207,
+        8584216208,
+        8584216209,
+        8584216210,
+        8584216211,
+        8584216212,
+        8584216213,
+        8584216207
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924941001,
+      "center": {
+        "lat": -7.7060487,
+        "lon": 110.0275726
+      },
+      "nodes": [
+        8584216472,
+        8584216473,
+        8584216474,
+        8584216475,
+        8584216472
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924941020,
+      "center": {
+        "lat": -7.706123,
+        "lon": 110.0272469
+      },
+      "nodes": [
+        8584216564,
+        8584216543,
+        8584216565,
+        8584216566,
+        8584216564
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925240860,
+      "center": {
+        "lat": -7.661857,
+        "lon": 110.038589
+      },
+      "nodes": [
+        8586856111,
+        8586856112,
+        8586856105,
+        8586856106,
+        8586856113,
+        8586856114,
+        8586856115,
+        8586856111
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925256902,
+      "center": {
+        "lat": -7.6462964,
+        "lon": 110.0235134
+      },
+      "nodes": [
+        8587025028,
+        8587025029,
+        8587025030,
+        8587025031,
+        8587025028
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925355905,
+      "center": {
+        "lat": -7.660738,
+        "lon": 110.032808
+      },
+      "nodes": [
+        8588046917,
+        8588046918,
+        8588046919,
+        8588046920,
+        8588046917
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925598281,
+      "center": {
+        "lat": -7.699436,
+        "lon": 110.0036908
+      },
+      "nodes": [
+        8590044486,
+        8590044487,
+        8590044488,
+        8590044489,
+        8590044490,
+        8590044491,
+        8590044486
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925732607,
+      "center": {
+        "lat": -7.6985311,
+        "lon": 110.0189228
+      },
+      "nodes": [
+        8591222223,
+        8591222224,
+        8591222225,
+        8591222226,
+        8591222227,
+        8591222228,
+        8591222229,
+        8591222230,
+        8591222223
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925924258,
+      "center": {
+        "lat": -7.704325,
+        "lon": 110.0282646
+      },
+      "nodes": [
+        8592844356,
+        8592844357,
+        8592844358,
+        8592844359,
+        8592844360,
+        8592844361,
+        8592844362,
+        8592844356
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925924283,
+      "center": {
+        "lat": -7.7053825,
+        "lon": 110.0293611
+      },
+      "nodes": [
+        8592859602,
+        8592859603,
+        8592859604,
+        8592859605,
+        8592859606,
+        8592859607,
+        8592859602
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925924289,
+      "center": {
+        "lat": -7.7048034,
+        "lon": 110.0292972
+      },
+      "nodes": [
+        8592859644,
+        8592859645,
+        8592859646,
+        8592859647,
+        8592859644
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925924290,
+      "center": {
+        "lat": -7.7048132,
+        "lon": 110.0291728
+      },
+      "nodes": [
+        8592859648,
+        8592859649,
+        8592859650,
+        8592859651,
+        8592859648
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926266079,
+      "center": {
+        "lat": -7.6640997,
+        "lon": 110.0383316
+      },
+      "nodes": [
+        8595702979,
+        8595702980,
+        8595702981,
+        8595702982,
+        8595702979
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926272609,
+      "center": {
+        "lat": -7.6630269,
+        "lon": 110.0382444
+      },
+      "nodes": [
+        8595759027,
+        8595759029,
+        8595759030,
+        8595759031,
+        8595759032,
+        8595759033,
+        8595759034,
+        8595759028,
+        8595759027
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926404401,
+      "center": {
+        "lat": -7.7021151,
+        "lon": 110.0200236
+      },
+      "nodes": [
+        8596949632,
+        8596949633,
+        8596949634,
+        8596949635,
+        8596949636,
+        8596949632
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926410382,
+      "center": {
+        "lat": -7.6861853,
+        "lon": 110.0239309
+      },
+      "nodes": [
+        8596995625,
+        8596995626,
+        8596995627,
+        8596995628,
+        8596995629,
+        8596995630,
+        8596995631,
+        8596995632,
+        8596995625
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926425112,
+      "center": {
+        "lat": -7.6993938,
+        "lon": 110.0257734
+      },
+      "nodes": [
+        8597093272,
+        8597093273,
+        8597093274,
+        8597093275,
+        8597093272
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926755038,
+      "center": {
+        "lat": -7.6911591,
+        "lon": 110.020905
+      },
+      "nodes": [
+        8599472119,
+        8599472120,
+        8599472121,
+        8599472122,
+        8599472123,
+        8599472124,
+        8599472125,
+        8599472119
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926763691,
+      "center": {
+        "lat": -7.6877322,
+        "lon": 110.0189284
+      },
+      "nodes": [
+        8599522541,
+        8599522542,
+        8599522543,
+        8599522544,
+        8599522541
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 926815243,
+      "center": {
+        "lat": -7.6855962,
+        "lon": 110.0340835
+      },
+      "nodes": [
+        8599924635,
+        8599924636,
+        8599924637,
+        8599924638,
+        8599924635
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927294716,
+      "center": {
+        "lat": -7.704268,
+        "lon": 110.0271354
+      },
+      "nodes": [
+        8603621615,
+        8603621616,
+        8603621617,
+        8603621618,
+        8603621615
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927303060,
+      "center": {
+        "lat": -7.6853431,
+        "lon": 110.02939
+      },
+      "nodes": [
+        8603690238,
+        8603690239,
+        8603690240,
+        8603690241,
+        8603690238
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927307317,
+      "center": {
+        "lat": -7.6891497,
+        "lon": 110.0286956
+      },
+      "nodes": [
+        8603715203,
+        8551122028,
+        8603715170,
+        8603715171,
+        8603715203
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927747200,
+      "center": {
+        "lat": -7.6875534,
+        "lon": 110.0328957
+      },
+      "nodes": [
+        8607074419,
+        8607074420,
+        8607074421,
+        8607074422,
+        8607074423,
+        8607074419
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927759760,
+      "center": {
+        "lat": -7.6877347,
+        "lon": 110.0321801
+      },
+      "nodes": [
+        8607135541,
+        8607135553,
+        8607135554,
+        8607135555,
+        8607135547,
+        8607135546,
+        8607135540,
+        8607135541
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 927791650,
+      "center": {
+        "lat": -7.6862621,
+        "lon": 110.0333778
+      },
+      "nodes": [
+        8607333980,
+        8607333981,
+        8607333982,
+        8607333983,
+        8607333984,
+        8607333986,
+        8607333985,
+        8607333980
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 928630471,
+      "center": {
+        "lat": -7.6976016,
+        "lon": 110.0210105
+      },
+      "nodes": [
+        8613169201,
+        8613169202,
+        8613169203,
+        8613169204,
+        8613169205,
+        8613169206,
+        8613169207,
+        8613169208,
+        8613169201
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 929231981,
+      "center": {
+        "lat": -7.7008032,
+        "lon": 110.0083846
+      },
+      "nodes": [
+        8617768764,
+        8617768765,
+        8617768766,
+        8617768767,
+        8617768768,
+        8617768769,
+        8617768770,
+        8617768771,
+        8617768764
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 929232001,
+      "center": {
+        "lat": -7.7017078,
+        "lon": 110.0086137
+      },
+      "nodes": [
+        8617768884,
+        8617768885,
+        8617768886,
+        8617768887,
+        8617768888,
+        8617768884
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 929411328,
+      "center": {
+        "lat": -7.7003915,
+        "lon": 110.0189972
+      },
+      "nodes": [
+        8619225065,
+        9282829323,
+        9282829324,
+        8619225066,
+        8619225065
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 929411345,
+      "center": {
+        "lat": -7.7019278,
+        "lon": 110.0187187
+      },
+      "nodes": [
+        8619225148,
+        8619225149,
+        8619225150,
+        8619225151,
+        8619225148
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 929742208,
+      "center": {
+        "lat": -7.699173,
+        "lon": 110.0185145
+      },
+      "nodes": [
+        8622183031,
+        8622183032,
+        8622183033,
+        8622183034,
+        8622183031
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930421325,
+      "center": {
+        "lat": -7.6961982,
+        "lon": 110.0148389
+      },
+      "nodes": [
+        8627109974,
+        8627109975,
+        8627109976,
+        8627109977,
+        8627109980,
+        8627109978,
+        8627109979,
+        8627109974
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930421354,
+      "center": {
+        "lat": -7.6952673,
+        "lon": 110.0152427
+      },
+      "nodes": [
+        8627110117,
+        8627110118,
+        8627110119,
+        8627110120,
+        8627110121,
+        8627110122,
+        8627110117
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930421365,
+      "center": {
+        "lat": -7.6951792,
+        "lon": 110.0157525
+      },
+      "nodes": [
+        8627110169,
+        8627110170,
+        8627110171,
+        8627110172,
+        8627110169
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930672252,
+      "center": {
+        "lat": -7.6985132,
+        "lon": 110.0083851
+      },
+      "nodes": [
+        8629255113,
+        8629255114,
+        8629255115,
+        8629290217,
+        8629255116,
+        8629255113
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930672256,
+      "center": {
+        "lat": -7.6983248,
+        "lon": 110.0084749
+      },
+      "nodes": [
+        8629290229,
+        8629290230,
+        8629290231,
+        8629290233,
+        8629290232,
+        8629290229
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931222139,
+      "center": {
+        "lat": -7.7196949,
+        "lon": 110.0299145
+      },
+      "nodes": [
+        8633717472,
+        8633717473,
+        8633717474,
+        8633717475,
+        8633717472
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931222453,
+      "center": {
+        "lat": -7.7198819,
+        "lon": 110.0313711
+      },
+      "nodes": [
+        8633726662,
+        8633726659,
+        8633726660,
+        8633726661,
+        8633726662
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931226247,
+      "center": {
+        "lat": -7.7185318,
+        "lon": 110.0314322
+      },
+      "nodes": [
+        8633737177,
+        8633737178,
+        8633737179,
+        8633737180,
+        8633737181,
+        8633737182,
+        8633737183,
+        8633737184,
+        8633737177
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931608174,
+      "center": {
+        "lat": -7.7055667,
+        "lon": 110.0070966
+      },
+      "nodes": [
+        8636718292,
+        8636718293,
+        8636718294,
+        8636718295,
+        8636718292
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 937440087,
+      "center": {
+        "lat": -7.6610039,
+        "lon": 110.0335496
+      },
+      "nodes": [
+        8685851437,
+        8685851438,
+        8685851439,
+        8685851440,
+        8685851437
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 937440109,
+      "center": {
+        "lat": -7.6618254,
+        "lon": 110.0347597
+      },
+      "nodes": [
+        8685859649,
+        8685859650,
+        8685859651,
+        8685859652,
+        8685859649
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 941156407,
+      "center": {
+        "lat": -7.842275,
+        "lon": 110.0199304
+      },
+      "nodes": [
+        8716230639,
+        8716230640,
+        8716230641,
+        8716230642,
+        8716230643,
+        8716230644,
+        8716230645,
+        8716230646,
+        8716230639
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 943246855,
+      "center": {
+        "lat": -7.6576527,
+        "lon": 110.0591837
+      },
+      "nodes": [
+        8733872402,
+        8733872403,
+        8733872404,
+        8733872405,
+        8733872406,
+        8733872407,
+        8733872408,
+        8733872409,
+        8733872402
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 943499951,
+      "center": {
+        "lat": -7.8067469,
+        "lon": 110.2370209
+      },
+      "nodes": [
+        8736011969,
+        8736011966,
+        8736011967,
+        8736011968,
+        8736011969
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 943645701,
+      "center": {
+        "lat": -7.7015618,
+        "lon": 110.024817
+      },
+      "nodes": [
+        8737202133,
+        8737202134,
+        8737202135,
+        8737202136,
+        8737202133
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945703991,
+      "center": {
+        "lat": -7.7212388,
+        "lon": 110.0387047
+      },
+      "nodes": [
+        8755026963,
+        8755026964,
+        8755026965,
+        8755026966,
+        8755026963
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 945704017,
+      "center": {
+        "lat": -7.7209981,
+        "lon": 110.0372402
+      },
+      "nodes": [
+        8755027077,
+        8755027078,
+        8755027079,
+        8755027080,
+        8755027077
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 951328562,
+      "center": {
+        "lat": -7.8219511,
+        "lon": 110.0164296
+      },
+      "nodes": [
+        8805591877,
+        8805591878,
+        8805591879,
+        8805591880,
+        8805591877
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 951374277,
+      "center": {
+        "lat": -7.7886372,
+        "lon": 110.0135151
+      },
+      "nodes": [
+        8806226493,
+        8806226494,
+        8806226495,
+        8806226496,
+        8806226497,
+        8806226498,
+        8806226493
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955652340,
+      "center": {
+        "lat": -7.7143356,
+        "lon": 110.025535
+      },
+      "nodes": [
+        8844627766,
+        8844627767,
+        8844627768,
+        8844627769,
+        8844627770,
+        8844627771,
+        8844627772,
+        8844627773,
+        8844627766
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955652349,
+      "center": {
+        "lat": -7.7153226,
+        "lon": 110.024971
+      },
+      "nodes": [
+        8844627814,
+        8844627815,
+        8844627816,
+        8844627817,
+        8844627814
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955652369,
+      "center": {
+        "lat": -7.713502,
+        "lon": 110.0255038
+      },
+      "nodes": [
+        8844627904,
+        8844627905,
+        8844627906,
+        8844627907,
+        8844627908,
+        8844627909,
+        8844627904
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955926761,
+      "center": {
+        "lat": -7.7072591,
+        "lon": 110.0238798
+      },
+      "nodes": [
+        8847115376,
+        8847115377,
+        8847115378,
+        8847115379,
+        8847115376
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955927286,
+      "center": {
+        "lat": -7.7069428,
+        "lon": 110.0255008
+      },
+      "nodes": [
+        8847114584,
+        8847114585,
+        8847114586,
+        8847114587,
+        8847114584
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 958090766,
+      "center": {
+        "lat": -7.70675,
+        "lon": 110.0263336
+      },
+      "nodes": [
+        8864932272,
+        8864932273,
+        8864932274,
+        8864932275,
+        8864932272
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 958090772,
+      "center": {
+        "lat": -7.706767,
+        "lon": 110.0275078
+      },
+      "nodes": [
+        8864932298,
+        8864932299,
+        8864932300,
+        8864932301,
+        8864932302,
+        8864932303,
+        8864932298
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004938753,
+      "center": {
+        "lat": -7.6435036,
+        "lon": 110.0227718
+      },
+      "nodes": [
+        9271968311,
+        9271968312,
+        9271968313,
+        9271968314,
+        9271968311
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004960359,
+      "center": {
+        "lat": -7.6533266,
+        "lon": 110.0268785
+      },
+      "nodes": [
+        9272109746,
+        9272109747,
+        9272109748,
+        9272109749,
+        9272109746
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004960363,
+      "center": {
+        "lat": -7.6610162,
+        "lon": 110.0333081
+      },
+      "nodes": [
+        9272109762,
+        9272109763,
+        9272109764,
+        9272109765,
+        9272109762
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005300190,
+      "center": {
+        "lat": -7.6674689,
+        "lon": 110.0334265
+      },
+      "nodes": [
+        9275276175,
+        9275276176,
+        9275276177,
+        9275276178,
+        9275276175
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005300196,
+      "center": {
+        "lat": -7.6690615,
+        "lon": 110.017881
+      },
+      "nodes": [
+        9275276199,
+        9275276200,
+        9275276201,
+        9275276202,
+        9275276199
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005596208,
+      "center": {
+        "lat": -7.6862154,
+        "lon": 110.006559
+      },
+      "nodes": [
+        9277999935,
+        9277999936,
+        9277999937,
+        9277999938,
+        9277999935
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005596209,
+      "center": {
+        "lat": -7.6901287,
+        "lon": 110.0092068
+      },
+      "nodes": [
+        9277999940,
+        9277999941,
+        9277999942,
+        9277999943,
+        9277999940
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005606488,
+      "center": {
+        "lat": -7.6852091,
+        "lon": 110.0191021
+      },
+      "nodes": [
+        9278074703,
+        9278074704,
+        9278074705,
+        9278074706,
+        9278074703
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005606489,
+      "center": {
+        "lat": -7.6860923,
+        "lon": 110.0175759
+      },
+      "nodes": [
+        9278074709,
+        9278074710,
+        9278074711,
+        9278074712,
+        9278074709
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005606493,
+      "center": {
+        "lat": -7.6881384,
+        "lon": 110.0233451
+      },
+      "nodes": [
+        9278104227,
+        9278104228,
+        9278104229,
+        9278104230,
+        9278104227
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005613499,
+      "center": {
+        "lat": -7.6890797,
+        "lon": 110.031801
+      },
+      "nodes": [
+        9278166715,
+        9278166716,
+        9278174817,
+        9278174818,
+        9278166715
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006222314,
+      "center": {
+        "lat": -7.6977292,
+        "lon": 110.01285
+      },
+      "nodes": [
+        9283695232,
+        9283695233,
+        9283695234,
+        9283695235,
+        9283695232
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006497294,
+      "center": {
+        "lat": -7.7131223,
+        "lon": 110.0437778
+      },
+      "nodes": [
+        9286181110,
+        9286181111,
+        9286181112,
+        9286181113,
+        9286181110
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006733847,
+      "center": {
+        "lat": -7.7059614,
+        "lon": 110.020592
+      },
+      "nodes": [
+        9288158604,
+        9288158605,
+        9288158606,
+        9288158607,
+        9288158604
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006741707,
+      "center": {
+        "lat": -7.7145656,
+        "lon": 110.0254805
+      },
+      "nodes": [
+        9288201236,
+        9288201237,
+        9288201238,
+        9288201239,
+        9288201236
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1520718412,
+      "center": {
+        "lat": -7.7265841,
+        "lon": 110.2345498
+      },
+      "nodes": [
+        13872485759,
+        1353782587,
+        13872485760,
+        13872485761,
+        13872485759
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakso Mie Ayam Wiro"
+      }
+    }
+  ]
+}

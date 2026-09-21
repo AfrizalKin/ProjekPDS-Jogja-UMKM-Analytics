@@ -1,0 +1,41 @@
+sektor,sektor_label,tahun,jumlah_usaha,lower_ci,upper_ci,arah_tren,laju_pertumbuhan_pct,status_data
+cafe,Kafe / Kedai Kopi,2019,1970,1970,1970,Naik (Ekspansif),0.0,Historis
+cafe,Kafe / Kedai Kopi,2020,1910,1910,1910,Naik (Ekspansif),-3.05,Historis
+cafe,Kafe / Kedai Kopi,2021,2070,2070,2070,Naik (Ekspansif),8.38,Historis
+cafe,Kafe / Kedai Kopi,2022,2300,2300,2300,Naik (Ekspansif),11.11,Historis
+cafe,Kafe / Kedai Kopi,2023,2590,2590,2590,Naik (Ekspansif),12.61,Historis
+cafe,Kafe / Kedai Kopi,2024,2657,2200,3114,Naik (Ekspansif),2.59,Proyeksi
+cafe,Kafe / Kedai Kopi,2025,2820,2292,3348,Naik (Ekspansif),6.13,Proyeksi
+cafe,Kafe / Kedai Kopi,2026,2983,2376,3590,Naik (Ekspansif),5.78,Proyeksi
+convenience,Minimarket / Toko Modern,2019,1710,1710,1710,Naik (Ekspansif),0.0,Historis
+convenience,Minimarket / Toko Modern,2020,1740,1740,1740,Naik (Ekspansif),1.75,Historis
+convenience,Minimarket / Toko Modern,2021,1785,1785,1785,Naik (Ekspansif),2.59,Historis
+convenience,Minimarket / Toko Modern,2022,1855,1855,1855,Naik (Ekspansif),3.92,Historis
+convenience,Minimarket / Toko Modern,2023,1935,1935,1935,Naik (Ekspansif),4.31,Historis
+convenience,Minimarket / Toko Modern,2024,1975,1902,2047,Naik (Ekspansif),2.04,Proyeksi
+convenience,Minimarket / Toko Modern,2025,2031,1948,2114,Naik (Ekspansif),2.86,Proyeksi
+convenience,Minimarket / Toko Modern,2026,2088,1992,2183,Naik (Ekspansif),2.78,Proyeksi
+grocery,Toko Kelontong Tradisional,2019,12000,12000,12000,Stabil,0.0,Historis
+grocery,Toko Kelontong Tradisional,2020,11930,11930,11930,Stabil,-0.58,Historis
+grocery,Toko Kelontong Tradisional,2021,11850,11850,11850,Stabil,-0.67,Historis
+grocery,Toko Kelontong Tradisional,2022,11780,11780,11780,Stabil,-0.59,Historis
+grocery,Toko Kelontong Tradisional,2023,11710,11710,11710,Stabil,-0.59,Historis
+grocery,Toko Kelontong Tradisional,2024,11635,11623,11647,Stabil,-0.64,Proyeksi
+grocery,Toko Kelontong Tradisional,2025,11562,11548,11576,Stabil,-0.63,Proyeksi
+grocery,Toko Kelontong Tradisional,2026,11489,11473,11505,Stabil,-0.63,Proyeksi
+laundry,Jasa Pencucian / Laundry,2019,1365,1365,1365,Naik (Ekspansif),0.0,Historis
+laundry,Jasa Pencucian / Laundry,2020,1295,1295,1295,Naik (Ekspansif),-5.13,Historis
+laundry,Jasa Pencucian / Laundry,2021,1360,1360,1360,Naik (Ekspansif),5.02,Historis
+laundry,Jasa Pencucian / Laundry,2022,1465,1465,1465,Naik (Ekspansif),7.72,Historis
+laundry,Jasa Pencucian / Laundry,2023,1575,1575,1575,Naik (Ekspansif),7.51,Historis
+laundry,Jasa Pencucian / Laundry,2024,1589,1342,1836,Naik (Ekspansif),0.89,Proyeksi
+laundry,Jasa Pencucian / Laundry,2025,1648,1363,1933,Naik (Ekspansif),3.71,Proyeksi
+laundry,Jasa Pencucian / Laundry,2026,1707,1379,2035,Naik (Ekspansif),3.58,Proyeksi
+restaurant,Restoran / Warung Makan,2019,6260,6260,6260,Naik (Ekspansif),0.0,Historis
+restaurant,Restoran / Warung Makan,2020,6060,6060,6060,Naik (Ekspansif),-3.19,Historis
+restaurant,Restoran / Warung Makan,2021,6300,6300,6300,Naik (Ekspansif),3.96,Historis
+restaurant,Restoran / Warung Makan,2022,6680,6680,6680,Naik (Ekspansif),6.03,Historis
+restaurant,Restoran / Warung Makan,2023,7100,7100,7100,Naik (Ekspansif),6.29,Historis
+restaurant,Restoran / Warung Makan,2024,7170,6330,8010,Naik (Ekspansif),0.99,Proyeksi
+restaurant,Restoran / Warung Makan,2025,7400,6430,8370,Naik (Ekspansif),3.21,Proyeksi
+restaurant,Restoran / Warung Makan,2026,7630,6515,8745,Naik (Ekspansif),3.11,Proyeksi

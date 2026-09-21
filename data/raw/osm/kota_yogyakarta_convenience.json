@@ -1,0 +1,2317 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:18:42Z",
+    "timestamp_areas_base": "2026-09-07T14:50:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1654015340,
+      "lat": -7.8179876,
+      "lon": 110.3619048,
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "53",
+        "addr:street": "Jalan Mayor Jendral DI Panjaitan",
+        "name": "Maga swalayan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2266459082,
+      "lat": -7.7747631,
+      "lon": 110.3611163,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Kricak",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3487503062,
+      "lat": -7.8210708,
+      "lon": 110.3679047,
+      "tags": {
+        "addr:street": "Jalan Parangtritis",
+        "air_conditioning": "yes",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "id:Circle K",
+        "currency:IDR": "yes",
+        "name": "Circle K",
+        "name:en": "Circle K",
+        "name:ja": "サークルK",
+        "opening_hours": "24/7",
+        "operator": "Circle K",
+        "owner": "PT. Circleka Indonesia Utama",
+        "payment:cash": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3487511789,
+      "lat": -7.8249692,
+      "lon": 110.3734947,
+      "tags": {
+        "addr:street": "Jalan Parangtritis",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585103219,
+      "lat": -7.7807059,
+      "lon": 110.3610802,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585204026,
+      "lat": -7.8177931,
+      "lon": 110.3556731,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3782252116,
+      "lat": -7.8100976,
+      "lon": 110.3772177,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4058092604,
+      "lat": -7.8162919,
+      "lon": 110.3683929,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4063417063,
+      "lat": -7.8204714,
+      "lon": 110.3680506,
+      "tags": {
+        "name": "Jogjamart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4063417183,
+      "lat": -7.8222976,
+      "lon": 110.3615526,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4069457553,
+      "lat": -7.8313623,
+      "lon": 110.3898422,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4316611995,
+      "lat": -7.8194886,
+      "lon": 110.3962612,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Kotagede",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362107101,
+      "lat": -7.8008855,
+      "lon": 110.3730838,
+      "tags": {
+        "addr:street": "Jalan Gadjah Mada",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "check_date": "2024-02-20",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362119191,
+      "lat": -7.7930885,
+      "lon": 110.3733814,
+      "tags": {
+        "addr:street": "Jalan Hayam Wuruk",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "opening_hours": "24/7",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362119192,
+      "lat": -7.7815015,
+      "lon": 110.3523723,
+      "tags": {
+        "addr:street": "Jalan Kyai Mojo",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362119294,
+      "lat": -7.7956017,
+      "lon": 110.3727972,
+      "tags": {
+        "addr:street": "Jalan Hayam Wuruk",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4655095789,
+      "lat": -7.7733005,
+      "lon": 110.3682111,
+      "tags": {
+        "addr:street": "Jalan AM Sangaji",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "internet_access": "wlan",
+        "name": "Alfamart",
+        "name:en": "Alfamart, WiFi ID Corner & ATM (BCA, CIMB Niaga & mandiri)",
+        "opening_hours": "24/7",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4655109789,
+      "lat": -7.7733154,
+      "lon": 110.3679778,
+      "tags": {
+        "addr:street": "Jalan AM Sangaji",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "internet_access": "wlan",
+        "name": "Alfamart",
+        "name:en": "Alfamart, WiFi ID Corner & ATM (BCA, CIMB Niaga & mandiri)",
+        "opening_hours": "24/7",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4742935143,
+      "lat": -7.8159518,
+      "lon": 110.3685103,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4766777421,
+      "lat": -7.8041247,
+      "lon": 110.3565267,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771094725,
+      "lat": -7.7925747,
+      "lon": 110.3536371,
+      "tags": {
+        "amenity": "atm",
+        "opening_hours": "24/7",
+        "operator": "ATM BCA & BNI",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4795283937,
+      "lat": -7.7926306,
+      "lon": 110.3536941,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4799118029,
+      "lat": -7.7873875,
+      "lon": 110.3524824,
+      "tags": {
+        "name": "Toko Dolano",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4799168224,
+      "lat": -7.8045454,
+      "lon": 110.3509313,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4824440822,
+      "lat": -7.7700397,
+      "lon": 110.3549471,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4994688422,
+      "lat": -7.7916992,
+      "lon": 110.3634266,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "id:Circle K",
+        "currency:IDR": "yes",
+        "name": "Circle K",
+        "name:en": "Circle K",
+        "name:ja": "サークルK",
+        "opening_hours": "24/7",
+        "owner": "PT. Circleka Indonesia Utama",
+        "payment:cash": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583703624,
+      "lat": -7.8189945,
+      "lon": 110.373112,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5583703628,
+      "lat": -7.8190584,
+      "lon": 110.3701171,
+      "tags": {
+        "name": "MiniMarket",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5729356101,
+      "lat": -7.8072937,
+      "lon": 110.3693323,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6401792054,
+      "lat": -7.7896328,
+      "lon": 110.3623581,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "brand:wikipedia": "id:Alfamart",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6401792055,
+      "lat": -7.7896892,
+      "lon": 110.3631487,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "currency:IDR": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "payment:cash": "yes",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097567597,
+      "lat": -7.7962384,
+      "lon": 110.352663,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100517024,
+      "lat": -7.7936097,
+      "lon": 110.3627688,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7811468605,
+      "lat": -7.7888489,
+      "lon": 110.3757752,
+      "tags": {
+        "name": "Toko Bu Warsito",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7811503218,
+      "lat": -7.788345,
+      "lon": 110.3786027,
+      "tags": {
+        "changing_table": "no",
+        "name": "Prista Mart",
+        "opening_hours": "Mo-Sa 09:00-21:00; PH closed",
+        "organic": "no",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7859897351,
+      "lat": -7.7851703,
+      "lon": 110.3750892,
+      "tags": {
+        "changing_table": "no",
+        "name": "Kopel Bulog",
+        "organic": "no",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7868743428,
+      "lat": -7.787137,
+      "lon": 110.3790727,
+      "tags": {
+        "changing_table": "no",
+        "name": "Toko 89",
+        "opening_hours": "Mo-Sa 09:00-16:00; PH closed",
+        "organic": "no",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8002453370,
+      "lat": -7.8237018,
+      "lon": 110.390402,
+      "tags": {
+        "addr:street": "Jalan Pramuka",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8002454380,
+      "lat": -7.8254341,
+      "lon": 110.3902953,
+      "tags": {
+        "addr:street": "Jalan Pramuka",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9158972452,
+      "lat": -7.7859743,
+      "lon": 110.3763419,
+      "tags": {
+        "changing_table": "no",
+        "name": "Hesti Mart",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9194548224,
+      "lat": -7.7845538,
+      "lon": 110.3790882,
+      "tags": {
+        "changing_table": "no",
+        "name": "Putra Sehat",
+        "opening_hours": "Mo-Sa 09:00-20:00; PH closed",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9194565890,
+      "lat": -7.7867828,
+      "lon": 110.3787663,
+      "tags": {
+        "changing_table": "no",
+        "opening_hours": "Mo-Sa 09:00-21:00; PH closed",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9194565895,
+      "lat": -7.7867014,
+      "lon": 110.378784,
+      "tags": {
+        "changing_table": "no",
+        "name": "Pop Mart",
+        "opening_hours": "Mo-Sa 09:00-21:00; PH closed",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9194593860,
+      "lat": -7.7835917,
+      "lon": 110.3792445,
+      "tags": {
+        "brand": "Alfamidi",
+        "brand:wikidata": "Q12471462",
+        "changing_table": "no",
+        "name": "Alfamidi",
+        "opening_hours": "Mo-Su 09:00-21:00; PH closed",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9194593866,
+      "lat": -7.7838792,
+      "lon": 110.3792032,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "changing_table": "no",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9198357819,
+      "lat": -7.7915918,
+      "lon": 110.3724311,
+      "tags": {
+        "changing_table": "no",
+        "name": "Toko Sinar Jaya",
+        "opening_hours": "Mo-Su 09:00-14:00,17:00-21:00; PH closed",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9200965800,
+      "lat": -7.7802371,
+      "lon": 110.3755108,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "changing_table": "no",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9208542431,
+      "lat": -7.7861089,
+      "lon": 110.3841966,
+      "tags": {
+        "changing_table": "no",
+        "name": "Toko Mimi",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9212889554,
+      "lat": -7.7860814,
+      "lon": 110.3788651,
+      "tags": {
+        "brand": "Lawson",
+        "brand:wikidata": "Q1557223",
+        "changing_table": "no",
+        "name": "Lawson",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10113774347,
+      "lat": -7.7767676,
+      "lon": 110.3721303,
+      "tags": {
+        "name": "Indomaret Fresh",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10770919368,
+      "lat": -7.7938145,
+      "lon": 110.3646539,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11054121505,
+      "lat": -7.8113798,
+      "lon": 110.3770112,
+      "tags": {
+        "addr:housenumber": "101",
+        "addr:postcode": "55151",
+        "addr:street": "Jalan Taman Siswa",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11155148666,
+      "lat": -7.8054061,
+      "lon": 110.3746792,
+      "tags": {
+        "name": "Warung Mak Sum",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11203821734,
+      "lat": -7.8053011,
+      "lon": 110.374779,
+      "tags": {
+        "name": "Warung Mak Sum",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554843346,
+      "lat": -7.7979606,
+      "lon": 110.3619855,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554854551,
+      "lat": -7.8007615,
+      "lon": 110.3485656,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554872681,
+      "lat": -7.7916049,
+      "lon": 110.3658349,
+      "tags": {
+        "branch": "Sosromenduran",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "opening_hours": "Mo-Su,PH 07:00-22:00",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554891990,
+      "lat": -7.8079894,
+      "lon": 110.368999,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150446282,
+      "lat": -7.7901399,
+      "lon": 110.376651,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12247618235,
+      "lat": -7.8123073,
+      "lon": 110.4018617,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Gedongkuning No. 112",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12247618238,
+      "lat": -7.8194473,
+      "lon": 110.3974879,
+      "tags": {
+        "branch": "Ngeksigondo",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12473302703,
+      "lat": -7.8179886,
+      "lon": 110.3712927,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12473345955,
+      "lat": -7.8192323,
+      "lon": 110.373048,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583061758,
+      "lat": -7.8293076,
+      "lon": 110.3798987,
+      "tags": {
+        "name": "Ud Pak Man",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713493,
+      "lat": -7.8160915,
+      "lon": 110.3910146,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Gambiran",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713494,
+      "lat": -7.815302,
+      "lon": 110.3881516,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Veteran 184",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713495,
+      "lat": -7.8118053,
+      "lon": 110.3884972,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Babaran No. 77",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713496,
+      "lat": -7.808104,
+      "lon": 110.3875992,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Glagahsari 2",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713497,
+      "lat": -7.8030994,
+      "lon": 110.3890254,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Glagahsari 15",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713498,
+      "lat": -7.8018265,
+      "lon": 110.3896248,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Kusumanegara",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713499,
+      "lat": -7.8037648,
+      "lon": 110.3949802,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Veteran 23",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805713500,
+      "lat": -7.7994236,
+      "lon": 110.3848143,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Cendana",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805798901,
+      "lat": -7.7899362,
+      "lon": 110.3865321,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Jl. Mojo",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805798902,
+      "lat": -7.7901344,
+      "lon": 110.3936511,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Timoho",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805798906,
+      "lat": -7.7828952,
+      "lon": 110.3831935,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Urip Sumoharjo No. 71",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805798907,
+      "lat": -7.8171335,
+      "lon": 110.3845873,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Mentri Supeno 106 A-B",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805798908,
+      "lat": -7.8162861,
+      "lon": 110.3813324,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Mentri Supeno",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12805798909,
+      "lat": -7.8132603,
+      "lon": 110.3828751,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Batikan",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13020324765,
+      "lat": -7.7745317,
+      "lon": 110.3681332,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13077816880,
+      "lat": -7.7940794,
+      "lon": 110.3780055,
+      "tags": {
+        "brand": "Lawson",
+        "brand:wikidata": "Q1557223",
+        "name": "Lawson",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 294018510,
+      "center": {
+        "lat": -7.7878661,
+        "lon": 110.3662461
+      },
+      "nodes": [
+        2975858374,
+        2975858376,
+        2975858378,
+        2975858375,
+        2975858374
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "height": "10.0",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:qris": "yes",
+        "roof:height": "3",
+        "roof:orientation": "along",
+        "roof:shape": "hipped",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319248177,
+      "center": {
+        "lat": -7.8044651,
+        "lon": 110.3509808
+      },
+      "nodes": [
+        3256601983,
+        3256601985,
+        3256601987,
+        3256601984,
+        3256601983
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:use": "Indomaret",
+        "building:walls": "brick",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 340072459,
+      "center": {
+        "lat": -7.7817908,
+        "lon": 110.3616568
+      },
+      "nodes": [
+        3472801622,
+        3472801623,
+        3472801630,
+        3472801628,
+        3472801622
+      ],
+      "tags": {
+        "addr:housenumber": "84",
+        "addr:street": "Jl. Poncowinatan",
+        "building": "yes",
+        "contact:mobile": "+62 818 0415 0555;+62 858 7888 8788",
+        "contact:phone": "+62 24 7563677",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Vegie House",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362146838,
+      "center": {
+        "lat": -7.77682,
+        "lon": 110.3721411
+      },
+      "nodes": [
+        3665095988,
+        3665095748,
+        3665095776,
+        3665096015,
+        3665095988
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 464059470,
+      "center": {
+        "lat": -7.7879588,
+        "lon": 110.3945093
+      },
+      "nodes": [
+        4592219729,
+        4592219730,
+        4592219731,
+        4592219732,
+        4592219729
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 480918882,
+      "center": {
+        "lat": -7.7887958,
+        "lon": 110.3744053
+      },
+      "nodes": [
+        4738653289,
+        4738653290,
+        4740253771,
+        4738653292,
+        4738653289
+      ],
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "21",
+        "addr:postcode": "55224",
+        "addr:street": "Jalan Yos Sudarso",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "commercial",
+        "building:levels": "2",
+        "building:use": "retail",
+        "changing_table": "no",
+        "level": "1",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "phone": "+62 274 564494",
+        "shop": "convenience",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481284956,
+      "center": {
+        "lat": -7.7896357,
+        "lon": 110.3734216
+      },
+      "nodes": [
+        4742230281,
+        10765150955,
+        10765150954,
+        4742230277,
+        4742230280,
+        4742230283,
+        4742230281
+      ],
+      "tags": {
+        "building": "commercial",
+        "building:levels": "1",
+        "changing_table": "no",
+        "check_date": "2025-07-14",
+        "name": "Kopeka",
+        "organic": "no",
+        "shop": "convenience",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481306414,
+      "center": {
+        "lat": -7.7878427,
+        "lon": 110.373332
+      },
+      "nodes": [
+        10732003613,
+        10732003616,
+        10732003615,
+        10732003614,
+        10732003613
+      ],
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "air_conditioning": "yes",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "id:Circle K",
+        "building": "yes",
+        "currency:IDR": "yes",
+        "name": "Circle K",
+        "name:en": "Circle K",
+        "name:ja": "サークルK",
+        "opening_hours": "24/7",
+        "owner": "PT. Circleka Indonesia Utama",
+        "payment:cash": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481309596,
+      "center": {
+        "lat": -7.7881789,
+        "lon": 110.3725439
+      },
+      "nodes": [
+        3848976539,
+        3849185343,
+        3849185342,
+        3849185341,
+        3848976539
+      ],
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "Jalan Abu Bakar Ali",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "building:levels": "2",
+        "changing_table": "no",
+        "level": "1",
+        "name": "Alfamart",
+        "opening_hours": "Mo-Su 09:00-21:00; PH closed",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "phone": "+62 274 512321",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481611932,
+      "center": {
+        "lat": -7.7888396,
+        "lon": 110.3722653
+      },
+      "nodes": [
+        4745246964,
+        4745246965,
+        4745246966,
+        4745246967,
+        4745246964
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Kiosk",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532455035,
+      "center": {
+        "lat": -7.7916807,
+        "lon": 110.3657987
+      },
+      "nodes": [
+        5166789940,
+        5786228229,
+        5166789937,
+        5166789938,
+        5166789939,
+        5166789940
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "id:Circle K",
+        "building": "yes",
+        "currency:IDR": "yes",
+        "height": "8",
+        "name": "Circle K",
+        "name:en": "Circle K",
+        "name:ja": "サークルK",
+        "owner": "PT. Circleka Indonesia Utama",
+        "payment:cash": "yes",
+        "roof:shape": "mansard",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532455038,
+      "center": {
+        "lat": -7.7916032,
+        "lon": 110.3657572
+      },
+      "nodes": [
+        5166789944,
+        12843119574,
+        2872847519,
+        2872847520,
+        5166789938,
+        5166789937,
+        5166789944
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "colour": "red",
+        "height": "8",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "roof:height": "3",
+        "roof:shape": "mansard",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532455040,
+      "center": {
+        "lat": -7.7914679,
+        "lon": 110.3657796
+      },
+      "nodes": [
+        5166789948,
+        5166789945,
+        2872847518,
+        5166789947,
+        5166789948
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "height": "6",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "roof:height": "2",
+        "roof:shape": "hipped",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532465726,
+      "center": {
+        "lat": -7.7936722,
+        "lon": 110.3655796
+      },
+      "nodes": [
+        5166884324,
+        5166884323,
+        5166884322,
+        5166884321,
+        5166884324
+      ],
+      "tags": {
+        "building": "yes",
+        "building:use": "shop",
+        "height": "12",
+        "roof:height": "2",
+        "roof:shape": "flat",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610097691,
+      "center": {
+        "lat": -7.7902744,
+        "lon": 110.3865572
+      },
+      "nodes": [
+        5778326293,
+        5778326292,
+        5778326291,
+        5778326290,
+        5778326293
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Udin",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610478088,
+      "center": {
+        "lat": -7.8039809,
+        "lon": 110.4024287
+      },
+      "nodes": [
+        5781387705,
+        5781387704,
+        5781387696,
+        5781387697,
+        5781387695,
+        5781387705
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610689333,
+      "center": {
+        "lat": -7.8072678,
+        "lon": 110.4019192
+      },
+      "nodes": [
+        5783349382,
+        5783349381,
+        5783349380,
+        5783349379,
+        5783349382
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610699410,
+      "center": {
+        "lat": -7.8014921,
+        "lon": 110.390963
+      },
+      "nodes": [
+        5783424829,
+        5783424828,
+        5783424827,
+        5783424826,
+        5783424829
+      ],
+      "tags": {
+        "building": "commercial",
+        "name": "pamella 1",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 611041897,
+      "center": {
+        "lat": -7.7978158,
+        "lon": 110.3927039
+      },
+      "nodes": [
+        5786149481,
+        5786149478,
+        5786149477,
+        5786149476,
+        5786149481
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Ipda Tut Harsono",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 612931074,
+      "center": {
+        "lat": -7.8203466,
+        "lon": 110.3558227
+      },
+      "nodes": [
+        5800908930,
+        5800908927,
+        5800908928,
+        5800908929,
+        5800908930
+      ],
+      "tags": {
+        "branch": "Super",
+        "brand": "Alfamidi",
+        "brand:wikidata": "Q12471462",
+        "building": "yes",
+        "name": "Alfamidi",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 632140112,
+      "center": {
+        "lat": -7.8107141,
+        "lon": 110.3988808
+      },
+      "nodes": [
+        5968719542,
+        5968719539,
+        5968719540,
+        5968719541,
+        5968719542
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Rejowinangun",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974291251,
+      "center": {
+        "lat": -7.8126686,
+        "lon": 110.4023179
+      },
+      "nodes": [
+        9016719956,
+        9016719957,
+        9016719958,
+        9016719959,
+        9016719956
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974293302,
+      "center": {
+        "lat": -7.8123083,
+        "lon": 110.4018675
+      },
+      "nodes": [
+        9016702965,
+        9016702966,
+        9016702967,
+        9016702968,
+        9016702965
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1106598397,
+      "center": {
+        "lat": -7.8194553,
+        "lon": 110.397484
+      },
+      "nodes": [
+        10126187864,
+        10126187870,
+        10126187865,
+        10126187866,
+        10126187867,
+        10126187864
+      ],
+      "tags": {
+        "addr:street": "Jalan Ngeksigondo",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1137827102,
+      "center": {
+        "lat": -7.7905181,
+        "lon": 110.3658913
+      },
+      "nodes": [
+        10605799275,
+        10605964304,
+        10605964301,
+        10606053306,
+        10606053305,
+        10605799274,
+        10605799275
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "building:use": "shop",
+        "height": "16",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1155731928,
+      "center": {
+        "lat": -7.7877941,
+        "lon": 110.3662565
+      },
+      "nodes": [
+        10747987752,
+        10747987749,
+        10747987750,
+        2975858375,
+        2975858374,
+        10747987752
+      ],
+      "tags": {
+        "brand": "Lawson",
+        "brand:wikidata": "Q1557223",
+        "building": "yes",
+        "name": "Lawson",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:qris": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1317058905,
+      "center": {
+        "lat": -7.8134861,
+        "lon": 110.396037
+      },
+      "nodes": [
+        12189407319,
+        12189407320,
+        12189407321,
+        12189407322,
+        12189407319
+      ],
+      "tags": {
+        "branch": "Ki Penjawi",
+        "brand": "Alfamidi",
+        "brand:wikidata": "Q12471462",
+        "building": "yes",
+        "name": "Alfamidi",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1317058908,
+      "center": {
+        "lat": -7.8135069,
+        "lon": 110.3966387
+      },
+      "nodes": [
+        12189407329,
+        12189407330,
+        12189407331,
+        12189407332,
+        12189407329
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Basuki",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1459763872,
+      "center": {
+        "lat": -7.7877342,
+        "lon": 110.3662637
+      },
+      "nodes": [
+        13388213173,
+        10747987752,
+        10747987749,
+        13388213174,
+        13388213175,
+        13388213173
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:qris": "yes",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    }
+  ]
+}

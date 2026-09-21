@@ -1,0 +1,1013 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:23:51Z",
+    "timestamp_areas_base": "2026-09-07T14:50:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1836609616,
+      "lat": -7.8376189,
+      "lon": 110.4745462,
+      "tags": {
+        "addr:housename": "Indomart",
+        "name": "Mini Market (Indomart) Piyungan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1836627998,
+      "lat": -7.8248961,
+      "lon": 110.4792185,
+      "tags": {
+        "name": "Srimartani Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1988455488,
+      "lat": -7.79491,
+      "lon": 110.3979795,
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "75",
+        "addr:postcode": "55198",
+        "addr:street": "Jalan Puntodewo",
+        "email": "dyefacomp@yahoogroups.com",
+        "name": "Dyefa Computer",
+        "opening_hours": "Mo-Sa 08:00-16:00",
+        "operator": "Dicky",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2360646862,
+      "lat": -7.8068044,
+      "lon": 110.342269,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2712181350,
+      "lat": -7.8275035,
+      "lon": 110.4410647,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3562591595,
+      "lat": -7.9355202,
+      "lon": 110.3737742,
+      "tags": {
+        "name": "Mini Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585204029,
+      "lat": -7.8183765,
+      "lon": 110.3483728,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585204030,
+      "lat": -7.8130878,
+      "lon": 110.3491431,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630844911,
+      "lat": -7.8401862,
+      "lon": 110.3131922,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630978235,
+      "lat": -7.892753,
+      "lon": 110.3367742,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4146152132,
+      "lat": -7.7955829,
+      "lon": 110.397842,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Puntodewo",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5008727844,
+      "lat": -7.812676,
+      "lon": 110.4022699,
+      "tags": {
+        "branch": "Gedong Kuning 2",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5729355893,
+      "lat": -7.8126894,
+      "lon": 110.2675663,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259024171,
+      "lat": -8.0221303,
+      "lon": 110.3312129,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097568701,
+      "lat": -7.8063286,
+      "lon": 110.3406946,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811778377,
+      "lat": -7.8276383,
+      "lon": 110.4425382,
+      "tags": {
+        "addr:street": "Jl. Wonosari KM. 10 Sampakan, Berbah, Sleman",
+        "name": "Warung Kenzo-Kenzie",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "short_name": "Warung KK"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811833481,
+      "lat": -7.8189132,
+      "lon": 110.4175061,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811836754,
+      "lat": -7.8298471,
+      "lon": 110.4068595,
+      "tags": {
+        "name": "WS Baru Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811903802,
+      "lat": -7.8965268,
+      "lon": 110.3236255,
+      "tags": {
+        "name": "SRC Mayar",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10079614562,
+      "lat": -7.8196968,
+      "lon": 110.4013802,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12247618236,
+      "lat": -7.8039735,
+      "lon": 110.4024274,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Gedongkuning I",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12247618237,
+      "lat": -7.8193969,
+      "lon": 110.4014738,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Gedongan",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255235601,
+      "lat": -7.8289326,
+      "lon": 110.3323843,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Sempu",
+        "name": "Alfamidi Kasihan",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031931,
+      "lat": -7.8131977,
+      "lon": 110.2638989,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Wates Km 11,2",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14052268525,
+      "lat": -7.814083,
+      "lon": 110.3202286,
+      "tags": {
+        "name": "Budi Mart UMY",
+        "opening_hours": "Mo-Su 00:00+",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240368665,
+      "center": {
+        "lat": -7.8108846,
+        "lon": 110.4049283
+      },
+      "nodes": [
+        2481121379,
+        2481121383,
+        2481121384,
+        2481121380,
+        2481121379
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "building": "yes",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "13",
+        "description": "bangunan",
+        "name": "Toko Utomo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 351193440,
+      "center": {
+        "lat": -7.8224733,
+        "lon": 110.4149815
+      },
+      "nodes": [
+        3569296796,
+        3569296798,
+        3569296801,
+        3569296799,
+        3569296796
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Sekar",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 418869327,
+      "center": {
+        "lat": -7.7888402,
+        "lon": 110.3481457
+      },
+      "nodes": [
+        4191031737,
+        4191031739,
+        4191031740,
+        5591380296,
+        5591380295,
+        4191031737
+      ],
+      "tags": {
+        "addr:city": "Daerah Istimewa Yogyakarta",
+        "addr:country": "ID",
+        "addr:district": "Bantul",
+        "addr:hamlet": "Ngestiharjo",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Soragan",
+        "addr:subdistrict": "Kasihan",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "floor_type": "keramik",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "roof:material": "Asbestos",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530064253,
+      "center": {
+        "lat": -7.8109871,
+        "lon": 110.4062247
+      },
+      "nodes": [
+        5148145599,
+        5148145598,
+        5148145597,
+        5148145596,
+        5148145599
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "6",
+        "name": "Toko Ika Moroseneng",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530293461,
+      "center": {
+        "lat": -7.9812347,
+        "lon": 110.2240568
+      },
+      "nodes": [
+        5149661603,
+        5149661616,
+        5149661615,
+        10770106081,
+        5149661603
+      ],
+      "tags": {
+        "building": "yes",
+        "changing_table": "no",
+        "name": "Cinta Damai",
+        "organic": "no",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530293715,
+      "center": {
+        "lat": -7.9811591,
+        "lon": 110.2244392
+      },
+      "nodes": [
+        5149662553,
+        5149662552,
+        5149662551,
+        5149662550,
+        5149662549,
+        5149662548,
+        5149662553
+      ],
+      "tags": {
+        "name": "Toko Adam",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530758156,
+      "center": {
+        "lat": -7.9837398,
+        "lon": 110.2862151
+      },
+      "nodes": [
+        5153209814,
+        5153209813,
+        5153209812,
+        5153209811,
+        5153209814
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Raffa X Store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530773679,
+      "center": {
+        "lat": -7.9920304,
+        "lon": 110.3016468
+      },
+      "nodes": [
+        5153347014,
+        5153347013,
+        5153347012,
+        5153347011,
+        5153347014
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "TB Berkah",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530810270,
+      "center": {
+        "lat": -7.9905443,
+        "lon": 110.296969
+      },
+      "nodes": [
+        5153617869,
+        5153617866,
+        5153617867,
+        5153617868,
+        5153617869
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Wahyuni Buruhan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530996229,
+      "center": {
+        "lat": -7.9810101,
+        "lon": 110.273488
+      },
+      "nodes": [
+        5155002017,
+        5155002014,
+        5155002015,
+        5155002016,
+        5155002017
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Adit Srigading",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531010547,
+      "center": {
+        "lat": -7.8218779,
+        "lon": 110.4164924
+      },
+      "nodes": [
+        5155109279,
+        5155109278,
+        5155109277,
+        5155109276,
+        5155109279
+      ],
+      "tags": {
+        "addr:housenumber": "23",
+        "building": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531012241,
+      "center": {
+        "lat": -7.9787376,
+        "lon": 110.2855009
+      },
+      "nodes": [
+        5155118678,
+        5155118675,
+        5155118676,
+        5155118677,
+        5155118678
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Raisha",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531012573,
+      "center": {
+        "lat": -7.9811706,
+        "lon": 110.2835781
+      },
+      "nodes": [
+        5155119652,
+        5155119649,
+        5155119650,
+        5155119651,
+        5155119652
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Tisha Olshop",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531012601,
+      "center": {
+        "lat": -7.9821254,
+        "lon": 110.2826888
+      },
+      "nodes": [
+        5155119864,
+        5155119861,
+        5155119862,
+        11006728883,
+        11006728884,
+        5155119863,
+        5155119864
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Amanah",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531012693,
+      "center": {
+        "lat": -7.9737503,
+        "lon": 110.2841108
+      },
+      "nodes": [
+        5155120832,
+        5155120829,
+        5155120830,
+        5155120831,
+        5155120832
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Tiara Indah",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 534570463,
+      "center": {
+        "lat": -7.8947996,
+        "lon": 110.3523194
+      },
+      "nodes": [
+        5183933148,
+        5183933147,
+        5183933146,
+        5183933145,
+        5183933148
+      ],
+      "tags": {
+        "branch": "Manding",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610478088,
+      "center": {
+        "lat": -7.8039809,
+        "lon": 110.4024287
+      },
+      "nodes": [
+        5781387705,
+        5781387704,
+        5781387696,
+        5781387697,
+        5781387695,
+        5781387705
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613644476,
+      "center": {
+        "lat": -7.8217073,
+        "lon": 110.4149684
+      },
+      "nodes": [
+        5805902465,
+        5805902464,
+        5805902463,
+        5805902462,
+        5805902465
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 790463734,
+      "center": {
+        "lat": -7.8216439,
+        "lon": 110.4151943
+      },
+      "nodes": [
+        7390028006,
+        7390028007,
+        7390028008,
+        7390028009,
+        7390028006
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797060948,
+      "center": {
+        "lat": -7.8223549,
+        "lon": 110.4147588
+      },
+      "nodes": [
+        7454501433,
+        7454501430,
+        7454501431,
+        7454501432,
+        7454501433
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Adelia",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797060954,
+      "center": {
+        "lat": -7.8231003,
+        "lon": 110.4145077
+      },
+      "nodes": [
+        7454501457,
+        7454501454,
+        7454501455,
+        7454501456,
+        7454501457
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Sakinah",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797061007,
+      "center": {
+        "lat": -7.8250022,
+        "lon": 110.4140663
+      },
+      "nodes": [
+        7454501727,
+        7454501726,
+        7454501725,
+        7454501724,
+        7454501727
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Pepak",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797061008,
+      "center": {
+        "lat": -7.825105,
+        "lon": 110.4140164
+      },
+      "nodes": [
+        7454501731,
+        7454501730,
+        7454501729,
+        7454501728,
+        7454501731
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Toko Legi",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974291251,
+      "center": {
+        "lat": -7.8126686,
+        "lon": 110.4023179
+      },
+      "nodes": [
+        9016719956,
+        9016719957,
+        9016719958,
+        9016719959,
+        9016719956
+      ],
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974385341,
+      "center": {
+        "lat": -7.7984359,
+        "lon": 110.4123036
+      },
+      "nodes": [
+        9017562221,
+        9017562222,
+        9017562223,
+        9017562224,
+        9017562221
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023108059,
+      "center": {
+        "lat": -7.8640879,
+        "lon": 110.3922234
+      },
+      "nodes": [
+        9435442034,
+        9435442031,
+        9435442032,
+        9435442033,
+        9435442034
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Pleret",
+        "addr:neighbourhood": "Padukuhan Jati",
+        "addr:province": "Daerah Istimewa Yogyakarta",
+        "addr:subdistrict": "Wonokromo",
+        "air_conditioning": "no",
+        "building": "yes",
+        "currency:IDR": "yes",
+        "name": "Toko Yumna",
+        "opening_hours": "Mo-Sa 06:30-21:30",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "convenience",
+        "toilets": "no"
+      }
+    }
+  ]
+}

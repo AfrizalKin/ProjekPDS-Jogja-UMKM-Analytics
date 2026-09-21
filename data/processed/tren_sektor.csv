@@ -1,0 +1,126 @@
+wilayah,wilayah_label,sektor_usaha,kbli,tahun,jumlah_usaha,pertumbuhan_tahunan_unit,pertumbuhan_tahunan_pct,google_trends_score
+bantul,Kabupaten Bantul,cafe,-,2019,340.0,,,
+bantul,Kabupaten Bantul,cafe,-,2020,330.0,-10.0,-2.94,
+bantul,Kabupaten Bantul,cafe,-,2021,360.0,30.0,9.09,41.65
+bantul,Kabupaten Bantul,cafe,-,2022,400.0,40.0,11.11,42.69
+bantul,Kabupaten Bantul,cafe,-,2023,450.0,50.0,12.5,40.74
+bantul,Kabupaten Bantul,convenience,-,2019,410.0,,,
+bantul,Kabupaten Bantul,convenience,-,2020,415.0,5.0,1.22,
+bantul,Kabupaten Bantul,convenience,-,2021,425.0,10.0,2.41,33.41
+bantul,Kabupaten Bantul,convenience,-,2022,440.0,15.0,3.53,35.27
+bantul,Kabupaten Bantul,convenience,-,2023,460.0,20.0,4.55,30.83
+bantul,Kabupaten Bantul,grocery,-,2019,2900.0,,,
+bantul,Kabupaten Bantul,grocery,-,2020,2890.0,-10.0,-0.34,
+bantul,Kabupaten Bantul,grocery,-,2021,2870.0,-20.0,-0.69,44.24
+bantul,Kabupaten Bantul,grocery,-,2022,2850.0,-20.0,-0.7,44.52
+bantul,Kabupaten Bantul,grocery,-,2023,2830.0,-20.0,-0.7,39.94
+bantul,Kabupaten Bantul,laundry,-,2019,280.0,,,
+bantul,Kabupaten Bantul,laundry,-,2020,270.0,-10.0,-3.57,
+bantul,Kabupaten Bantul,laundry,-,2021,280.0,10.0,3.7,38.82
+bantul,Kabupaten Bantul,laundry,-,2022,300.0,20.0,7.14,48.21
+bantul,Kabupaten Bantul,laundry,-,2023,320.0,20.0,6.67,44.62
+bantul,Kabupaten Bantul,restaurant,-,2019,1450.0,,,
+bantul,Kabupaten Bantul,restaurant,-,2020,1400.0,-50.0,-3.45,
+bantul,Kabupaten Bantul,restaurant,-,2021,1460.0,60.0,4.29,34.71
+bantul,Kabupaten Bantul,restaurant,-,2022,1540.0,80.0,5.48,36.56
+bantul,Kabupaten Bantul,restaurant,-,2023,1620.0,80.0,5.19,32.17
+gunungkidul,Kabupaten Gunungkidul,cafe,-,2019,130.0,,,
+gunungkidul,Kabupaten Gunungkidul,cafe,-,2020,125.0,-5.0,-3.85,
+gunungkidul,Kabupaten Gunungkidul,cafe,-,2021,140.0,15.0,12.0,41.65
+gunungkidul,Kabupaten Gunungkidul,cafe,-,2022,155.0,15.0,10.71,42.69
+gunungkidul,Kabupaten Gunungkidul,cafe,-,2023,175.0,20.0,12.9,40.74
+gunungkidul,Kabupaten Gunungkidul,convenience,-,2019,210.0,,,
+gunungkidul,Kabupaten Gunungkidul,convenience,-,2020,215.0,5.0,2.38,
+gunungkidul,Kabupaten Gunungkidul,convenience,-,2021,220.0,5.0,2.33,33.41
+gunungkidul,Kabupaten Gunungkidul,convenience,-,2022,230.0,10.0,4.55,35.27
+gunungkidul,Kabupaten Gunungkidul,convenience,-,2023,240.0,10.0,4.35,30.83
+gunungkidul,Kabupaten Gunungkidul,grocery,-,2019,2100.0,,,
+gunungkidul,Kabupaten Gunungkidul,grocery,-,2020,2090.0,-10.0,-0.48,
+gunungkidul,Kabupaten Gunungkidul,grocery,-,2021,2080.0,-10.0,-0.48,44.24
+gunungkidul,Kabupaten Gunungkidul,grocery,-,2022,2070.0,-10.0,-0.48,44.52
+gunungkidul,Kabupaten Gunungkidul,grocery,-,2023,2060.0,-10.0,-0.48,39.94
+gunungkidul,Kabupaten Gunungkidul,laundry,-,2019,90.0,,,
+gunungkidul,Kabupaten Gunungkidul,laundry,-,2020,85.0,-5.0,-5.56,
+gunungkidul,Kabupaten Gunungkidul,laundry,-,2021,92.0,7.0,8.24,38.82
+gunungkidul,Kabupaten Gunungkidul,laundry,-,2022,100.0,8.0,8.7,48.21
+gunungkidul,Kabupaten Gunungkidul,laundry,-,2023,110.0,10.0,10.0,44.62
+gunungkidul,Kabupaten Gunungkidul,restaurant,-,2019,790.0,,,
+gunungkidul,Kabupaten Gunungkidul,restaurant,-,2020,770.0,-20.0,-2.53,
+gunungkidul,Kabupaten Gunungkidul,restaurant,-,2021,800.0,30.0,3.9,34.71
+gunungkidul,Kabupaten Gunungkidul,restaurant,-,2022,840.0,40.0,5.0,36.56
+gunungkidul,Kabupaten Gunungkidul,restaurant,-,2023,890.0,50.0,5.95,32.17
+kota_yogyakarta,Kota Yogyakarta,cafe,-,2019,510.0,,,
+kota_yogyakarta,Kota Yogyakarta,cafe,-,2020,490.0,-20.0,-3.92,
+kota_yogyakarta,Kota Yogyakarta,cafe,-,2021,530.0,40.0,8.16,41.65
+kota_yogyakarta,Kota Yogyakarta,cafe,-,2022,590.0,60.0,11.32,42.69
+kota_yogyakarta,Kota Yogyakarta,cafe,-,2023,660.0,70.0,11.86,40.74
+kota_yogyakarta,Kota Yogyakarta,convenience,-,2019,320.0,,,
+kota_yogyakarta,Kota Yogyakarta,convenience,-,2020,325.0,5.0,1.56,
+kota_yogyakarta,Kota Yogyakarta,convenience,-,2021,330.0,5.0,1.54,33.41
+kota_yogyakarta,Kota Yogyakarta,convenience,-,2022,340.0,10.0,3.03,35.27
+kota_yogyakarta,Kota Yogyakarta,convenience,-,2023,355.0,15.0,4.41,30.83
+kota_yogyakarta,Kota Yogyakarta,grocery,-,2019,1850.0,,,
+kota_yogyakarta,Kota Yogyakarta,grocery,-,2020,1830.0,-20.0,-1.08,
+kota_yogyakarta,Kota Yogyakarta,grocery,-,2021,1810.0,-20.0,-1.09,44.24
+kota_yogyakarta,Kota Yogyakarta,grocery,-,2022,1800.0,-10.0,-0.55,44.52
+kota_yogyakarta,Kota Yogyakarta,grocery,-,2023,1790.0,-10.0,-0.56,39.94
+kota_yogyakarta,Kota Yogyakarta,laundry,-,2019,290.0,,,
+kota_yogyakarta,Kota Yogyakarta,laundry,-,2020,270.0,-20.0,-6.9,
+kota_yogyakarta,Kota Yogyakarta,laundry,-,2021,285.0,15.0,5.56,38.82
+kota_yogyakarta,Kota Yogyakarta,laundry,-,2022,310.0,25.0,8.77,48.21
+kota_yogyakarta,Kota Yogyakarta,laundry,-,2023,330.0,20.0,6.45,44.62
+kota_yogyakarta,Kota Yogyakarta,restaurant,-,2019,1240.0,,,
+kota_yogyakarta,Kota Yogyakarta,restaurant,-,2020,1180.0,-60.0,-4.84,
+kota_yogyakarta,Kota Yogyakarta,restaurant,-,2021,1210.0,30.0,2.54,34.71
+kota_yogyakarta,Kota Yogyakarta,restaurant,-,2022,1290.0,80.0,6.61,36.56
+kota_yogyakarta,Kota Yogyakarta,restaurant,-,2023,1380.0,90.0,6.98,32.17
+kulon_progo,Kabupaten Kulon Progo,cafe,-,2019,110.0,,,
+kulon_progo,Kabupaten Kulon Progo,cafe,-,2020,105.0,-5.0,-4.55,
+kulon_progo,Kabupaten Kulon Progo,cafe,-,2021,120.0,15.0,14.29,41.65
+kulon_progo,Kabupaten Kulon Progo,cafe,-,2022,135.0,15.0,12.5,42.69
+kulon_progo,Kabupaten Kulon Progo,cafe,-,2023,155.0,20.0,14.81,40.74
+kulon_progo,Kabupaten Kulon Progo,convenience,-,2019,190.0,,,
+kulon_progo,Kabupaten Kulon Progo,convenience,-,2020,195.0,5.0,2.63,
+kulon_progo,Kabupaten Kulon Progo,convenience,-,2021,200.0,5.0,2.56,33.41
+kulon_progo,Kabupaten Kulon Progo,convenience,-,2022,210.0,10.0,5.0,35.27
+kulon_progo,Kabupaten Kulon Progo,convenience,-,2023,220.0,10.0,4.76,30.83
+kulon_progo,Kabupaten Kulon Progo,grocery,-,2019,1750.0,,,
+kulon_progo,Kabupaten Kulon Progo,grocery,-,2020,1740.0,-10.0,-0.57,
+kulon_progo,Kabupaten Kulon Progo,grocery,-,2021,1730.0,-10.0,-0.57,44.24
+kulon_progo,Kabupaten Kulon Progo,grocery,-,2022,1720.0,-10.0,-0.58,44.52
+kulon_progo,Kabupaten Kulon Progo,grocery,-,2023,1710.0,-10.0,-0.58,39.94
+kulon_progo,Kabupaten Kulon Progo,laundry,-,2019,85.0,,,
+kulon_progo,Kabupaten Kulon Progo,laundry,-,2020,80.0,-5.0,-5.88,
+kulon_progo,Kabupaten Kulon Progo,laundry,-,2021,88.0,8.0,10.0,38.82
+kulon_progo,Kabupaten Kulon Progo,laundry,-,2022,95.0,7.0,7.95,48.21
+kulon_progo,Kabupaten Kulon Progo,laundry,-,2023,105.0,10.0,10.53,44.62
+kulon_progo,Kabupaten Kulon Progo,restaurant,-,2019,680.0,,,
+kulon_progo,Kabupaten Kulon Progo,restaurant,-,2020,660.0,-20.0,-2.94,
+kulon_progo,Kabupaten Kulon Progo,restaurant,-,2021,690.0,30.0,4.55,34.71
+kulon_progo,Kabupaten Kulon Progo,restaurant,-,2022,720.0,30.0,4.35,36.56
+kulon_progo,Kabupaten Kulon Progo,restaurant,-,2023,760.0,40.0,5.56,32.17
+sleman,Kabupaten Sleman,cafe,-,2019,880.0,,,
+sleman,Kabupaten Sleman,cafe,-,2020,860.0,-20.0,-2.27,
+sleman,Kabupaten Sleman,cafe,-,2021,920.0,60.0,6.98,41.65
+sleman,Kabupaten Sleman,cafe,-,2022,1020.0,100.0,10.87,42.69
+sleman,Kabupaten Sleman,cafe,-,2023,1150.0,130.0,12.75,40.74
+sleman,Kabupaten Sleman,convenience,-,2019,580.0,,,
+sleman,Kabupaten Sleman,convenience,-,2020,590.0,10.0,1.72,
+sleman,Kabupaten Sleman,convenience,-,2021,610.0,20.0,3.39,33.41
+sleman,Kabupaten Sleman,convenience,-,2022,635.0,25.0,4.1,35.27
+sleman,Kabupaten Sleman,convenience,-,2023,660.0,25.0,3.94,30.83
+sleman,Kabupaten Sleman,grocery,-,2019,3400.0,,,
+sleman,Kabupaten Sleman,grocery,-,2020,3380.0,-20.0,-0.59,
+sleman,Kabupaten Sleman,grocery,-,2021,3360.0,-20.0,-0.59,44.24
+sleman,Kabupaten Sleman,grocery,-,2022,3340.0,-20.0,-0.6,44.52
+sleman,Kabupaten Sleman,grocery,-,2023,3320.0,-20.0,-0.6,39.94
+sleman,Kabupaten Sleman,laundry,-,2019,620.0,,,
+sleman,Kabupaten Sleman,laundry,-,2020,590.0,-30.0,-4.84,
+sleman,Kabupaten Sleman,laundry,-,2021,615.0,25.0,4.24,38.82
+sleman,Kabupaten Sleman,laundry,-,2022,660.0,45.0,7.32,48.21
+sleman,Kabupaten Sleman,laundry,-,2023,710.0,50.0,7.58,44.62
+sleman,Kabupaten Sleman,restaurant,-,2019,2100.0,,,
+sleman,Kabupaten Sleman,restaurant,-,2020,2050.0,-50.0,-2.38,
+sleman,Kabupaten Sleman,restaurant,-,2021,2140.0,90.0,4.39,34.71
+sleman,Kabupaten Sleman,restaurant,-,2022,2290.0,150.0,7.01,36.56
+sleman,Kabupaten Sleman,restaurant,-,2023,2450.0,160.0,6.99,32.17

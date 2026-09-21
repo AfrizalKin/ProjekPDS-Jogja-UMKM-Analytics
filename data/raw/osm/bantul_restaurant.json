@@ -1,0 +1,2785 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-08T15:22:51Z",
+    "timestamp_areas_base": "2026-09-07T14:50:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2564024188,
+      "lat": -7.8172315,
+      "lon": 110.3510743,
+      "tags": {
+        "addr:city": "Bantul",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "Brongkos_dan_Teh Poci",
+        "name": "Angkringan Lik Min",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2992506474,
+      "lat": -7.7984745,
+      "lon": 110.4027756,
+      "tags": {
+        "addr:street": "Jl. Janti",
+        "amenity": "restaurant",
+        "name": "Gudeg Bu Tjitro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229588019,
+      "lat": -7.8273229,
+      "lon": 110.39433,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Omah Dhuwur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3345753943,
+      "lat": -7.7984747,
+      "lon": 110.4032706,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "soup",
+        "name": "Soto Pak Marto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3395893888,
+      "lat": -7.9263416,
+      "lon": 110.4102756,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bumi Langit",
+        "organic": "yes",
+        "phone": "+62 274 85 72 121",
+        "website": "http://www.bumilangit.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3451607266,
+      "lat": -7.8455649,
+      "lon": 110.4029203,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Monggo Resto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3521357133,
+      "lat": -7.9931073,
+      "lon": 110.3180744,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kedai Wedangan Watu Lumbung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3562538993,
+      "lat": -7.9322469,
+      "lon": 110.3674726,
+      "tags": {
+        "addr:street": "Jayan",
+        "amenity": "restaurant",
+        "cuisine": "Mie_Ayam",
+        "name": "Mie Ayam Joglo",
+        "smoking": "separated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3562538994,
+      "lat": -7.9342156,
+      "lon": 110.3662702,
+      "tags": {
+        "addr:street": "Jayan",
+        "amenity": "restaurant",
+        "cuisine": "Mie_Ayam",
+        "name": "Village Inn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3562544493,
+      "lat": -7.9340697,
+      "lon": 110.3663825,
+      "tags": {
+        "addr:street": "bendungan",
+        "amenity": "restaurant",
+        "cuisine": "mie_ayam",
+        "name": "Mie Ayam Bendungan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3584972496,
+      "lat": -7.8290862,
+      "lon": 110.3421653,
+      "tags": {
+        "addr:street": "Jl. Bibis",
+        "amenity": "restaurant",
+        "cuisine": "Javanese",
+        "name": "Bakmi Jawa Sunar",
+        "opening_hours": "17:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3612192886,
+      "lat": -7.8374343,
+      "lon": 110.3399174,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Warung Mangut Lele Bedog"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3612330468,
+      "lat": -7.8332498,
+      "lon": 110.3379887,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakmi Pele"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3616855011,
+      "lat": -7.8240689,
+      "lon": 110.3336479,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3628557597,
+      "lat": -7.8392357,
+      "lon": 110.3341516,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Goreng Mbah Cemplung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630321046,
+      "lat": -7.8200923,
+      "lon": 110.3480394,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Lenthok"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630321047,
+      "lat": -7.8189323,
+      "lon": 110.3480923,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Pagi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630324585,
+      "lat": -7.8236527,
+      "lon": 110.3468767,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Yanti Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630324588,
+      "lat": -7.8249576,
+      "lon": 110.3451123,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sate_kambing",
+        "name": "Sate Ngasem"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630767220,
+      "lat": -7.8858027,
+      "lon": 110.3306568,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Gule Ayam Jago"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630767229,
+      "lat": -7.885621,
+      "lon": 110.3301743,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Sapi Sumilir"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3632326097,
+      "lat": -7.8467364,
+      "lon": 110.3444998,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mie Ayam Kasongan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3636083365,
+      "lat": -7.8385386,
+      "lon": 110.4112615,
+      "tags": {
+        "addr:street": "Jl. Pleret",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "regional",
+        "description": "Masakan Indonesia",
+        "name": "Menco",
+        "phone": "+628562553838",
+        "smoking": "separated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3636307401,
+      "lat": -7.8125009,
+      "lon": 110.4179944,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:street": "jl. Ahmad Wahid",
+        "amenity": "restaurant",
+        "name": "Pemancingan Mataram"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638415612,
+      "lat": -7.828129,
+      "lon": 110.447018,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Padang MM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638503719,
+      "lat": -7.8092399,
+      "lon": 110.4024236,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Goreng Suharti"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638575091,
+      "lat": -7.870795,
+      "lon": 110.3919484,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sate Klatak Pak Bari"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638796125,
+      "lat": -7.9245332,
+      "lon": 110.3736868,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lotek & Kupat Tahu Sor Talok"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3661097137,
+      "lat": -7.8481094,
+      "lon": 110.3526948,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rumah Garuda"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4303544189,
+      "lat": -7.800588,
+      "lon": 110.337839,
+      "tags": {
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "name": "Sate Klathak Pak Yakut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4470033192,
+      "lat": -7.8712496,
+      "lon": 110.3872742,
+      "tags": {
+        "addr:street": "Jalan Imogiri Timur",
+        "amenity": "restaurant",
+        "name": "Sate Klathak Pak Pong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4472559791,
+      "lat": -7.8714194,
+      "lon": 110.3874765,
+      "tags": {
+        "addr:street": "Jalan Imogiri Timur KM. 10 Wonokromo",
+        "amenity": "restaurant",
+        "name": "Sate Klathak Pak Pong",
+        "name:en": "Sate Klathak Pak Pong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4492086691,
+      "lat": -7.8541753,
+      "lon": 110.3835333,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mbok mampir aneka menu belut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4589191249,
+      "lat": -7.798407,
+      "lon": 110.4025287,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4590622327,
+      "lat": -7.8418347,
+      "lon": 110.3288364,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "soto bu inem"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4590920996,
+      "lat": -7.8180882,
+      "lon": 110.3483502,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "warung bakmi jawa enak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592734533,
+      "lat": -7.8288129,
+      "lon": 110.320791,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "gudeg bu tatik"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4831903517,
+      "lat": -7.8951867,
+      "lon": 110.352765,
+      "tags": {
+        "addr:city": "Bantul",
+        "amenity": "restaurant",
+        "cuisine": "Bakso",
+        "name": "Bakso Pak Tupar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4831903832,
+      "lat": -7.9272228,
+      "lon": 110.3208729,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "bakso",
+        "name": "Bakso Jaka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4843543525,
+      "lat": -8.0230076,
+      "lon": 110.33431,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rumah Makan 'Ampera' Nasi Padang Asli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4843552722,
+      "lat": -8.0178146,
+      "lon": 110.325814,
+      "tags": {
+        "addr:street": "Jl. Parangtritis",
+        "amenity": "restaurant",
+        "name": "Virgo Resto Bambu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4844444822,
+      "lat": -8.0175814,
+      "lon": 110.3253741,
+      "tags": {
+        "addr:street": "Jl. Parangtritis",
+        "amenity": "restaurant",
+        "name": "Virgo Resto Bambu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5289054923,
+      "lat": -7.8140138,
+      "lon": 110.2590265,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warung Bakso Pak Ambar",
+        "name:en": "Warung Bakso Pak Ambar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5867794185,
+      "lat": -7.8361159,
+      "lon": 110.3400082,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:housenumber": "8",
+        "addr:street": "Jalan Plataran",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/simpleplantvegankitchen",
+        "contact:phone": "+62 813 27395594",
+        "cuisine": "indonesian;tea;burger;pasta;coffee_shop",
+        "diet:vegan": "only",
+        "name": "Simple Plant vegetarian resto & art space",
+        "opening_hours": "Tu-Su 11:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6021058786,
+      "lat": -8.0143042,
+      "lon": 110.3207125,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tirto Segoro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259023999,
+      "lat": -8.0272029,
+      "lon": 110.3376396,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Cafe de Paris",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6266740015,
+      "lat": -7.8129767,
+      "lon": 110.4154887,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Yogyakarta Bray Batagor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6328803094,
+      "lat": -7.8431035,
+      "lon": 110.3860237,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access:fee": "yes",
+        "name": "Warung kopi koboi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6399954954,
+      "lat": -7.7919019,
+      "lon": 110.4029148,
+      "tags": {
+        "addr:housenumber": "125",
+        "addr:street": "Jl. Turonggo",
+        "amenity": "restaurant",
+        "diet:vegan": "only",
+        "name": "Vege Jawi",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "phone": "+62 812 34600089",
+        "website": "https://grha-vege-jawi.business.site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6415465392,
+      "lat": -7.8108466,
+      "lon": 110.4054965,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sego Pecel Madiun Mergoroso",
+        "opening_hours": "Mo-Su 06:00-15:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6709234685,
+      "lat": -7.8281487,
+      "lon": 110.3656033,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Lapangan Mini",
+        "opening_hours": "Mo-Su 15:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6984552213,
+      "lat": -7.8170311,
+      "lon": 110.3470344,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:postcode": "55186",
+        "addr:street": "Jalan Jomegatan",
+        "amenity": "restaurant",
+        "cuisine": "indonesian;regional;coffee_shop;local",
+        "internet_access": "wlan",
+        "name": "Pelataran Puan Kopi & Tumbuh",
+        "opening_hours": "Su 13:00-00:00; Mo-Th, Sa 12:00-00:00; Fr 13:30-00:00",
+        "phone": "+62 852 12214141"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097513471,
+      "lat": -7.8113108,
+      "lon": 110.3404805,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Salad Moi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097546659,
+      "lat": -7.8005668,
+      "lon": 110.3463843,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Waroeng Steak & Shake",
+        "opening_hours": "Sa-Th 11:00-21:00; Fr 13:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7162338833,
+      "lat": -7.8107398,
+      "lon": 110.4081476,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Goeboeg Resto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8070548536,
+      "lat": -7.9300695,
+      "lon": 110.430569,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881122,
+      "lat": -7.8065801,
+      "lon": 110.3279731,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "drinks;coffee",
+        "name": "Sugar Boba UMY",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881123,
+      "lat": -7.8065969,
+      "lon": 110.3279054,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Griya Bakpia",
+        "opening_hours": "Mo-Th 08:00-20:00, Fr-Su 08:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881124,
+      "lat": -7.8072021,
+      "lon": 110.3280062,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warmindo Motekar 8",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881125,
+      "lat": -7.8074972,
+      "lon": 110.3280024,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Say Story Umy",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881126,
+      "lat": -7.8078743,
+      "lon": 110.3280253,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Nasi Goreng Pak Yono",
+        "opening_hours": "Mo-Su 19:30-04:00",
+        "phone": "+6289603082662"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9442101297,
+      "lat": -7.8550364,
+      "lon": 110.3550446,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Kopi Nuri"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9515922832,
+      "lat": -7.8459777,
+      "lon": 110.3380415,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Kedai Nyah Tan Li",
+        "opening_hours": "Mo-Su,PH 10:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9690688578,
+      "lat": -7.8275133,
+      "lon": 110.4058756,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:street": "Jalan Garuda",
+        "amenity": "restaurant",
+        "name": "Warung Bu Baha"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751900390,
+      "lat": -7.8384309,
+      "lon": 110.4860725,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lesehan Twin Bridge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751906942,
+      "lat": -7.8360015,
+      "lon": 110.4854952,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakmi Jawa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751912840,
+      "lat": -7.8439756,
+      "lon": 110.4811177,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sido Kumpul"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751915128,
+      "lat": -7.8363218,
+      "lon": 110.4768632,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakso Mie Ayam"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751920534,
+      "lat": -7.8371961,
+      "lon": 110.4852375,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751922160,
+      "lat": -7.8451341,
+      "lon": 110.480247,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung 7engger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9751923159,
+      "lat": -7.8376378,
+      "lon": 110.480974,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Layana Culinary & Spice"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9800621229,
+      "lat": -7.8173668,
+      "lon": 110.3189145,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Warung Soto Cerak Ati"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811778378,
+      "lat": -7.8206634,
+      "lon": 110.4208191,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Ayam Pak Min Klaten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811825264,
+      "lat": -7.8230117,
+      "lon": 110.4254869,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakso Gajah Mungkur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811833480,
+      "lat": -7.8237345,
+      "lon": 110.4277367,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sate Kambing Mudo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811836029,
+      "lat": -7.8231413,
+      "lon": 110.4255801,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Goreng Bu Ranti"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811840484,
+      "lat": -7.8197843,
+      "lon": 110.4190276,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Joglo Khasanah"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811849021,
+      "lat": -7.8760519,
+      "lon": 110.3355382,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chicken Crush"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811850750,
+      "lat": -7.8200111,
+      "lon": 110.4155094,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung Mie Ayam & Bakso Pak Paijo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811851213,
+      "lat": -7.8275903,
+      "lon": 110.4133173,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sate Kambing Pak Gandung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811858602,
+      "lat": -7.9054148,
+      "lon": 110.3207094,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Pagi Palibapang",
+        "opening_hours": "Mo-Su 06:00-09:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811868477,
+      "lat": -7.8512518,
+      "lon": 110.3426746,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rumah Makan Padang Murah"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811868478,
+      "lat": -7.8669325,
+      "lon": 110.3384774,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Daging Sapi Pak Man"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811870015,
+      "lat": -7.8283086,
+      "lon": 110.3542059,
+      "tags": {
+        "addr:district": "Yogyakarta",
+        "addr:housename": "Waroeng Steak & shake",
+        "addr:neighbourhood": "simpang dongkelan",
+        "addr:street": "Jalan Bantul",
+        "addr:subdistrict": "Bantul",
+        "amenity": "restaurant",
+        "cuisine": "steak_house;fine_dining;grill",
+        "diet:halal": "yes",
+        "diet:healthy": "yes",
+        "diet:meat": "yes",
+        "diet:raw": "yes",
+        "name": "Waroeng Steak & Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+6289738623628328",
+        "website": "https:/steakandshake"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9854594672,
+      "lat": -7.8006662,
+      "lon": 110.3462144,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warung Soto Kadipiro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9914318409,
+      "lat": -7.8046532,
+      "lon": 110.4024199,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mie Ayam Bakso Bima"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9980287986,
+      "lat": -7.8279081,
+      "lon": 110.3674751,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tongseng Dan Daging Gongso Bu Amirah"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10079779241,
+      "lat": -7.9374369,
+      "lon": 110.3597352,
+      "tags": {
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "contact:phone": "+62 821-3600-0185",
+        "cuisine": "javanese",
+        "highchair": "no",
+        "kids_area": "yes",
+        "kids_area:outdoor": "yes",
+        "name": "Kopi Klothok Paris",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "outdoor_seating": "yes",
+        "reservation": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:wheelchair": "limited",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10086971206,
+      "lat": -7.8431978,
+      "lon": 110.3050464,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:neighbourhood": "Bangunjiwo",
+        "addr:postcode": "55184",
+        "addr:state": "Yogyakarta",
+        "addr:street": "Gang Mejing",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "indonesian, Italian;pizza;ice_cream",
+        "diet:halal": "yes",
+        "diet:meat": "yes",
+        "diet:mediterranean": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "lotusmio10@gmail.com",
+        "highchair": "yes",
+        "image": "https://www.instagram.com/p/Ci7O_0BLSwP/?utm_source=ig_web_copy_link",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lotus Mio Bangunjiwo",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "+62 877-2660-4177",
+        "reservation": "recommended",
+        "smoking": "separated",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10180094116,
+      "lat": -7.8536958,
+      "lon": 110.3142778,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Kopi Randu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10193309171,
+      "lat": -7.9044614,
+      "lon": 110.3328121,
+      "tags": {
+        "addr:street": "Jalan Sultan Agung",
+        "amenity": "restaurant",
+        "name": "Warung Bakmi Pak Kentung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10195163856,
+      "lat": -7.9046998,
+      "lon": 110.3314025,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung Soto Bu \"Dhe\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 10310581409,
+      "lat": -7.9289172,
+      "lon": 110.3268955,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Joeragan Bakso"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10310589581,
+      "lat": -7.9309457,
+      "lon": 110.3166562,
+      "tags": {
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "contact:instagram": "pawonmbahpoer",
+        "contact:whatsapp": "+62 812-2823-6788",
+        "cuisine": "javanese",
+        "highchair": "no",
+        "internet_access": "no",
+        "kids_area": "yes",
+        "kids_area:outdoor": "yes",
+        "name": "Pawon Mbah Poer",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+62 812-2823-6788",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "limited",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10310689025,
+      "lat": -7.930859,
+      "lon": 110.3167395,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Omah Tiwan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10775632481,
+      "lat": -7.9321441,
+      "lon": 110.2651208,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mutiara Minang",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11048033106,
+      "lat": -7.8359289,
+      "lon": 110.3620125,
+      "tags": {
+        "addr:housenumber": "93",
+        "addr:street": "Jalan Jogja Ringroad Selatan",
+        "alt_name": "Kampung Mataraman",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "contact:instagram": "kampoengmataraman",
+        "contact:tiktok": "kampoengmataraman",
+        "contact:whatsapp": "+62 813-8644-0140",
+        "cuisine": "indonesian",
+        "name": "Kampoeng Mataraman",
+        "opening_hours": "Tu-Su 22:00-10:00",
+        "outdoor_seating": "yes",
+        "phone": "+62 813-8644-0140",
+        "reservation": "yes",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11416411347,
+      "lat": -7.8219374,
+      "lon": 110.3473846,
+      "tags": {
+        "addr:housenumber": "100",
+        "addr:street": "Jalan Bugisan Selatan",
+        "amenity": "restaurant",
+        "email": "durianbaksogoda@gmail.com",
+        "name": "Bakso & Durian Goda",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11496076893,
+      "lat": -7.8487276,
+      "lon": 110.343601,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Rocket Chicken Niten Kasongan",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554875567,
+      "lat": -7.8202952,
+      "lon": 110.2412568,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "La Li Sa Farmer's Village"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11655481089,
+      "lat": -7.8413886,
+      "lon": 110.3567412,
+      "tags": {
+        "addr:city": "Kabupaten Bantul",
+        "addr:postcode": "55188",
+        "addr:street": "Jl. KH. Ali Maksum RT 06, Pandes, Panggungharjo, Kec. Sewon",
+        "amenity": "restaurant",
+        "cuisine": "chicken;indonesian",
+        "name": "Doyan Ayam Sewon, Yogyakarta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11977667526,
+      "lat": -7.981143,
+      "lon": 110.2236737,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "BAKSO (bantu ulas digoogle map)",
+        "name": "Mie Ayam Mas Huda",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078403962,
+      "lat": -7.8436115,
+      "lon": 110.3144915,
+      "tags": {
+        "addr:street": "Jalan Bibis Raya",
+        "amenity": "restaurant",
+        "name": "Bakso & Mie Ayam Mo-Bal Wonogiri"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078482210,
+      "lat": -7.8436115,
+      "lon": 110.3144915,
+      "tags": {
+        "addr:street": "Jalan Bibis Raya",
+        "amenity": "restaurant",
+        "name": "Bakso & Mie Ayam Mo-Bal Wonogiri"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12476174707,
+      "lat": -7.8148015,
+      "lon": 110.3233927,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Tamantirto",
+        "addr:housename": "PREKSU UMY",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Rajawali",
+        "addr:subdistrict": "Ngebel",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "diet:halal": "yes",
+        "name": "PREKSU UMY",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583035075,
+      "lat": -7.8294869,
+      "lon": 110.3801922,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "arab",
+        "name": "Nasi Kuning Kanda"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583035097,
+      "lat": -7.829924,
+      "lon": 110.3802813,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Manoban"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583035098,
+      "lat": -7.830277,
+      "lon": 110.3803432,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Seblak Prasmanan Bariklana"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583035099,
+      "lat": -7.8304174,
+      "lon": 110.3803723,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sate Ayam Madura Cak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12583035100,
+      "lat": -7.8301948,
+      "lon": 110.3801565,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Om Joy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12630051330,
+      "lat": -7.8402913,
+      "lon": 110.2922891,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Jiwajawi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12838647909,
+      "lat": -7.8714433,
+      "lon": 110.3874765,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sate Klathak Pak Pong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12850076636,
+      "lat": -7.873704,
+      "lon": 110.3450062,
+      "tags": {
+        "addr:housename": "Endul",
+        "addr:unit": "Seblak",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "diet:halal": "yes",
+        "name": "Seblak Endul"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12854814275,
+      "lat": -7.8788233,
+      "lon": 110.331268,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "diet:halal": "yes",
+        "name": "Seblak PAW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13140221101,
+      "lat": -7.8714426,
+      "lon": 110.3463227,
+      "tags": {
+        "addr:postcode": "55185",
+        "addr:street": "Abdullah syahid",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Waroeng Omah Sawah",
+        "opening_hours": "Mo-Su 08:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13565871196,
+      "lat": -8.0023684,
+      "lon": 110.3285746,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13574830501,
+      "lat": -7.8424088,
+      "lon": 110.3374764,
+      "tags": {
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Tiryobangunjiwo",
+        "amenity": "restaurant",
+        "check_date": "2026-02-18",
+        "check_date:opening_hours": "2026-02-18",
+        "contact:instagram": "canditirtoraharjo",
+        "name": "Candi Tirto Raharjo",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13644551301,
+      "lat": -7.8026224,
+      "lon": 110.4145397,
+      "tags": {
+        "addr:street": "Jalan Wonocatur",
+        "amenity": "restaurant",
+        "check_date": "2026-03-13",
+        "check_date:opening_hours": "2026-03-13",
+        "cuisine": "indonesian",
+        "name": "Bakso Dawet Ringin Pak Bardi Jogja",
+        "opening_hours": "Mo-Su 10:30-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13797623341,
+      "lat": -7.9073533,
+      "lon": 110.3436071,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakso Pratama"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13847755025,
+      "lat": -7.8114727,
+      "lon": 110.3280642,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "diet:halal": "yes",
+        "name": "Nasi Goreng Athaya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13868283670,
+      "lat": -7.8466066,
+      "lon": 110.3561643,
+      "tags": {
+        "addr:city": "Sewon, Bantul",
+        "addr:district": "Panggungharjo",
+        "addr:housename": "Angkringan",
+        "addr:housenumber": "6",
+        "addr:neighbourhood": "0",
+        "addr:postcode": "55188",
+        "addr:province": "Yogyakarta",
+        "addr:street": "Jalan Kyai Haji Ali Maksum",
+        "addr:subdistrict": "Prancak Glondong",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "diet:halal": "yes",
+        "name": "Angkringan Reeneo",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13868283675,
+      "lat": -7.8467384,
+      "lon": 110.3560633,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13868283676,
+      "lat": -7.8469988,
+      "lon": 110.3560547,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13868283678,
+      "lat": -7.8462226,
+      "lon": 110.3561067,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13868283679,
+      "lat": -7.8461238,
+      "lon": 110.3561174,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warmindo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14045790101,
+      "lat": -7.8142057,
+      "lon": 110.321045,
+      "tags": {
+        "addr:street": "Jalan Rajawali",
+        "amenity": "restaurant",
+        "contact:instagram": "ayambakarmasjaya",
+        "cuisine": "chicken",
+        "email": "info.ayambakarmasjaya@gmail.com",
+        "name": "Ayam Bakar Mas Jaya",
+        "opening_hours": "Mo-Sa 15:00-22:00",
+        "phone": "+62 818 0906 7922"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048247427,
+      "lat": -7.8141827,
+      "lon": 110.3209295,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Nasi Goreng Mas Rifan",
+        "opening_hours": "Mo-Su 17:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048257670,
+      "lat": -7.8143167,
+      "lon": 110.3210904,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Goreng Pak Sip UMY",
+        "opening_hours": "Sa-Th 11:00-22:00; Fr 12:30-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048269868,
+      "lat": -7.8143551,
+      "lon": 110.3213888,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Uni Ita",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048302102,
+      "lat": -7.8143172,
+      "lon": 110.3215175,
+      "tags": {
+        "addr:street": "Jalan Rajawali",
+        "amenity": "restaurant",
+        "cuisine": "chicken;friture;indonesian",
+        "name": "Warmindo Raja Vitamin 1",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048930647,
+      "lat": -7.8142908,
+      "lon": 110.3209363,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bubur Ayam Khas Jakarta Spesial Mas Coboy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048949067,
+      "lat": -7.8141835,
+      "lon": 110.3202498,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Geprekin Aja UMY",
+        "opening_hours": "Mo-Su 06:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048971992,
+      "lat": -7.8147542,
+      "lon": 110.3208193,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kedai Aduhai",
+        "opening_hours": "Mo-Sa 07:00-15:00; Su,PH off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048980538,
+      "lat": -7.8146138,
+      "lon": 110.3207347,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warmindo Burjonya Babe 03"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14048995634,
+      "lat": -7.8141705,
+      "lon": 110.3201361,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Goreng Noosantara",
+        "opening_hours": "Mo-Su 08:00-22:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14049006534,
+      "lat": -7.8141772,
+      "lon": 110.3201805,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warmindo Kuda Mandiri"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14118902701,
+      "lat": -7.7925405,
+      "lon": 110.4014148,
+      "tags": {
+        "addr:street": "Jalan Sorowajan",
+        "amenity": "restaurant",
+        "name": "Masakan Khas Bali Bu Ayu",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240361025,
+      "center": {
+        "lat": -7.8109389,
+        "lon": 110.4053438
+      },
+      "nodes": [
+        2481054868,
+        2481054870,
+        2481054871,
+        2481054869,
+        2481054868
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "5",
+        "description": "bangunan",
+        "name": "Sate Kambing Pak Tomek"
+      }
+    },
+    {
+      "type": "way",
+      "id": 249850669,
+      "center": {
+        "lat": -7.8166907,
+        "lon": 110.3514619
+      },
+      "nodes": [
+        2564017154,
+        2564017155,
+        2564017156,
+        2564017157,
+        2564017158,
+        2564017159,
+        2564017160,
+        2564017161,
+        2564017162,
+        2564017163,
+        2564017164,
+        2564017165,
+        2564017168,
+        2564017169,
+        2564017170,
+        2564017171,
+        2564017172,
+        2564017154
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:housename": "Gumuk Indah",
+        "amenity": "restaurant",
+        "capacity": "100",
+        "cuisine": "Masakan_Ikan_Air Tawar",
+        "name": "Arum Mina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 347405076,
+      "center": {
+        "lat": -7.8875699,
+        "lon": 110.3483557
+      },
+      "nodes": [
+        3537330493,
+        3537330494,
+        3537330495,
+        3537330496,
+        3537330493
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakmi Mbah Mo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 463891687,
+      "center": {
+        "lat": -7.8316624,
+        "lon": 110.4261414
+      },
+      "nodes": [
+        4590938869,
+        4590938870,
+        4590938871,
+        4590938872,
+        4590938869
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520699366,
+      "center": {
+        "lat": -7.8443803,
+        "lon": 110.3623116
+      },
+      "nodes": [
+        5074619677,
+        5074619678,
+        5074619679,
+        5074619680,
+        5074619677
+      ],
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:street": "Jalan Parangtritis",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Piramida"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529865160,
+      "center": {
+        "lat": -7.8135684,
+        "lon": 110.3433304
+      },
+      "nodes": [
+        5146627743,
+        5146627740,
+        5146627741,
+        5146627742,
+        5146627743
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Bakmi Jawa Mbak Indri"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529865164,
+      "center": {
+        "lat": -7.814402,
+        "lon": 110.3431576
+      },
+      "nodes": [
+        5146627747,
+        5146627746,
+        5146627745,
+        5146627744,
+        5146627747
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Kita"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529865168,
+      "center": {
+        "lat": -7.8138309,
+        "lon": 110.343182
+      },
+      "nodes": [
+        5146627751,
+        5146627750,
+        5146627749,
+        5146627748,
+        5146627751
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Bakpia Patuk 453"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884133,
+      "center": {
+        "lat": -7.8125948,
+        "lon": 110.343187
+      },
+      "nodes": [
+        5146743187,
+        5146743189,
+        5146743188,
+        5146743186,
+        5146743190,
+        5146743193,
+        5146743192,
+        5146743191,
+        5146743187
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Pondok Lesehan Bu Wiyogno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884134,
+      "center": {
+        "lat": -7.8120436,
+        "lon": 110.3434422
+      },
+      "nodes": [
+        5146743197,
+        5146743196,
+        5146743195,
+        5146743194,
+        5146743197
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Soto Sapi Pak Pur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884135,
+      "center": {
+        "lat": -7.812706,
+        "lon": 110.3431623
+      },
+      "nodes": [
+        5146743201,
+        5146743200,
+        5146743199,
+        5146743198,
+        5146743201
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Kebon Nitiprayan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884136,
+      "center": {
+        "lat": -7.8137827,
+        "lon": 110.3443669
+      },
+      "nodes": [
+        5146743205,
+        5146743204,
+        5146743203,
+        5146743202,
+        5781309822,
+        5781309821,
+        5781309820,
+        5146743205
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Makan Bu Sarinem"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530064193,
+      "center": {
+        "lat": -7.8108242,
+        "lon": 110.4030192
+      },
+      "nodes": [
+        5148145539,
+        5148145540,
+        5148145537,
+        5148145538,
+        5148145539
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tin",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "5",
+        "name": "Tetep Demen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530064196,
+      "center": {
+        "lat": -7.8108237,
+        "lon": 110.4030494
+      },
+      "nodes": [
+        5148145541,
+        5148145542,
+        5148145540,
+        5148145539,
+        5148145541
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tin",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "4",
+        "name": "Lotek / Kupat Tahu Bu Giyanti"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530309305,
+      "center": {
+        "lat": -7.8106797,
+        "lon": 110.4044923
+      },
+      "nodes": [
+        5149787530,
+        5149787529,
+        5149787528,
+        5149787527,
+        5149787530
+      ],
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Kota Yogyakarta, Daerah Istimewa Yogyakarta",
+        "amenity": "restaurant",
+        "building": "restaurant",
+        "building:levels": "1",
+        "building:roof": "tin",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "5",
+        "name": "Burjo Kenangan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530651266,
+      "center": {
+        "lat": -7.9956447,
+        "lon": 110.2955573
+      },
+      "nodes": [
+        5152459254,
+        5152459253,
+        5152459252,
+        5152459251,
+        5152459254
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "angkringan siBaxpo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530651272,
+      "center": {
+        "lat": -7.9978259,
+        "lon": 110.2921948
+      },
+      "nodes": [
+        5152459278,
+        5152459277,
+        5152459276,
+        5152459275,
+        5152459278
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "angkringan mas kipli"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659047,
+      "center": {
+        "lat": -7.9637342,
+        "lon": 110.2719917
+      },
+      "nodes": [
+        5152518298,
+        5152518297,
+        5152518296,
+        5152518295,
+        5152518298
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakmi Jawa Pak Ribut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659363,
+      "center": {
+        "lat": -7.9674926,
+        "lon": 110.2715432
+      },
+      "nodes": [
+        5152519414,
+        5152519413,
+        5152519412,
+        5152519411,
+        5152519414
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Nata De Coco Bp.Sudjadjo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659400,
+      "center": {
+        "lat": -7.9688876,
+        "lon": 110.2747687
+      },
+      "nodes": [
+        5152519562,
+        5152519559,
+        5152519560,
+        5152519561,
+        5152519562
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Omah Adem Mbak Tini"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659498,
+      "center": {
+        "lat": -7.9689076,
+        "lon": 110.2745416
+      },
+      "nodes": [
+        5152520146,
+        5152520143,
+        5152520144,
+        5152520145,
+        5152520146
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warung Makan Mba Sari"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659526,
+      "center": {
+        "lat": -7.9689585,
+        "lon": 110.2736711
+      },
+      "nodes": [
+        5152520354,
+        5152520353,
+        5152520352,
+        5152520351,
+        5152520354
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mi Ayam \"Tan Genggong\""
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659695,
+      "center": {
+        "lat": -7.9713742,
+        "lon": 110.2715108
+      },
+      "nodes": [
+        5152521198,
+        5152521197,
+        5152521196,
+        5152521195,
+        5152521198
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Baksi Mini Mansuri"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530659798,
+      "center": {
+        "lat": -7.9702028,
+        "lon": 110.2761402
+      },
+      "nodes": [
+        5152521598,
+        5152521597,
+        5152521596,
+        5152521595,
+        5152521598
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Restoran Amnas Wedding"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530773637,
+      "center": {
+        "lat": -7.9917432,
+        "lon": 110.2998966
+      },
+      "nodes": [
+        5153346846,
+        5153346843,
+        5153346844,
+        5153346845,
+        5153346846
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Merapi Bakso dan Mi ayam"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530773665,
+      "center": {
+        "lat": -7.9919248,
+        "lon": 110.2999261
+      },
+      "nodes": [
+        5153346958,
+        5153346955,
+        5153346956,
+        5153346957,
+        5153346958
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Angkringan Nur Jithenx"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530773844,
+      "center": {
+        "lat": -7.9920351,
+        "lon": 110.2986125
+      },
+      "nodes": [
+        5153347766,
+        5153347765,
+        5153347764,
+        5153347763,
+        5153347766
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Mie Ayam Reza Basser"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530810337,
+      "center": {
+        "lat": -7.9920158,
+        "lon": 110.2969053
+      },
+      "nodes": [
+        5153618137,
+        5153618134,
+        5153618135,
+        5153618136,
+        5153618137
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Mi ayam Bedes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530810496,
+      "center": {
+        "lat": -7.9919966,
+        "lon": 110.2973921
+      },
+      "nodes": [
+        5153618749,
+        5153618748,
+        5153618747,
+        5153618746,
+        5153618749
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warung Makan Prapatan Buruhan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530961956,
+      "center": {
+        "lat": -7.9427337,
+        "lon": 110.332645
+      },
+      "nodes": [
+        5154746094,
+        5154746093,
+        5154746092,
+        5154746091,
+        5154746094
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Rumah Makan Pavajo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530961958,
+      "center": {
+        "lat": -7.9425461,
+        "lon": 110.3328304
+      },
+      "nodes": [
+        5154746098,
+        5154746097,
+        5154746096,
+        5154746095,
+        5154746098
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Rumah Makan Pavajo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530961961,
+      "center": {
+        "lat": -7.9424215,
+        "lon": 110.3329549
+      },
+      "nodes": [
+        5154746102,
+        5154746101,
+        5154746100,
+        5154746099,
+        5154746102
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Rumah Makan Pavajo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531013684,
+      "center": {
+        "lat": -7.8137246,
+        "lon": 110.3442287
+      },
+      "nodes": [
+        5155127883,
+        5155127880,
+        5155127881,
+        5155127882,
+        5155127883
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "warung makan bu Sarinem"
+      }
+    },
+    {
+      "type": "way",
+      "id": 535235592,
+      "center": {
+        "lat": -7.9050375,
+        "lon": 110.332904
+      },
+      "nodes": [
+        5188524759,
+        5188524758,
+        5188524757,
+        5188524756,
+        5188524759
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Mie Ayam Dunia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610474009,
+      "center": {
+        "lat": -7.8129158,
+        "lon": 110.343438
+      },
+      "nodes": [
+        5781359763,
+        5781359762,
+        5781359761,
+        5781359760,
+        5781359763
+      ],
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Bu Pon"
+      }
+    },
+    {
+      "type": "way",
+      "id": 614626831,
+      "center": {
+        "lat": -7.9798883,
+        "lon": 110.3168405
+      },
+      "nodes": [
+        5813732053,
+        5813728152,
+        5813728151,
+        5813728150,
+        5813732053
+      ],
+      "tags": {
+        "addr:full": "Jalan Parangtritis KM.22",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Sate Kambing Yu Yah"
+      }
+    },
+    {
+      "type": "way",
+      "id": 668606146,
+      "center": {
+        "lat": -7.793186,
+        "lon": 110.4031484
+      },
+      "nodes": [
+        6261237281,
+        6261237280,
+        6261237279,
+        6261237278,
+        6261237281
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Nasi Bali Bimakroda"
+      }
+    },
+    {
+      "type": "way",
+      "id": 790463733,
+      "center": {
+        "lat": -7.8215556,
+        "lon": 110.4152437
+      },
+      "nodes": [
+        7390028002,
+        7390028003,
+        7390028004,
+        7390028005,
+        7390028002
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "satay",
+        "name": "Kitakita"
+      }
+    },
+    {
+      "type": "way",
+      "id": 797060987,
+      "center": {
+        "lat": -7.824744,
+        "lon": 110.4142844
+      },
+      "nodes": [
+        7454501605,
+        7454501602,
+        7454501603,
+        7454501604,
+        7454501605
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "noodle",
+        "name": "Gubug Bakmi Pendowo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 896258275,
+      "center": {
+        "lat": -8.0270718,
+        "lon": 110.3379099
+      },
+      "nodes": [
+        8331220776,
+        8331220775,
+        8331220774,
+        8331220773,
+        8331220776
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Selo Karang",
+        "takeaway": "yes",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018172847,
+      "center": {
+        "lat": -7.8610166,
+        "lon": 110.3896194
+      },
+      "nodes": [
+        9391119131,
+        9391119130,
+        9391119129,
+        9391119128,
+        9391119131
+      ],
+      "tags": {
+        "addr:street": "Jalan Imogiri Timur",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "asian",
+        "name": "Warung Soto Gumyak"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023095826,
+      "center": {
+        "lat": -7.8427402,
+        "lon": 110.4188365
+      },
+      "nodes": [
+        9435341416,
+        9435341413,
+        9435341414,
+        9435341415,
+        9435341416
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Barama Market"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1114537501,
+      "center": {
+        "lat": -7.9044663,
+        "lon": 110.3328152
+      },
+      "nodes": [
+        10193334497,
+        10193334498,
+        10193334499,
+        10193334500,
+        10193334501,
+        10193334502,
+        10193334497
+      ],
+      "tags": {
+        "addr:street": "Jalan Sultan Agung",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warung Bakmi Pak Kentung"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1124980367,
+      "center": {
+        "lat": -7.8026014,
+        "lon": 110.333266
+      },
+      "nodes": [
+        10287533166,
+        10287533167,
+        10287533168,
+        10287533169,
+        10287533166
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakmi Jawa Kembang Kluwih"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1160971230,
+      "center": {
+        "lat": -7.8415904,
+        "lon": 110.3083691
+      },
+      "nodes": [
+        10798301215,
+        10798301212,
+        10798301213,
+        10798301214,
+        10798301215
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Pawon Genthong"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1163244540,
+      "center": {
+        "lat": -7.8577122,
+        "lon": 110.3095773
+      },
+      "nodes": [
+        10817742450,
+        10817742447,
+        10817742448,
+        10817742449,
+        10817742450
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Pajangan",
+        "addr:neighbourhood": "Pringgading",
+        "addr:postcode": "55751",
+        "addr:province": "Yogyakarta",
+        "addr:street": "Jalan Guwosari",
+        "addr:subdistrict": "Guwosari",
+        "amenity": "restaurant",
+        "building": "yes",
+        "contact:instagram": "https://www.instagram.com/warungramarama",
+        "cuisine": "noodle",
+        "diet:halal": "yes",
+        "indoor_seating": "yes",
+        "name": "warung ramarama",
+        "payment:cash": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167898064,
+      "center": {
+        "lat": -7.8147887,
+        "lon": 110.323388
+      },
+      "nodes": [
+        10861824351,
+        10861824350,
+        10861824349,
+        10861824348,
+        10861824351
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Tamantirto",
+        "addr:housename": "Preksu UMY",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Rajawali",
+        "addr:subdistrict": "Ngebel",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chicken",
+        "diet:halal": "yes",
+        "name": "Preksu UMY",
+        "opening_hours": "Mo-Sa 09:00-21:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1359400914,
+      "center": {
+        "lat": -7.8299202,
+        "lon": 110.3802862
+      },
+      "nodes": [
+        12583035083,
+        12583035084,
+        12583035085,
+        12583035086,
+        12583035083
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519363337,
+      "center": {
+        "lat": -7.7984507,
+        "lon": 110.4079814
+      },
+      "nodes": [
+        8574329134,
+        8574329137,
+        8574329136,
+        8574329135,
+        8574329134
+      ],
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Banguntapan",
+        "addr:housename": "Rumah Makan Kirana",
+        "addr:housenumber": "337",
+        "addr:neighbourhood": "10",
+        "addr:postcode": "55198",
+        "addr:province": "DIY",
+        "addr:street": "Jalan Janti",
+        "addr:subdistrict": "Banguntapan",
+        "amenity": "restaurant",
+        "building": "house",
+        "cuisine": "regional",
+        "diet:halal": "yes",
+        "name": "Rumah Makan Kirana",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1533691477,
+      "center": {
+        "lat": -7.7874846,
+        "lon": 110.4052085
+      },
+      "nodes": [
+        13976005566,
+        13976005567,
+        13976005568,
+        13976005569,
+        13976005570,
+        13976005571,
+        13976005566
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "ramen"
+      }
+    }
+  ]
+}
