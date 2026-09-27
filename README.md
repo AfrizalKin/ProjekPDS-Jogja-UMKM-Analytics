@@ -170,11 +170,16 @@ python models/pilar4_rekomendasi.py
 
 ---
 
-## 📑 Berkas Penyerahan Tugas Kuliah (Milestones)
+## 📑 Dokumentasi & Berkas Penyerahan Projek
 
-Laporan akademik terperinci untuk evaluasi mata kuliah Pengantar Data Sains dapat diakses pada folder [`milestones/`](./milestones/):
+### Panduan Arsitektur & Rangkuman Insight:
+- [**PANDUAN_DESAIN_SISTEM.md**](./PANDUAN_DESAIN_SISTEM.md): Cetak biru (*blueprint*) desain sistem, latar belakang ide, rencana 5 dataset, arsitektur 4 pilar pemodelan, dan spesifikasi website (panduan pra-eksekusi).
+- [**RANGKUMAN_TEMUAN_DAN_INSIGHT.md**](./RANGKUMAN_TEMUAN_DAN_INSIGHT.md): Rangkuman menyeluruh dari apa yang sudah dieksekusi, metode ekstraksi tiap dataset, audit kualitas data 4 dimensi, 4 temuan data riil (termasuk anomali kelontong OSM vs SiBakul), dan insight hasil analisis 4 pilar di detik ini.
+
+### Laporan Akademik Terstruktur (Milestones PDS):
+Laporan resmi untuk evaluasi mata kuliah Pengantar Data Sains pada folder [`milestones/`](./milestones/):
 - [**Milestone 4 — Clean Dataset & Data Preparation**](./milestones/MILESTONE_4_CLEAN_DATASET.md): Dokumentasi pembersihan data, penanganan duplikasi OSM, normalisasi biaya sewa, transformasi BPS, dan Kamus Data (Data Dictionary) lengkap.
-- [**Milestone 5 — Data Quality Audit & Analytical Task Selection**](./milestones/MILESTONE_5_DATA_QUALITY_AUDIT.md): *Data Quality Scorecard* 4 dimensi, 4 temuan data riil & mitigasi (termasuk bias tagging kelontong OSM vs SiBakul), serta justifikasi pemilihan pendekatan analitik.
+- [**Milestone 5 — Data Quality Audit & Analytical Task Selection**](./milestones/MILESTONE_5_DATA_QUALITY_AUDIT.md): *Data Quality Scorecard* 4 dimensi, 4 temuan data riil & mitigasi, serta justifikasi pemilihan pendekatan analitik.
 
 ---
 
