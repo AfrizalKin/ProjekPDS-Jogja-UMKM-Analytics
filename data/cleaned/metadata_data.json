@@ -1,0 +1,71 @@
+{
+  "pesaing_osm": {
+    "nama": "Data pesaing (OpenStreetMap)",
+    "ringkas": "pesaing",
+    "periode": "8 September 2026",
+    "catatan": "Usaha informal kurang terwakili di OSM.",
+    "awalan": "per"
+  },
+  "ekonomi_bps": {
+    "nama": "Kondisi ekonomi wilayah (BPS)",
+    "ringkas": "ekonomi",
+    "periode": "2024",
+    "catatan": ""
+  },
+  "sewa": {
+    "nama": "Biaya sewa komersial",
+    "ringkas": "sewa",
+    "periode": "2024",
+    "catatan": "Satu tarif acuan per wilayah."
+  },
+  "tren_usaha_bps": {
+    "nama": "Tren jumlah usaha (BPS)",
+    "ringkas": "tren usaha",
+    "periode": "2019-2023",
+    "catatan": "Angka 2023 bersifat sementara.",
+    "keterangan": "2023 sementara"
+  },
+  "google_trends": {
+    "nama": "Minat pencarian (Google Trends)",
+    "ringkas": "Google Trends",
+    "periode": "September 2021 - September 2026",
+    "catatan": ""
+  },
+  "umkm_sibakul": {
+    "nama": "UMKM terdaftar (SiBakul)",
+    "ringkas": "UMKM terdaftar",
+    "periode": "2025",
+    "catatan": ""
+  },
+  "halaman": {
+    "beranda": [
+      "pesaing_osm",
+      "ekonomi_bps",
+      "sewa",
+      "tren_usaha_bps",
+      "umkm_sibakul"
+    ],
+    "skoring": [
+      "pesaing_osm",
+      "ekonomi_bps",
+      "sewa",
+      "umkm_sibakul"
+    ],
+    "peta_klaster": [
+      "pesaing_osm",
+      "ekonomi_bps",
+      "sewa",
+      "umkm_sibakul"
+    ],
+    "forecasting": [
+      "tren_usaha_bps"
+    ],
+    "rekomendasi": [
+      "pesaing_osm",
+      "ekonomi_bps",
+      "sewa",
+      "tren_usaha_bps",
+      "umkm_sibakul"
+    ]
+  }
+}

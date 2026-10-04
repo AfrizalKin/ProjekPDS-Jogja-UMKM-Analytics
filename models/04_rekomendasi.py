@@ -24,6 +24,18 @@ SKORING_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_skoring_sektor.csv"
 CLUSTERING_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_clustering_wilayah.csv"
 FORECAST_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_forecasting_sektor.csv"
 
+# Asumsi luas ruko standar UMKM (m2) untuk komparasi budget sewa
+LUAS_RUKO_STANDAR = 30.0
+
+# Teks status anggaran
+STATUS_TIDAK_DIEVALUASI = "Anggaran tidak dievaluasi"
+STATUS_MENCUKUPI = "Mencukupi"
+STATUS_KURANG = "Kurang"
+
+# Batas skor kategori (sama dengan Pilar 1)
+AMBANG_LAYAK = 70
+AMBANG_CUKUP = 50
+
 
 class UMKMRecommender:
     """Engine inferensi rekomendasi kelayakan lokasi UMKM berbasis data."""
@@ -73,6 +85,13 @@ class UMKMRecommender:
         """
         sektor_clean = str(sektor).strip().lower()
 
+        # Validasi anggaran: kosong (None) = tidak dievaluasi; 0 atau negatif ditolak
+        if budget_tahunan is not None and budget_tahunan <= 0:
+            raise ValueError(
+                "Anggaran sewa tahunan harus lebih dari 0. "
+                "Kosongkan isian bila tidak ingin mengevaluasi anggaran."
+            )
+
         # Filter skor untuk sektor yang diminta
         df_sec = self.df_skoring[self.df_skoring["sektor"] == sektor_clean].copy()
         if df_sec.empty:
@@ -83,9 +102,6 @@ class UMKMRecommender:
 
         sektor_label = df_sec.iloc[0]["sektor_label"]
         arah_tren = self.trend_map.get(sektor_clean, "Stabil")
-
-        # Asumsi luas ruko standar UMKM = 30 m2 untuk komparasi budget sewa
-        LUAS_RUKO_STANDAR = 30.0
 
         # KASUS A: PENGGUNA MEMILIH WILAYAH SPESIFIK
         if wilayah and wilayah.lower() not in ["all", "semua", "terbuka"]:
@@ -101,18 +117,18 @@ class UMKMRecommender:
             estimasi_sewa_tahunan = harga_sewa_m2 * LUAS_RUKO_STANDAR
 
             # Pengecekan kecukupan budget (jika diinput)
-            budget_status = "Sesuai"
+            budget_status = STATUS_TIDAK_DIEVALUASI
             budget_catatan = ""
-            if budget_tahunan is not None and budget_tahunan > 0:
+            if budget_tahunan is not None:
                 if budget_tahunan < estimasi_sewa_tahunan:
-                    budget_status = "Kurang"
+                    budget_status = STATUS_KURANG
                     budget_catatan = (
                         f"Perhatian: Estimasi sewa tempat ukuran 30m2 di wilayah ini sekitar "
                         f"Rp {estimasi_sewa_tahunan:,.0f}/tahun, lebih tinggi dari budget Anda "
                         f"(Rp {budget_tahunan:,.0f})."
                     )
                 else:
-                    budget_status = "Mencukupi"
+                    budget_status = STATUS_MENCUKUPI
                     budget_catatan = (
                         f"Budget Anda (Rp {budget_tahunan:,.0f}) mencukupi estimasi sewa tempat "
                         f"(sekitar Rp {estimasi_sewa_tahunan:,.0f}/tahun)."
@@ -146,6 +162,7 @@ class UMKMRecommender:
                 "cluster_label": cluster_info.get("cluster_label", "-"),
                 "cluster_deskripsi": cluster_info.get("cluster_deskripsi", "-"),
                 "estimasi_sewa_tahunan_30m2": estimasi_sewa_tahunan,
+                "luas_asumsi_m2": LUAS_RUKO_STANDAR,
                 "budget_status": budget_status,
                 "budget_catatan": budget_catatan,
                 "kejenuhan_warning": kejenuhan_warning,
@@ -162,8 +179,10 @@ class UMKMRecommender:
             est_sewa = float(r["harga_sewa_per_m2_tahun"]) * LUAS_RUKO_STANDAR
 
             is_affordable = True
-            if budget_tahunan is not None and budget_tahunan > 0:
+            budget_status = STATUS_TIDAK_DIEVALUASI
+            if budget_tahunan is not None:
                 is_affordable = budget_tahunan >= est_sewa
+                budget_status = STATUS_MENCUKUPI if is_affordable else STATUS_KURANG
 
             top_recommendations.append({
                 "rank": rank_idx + 1,
@@ -174,11 +193,27 @@ class UMKMRecommender:
                 "cluster_label": c_info.get("cluster_label", "-"),
                 "estimasi_sewa_tahunan": est_sewa,
                 "is_affordable": is_affordable,
+                "budget_status": budget_status,
                 "alasan": (
                     f"Skor {r['skor']} ({r['kategori']}). Klaster: {c_info.get('cluster_label', '-')}. "
                     f"Estimasi sewa 30m2: Rp {est_sewa:,.0f}/tahun."
                 )
             })
+
+        # Pesan bila tidak ada wilayah berkategori Layak
+        skor_tertinggi = top_recommendations[0]["skor"]
+        pesan_tanpa_layak = None
+        if skor_tertinggi < AMBANG_LAYAK:
+            if skor_tertinggi < AMBANG_CUKUP:
+                pesan_tanpa_layak = (
+                    f"Tidak ada wilayah berkategori Layak untuk sektor {sektor_label}. "
+                    f"Skor tertinggi {skor_tertinggi} masih di bawah {AMBANG_CUKUP} (Kurang Layak)."
+                )
+            else:
+                pesan_tanpa_layak = (
+                    f"Tidak ada wilayah berkategori Layak untuk sektor {sektor_label}. "
+                    f"Skor tertinggi {skor_tertinggi} berkategori Cukup Layak."
+                )
 
         top_wilayah = top_recommendations[0]["wilayah_label"]
         narasi = (
@@ -193,6 +228,9 @@ class UMKMRecommender:
             "sektor_label": sektor_label,
             "arah_tren_sektor": arah_tren,
             "narasi_rekomendasi": narasi,
+            "luas_asumsi_m2": LUAS_RUKO_STANDAR,
+            "anggaran_dievaluasi": budget_tahunan is not None,
+            "pesan_tanpa_layak": pesan_tanpa_layak,
             "ranking_wilayah": top_recommendations[:3],  # Top 3 sesuai spesifikasi
             "semua_wilayah": top_recommendations
         }
@@ -214,13 +252,17 @@ def print_recommendation_card(rec: dict):
         print(f"Estimasi Sewa Ruko : Rp {rec['estimasi_sewa_tahunan_30m2']:,.0f} / tahun (asumsi 30m2)")
         if rec["budget_catatan"]:
             print(f"Status Budget      : {rec['budget_status']} -> {rec['budget_catatan']}")
+        else:
+            print(f"Status Budget      : {rec['budget_status']}")
         if rec["kejenuhan_warning"]:
             print(f"Catatan Kompetisi  : {rec['kejenuhan_warning']}")
     else:
         print("\n--- PERINGKAT TOP 3 WILAYAH REKOMENDASI TERBAIK ---")
         print("-" * 75)
+        if rec.get("pesan_tanpa_layak"):
+            print(f"  ! {rec['pesan_tanpa_layak']}")
         for item in rec["ranking_wilayah"]:
-            aff_badge = "[Budget Cukup]" if item["is_affordable"] else "[Budget Kurang]"
+            aff_badge = f"[{item['budget_status']}]"
             print(f"  Peringkat #{item['rank']}: {item['wilayah_label']}")
             print(f"    * Skor Kelayakan : {item['skor']} ({item['kategori']})")
             print(f"    * Profil Pasar   : {item['cluster_label']}")
