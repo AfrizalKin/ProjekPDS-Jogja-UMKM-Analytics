@@ -10,15 +10,15 @@ from pathlib import Path
 # ==============================================================================
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_RAW_DIR = BASE_DIR / "data" / "raw"
-DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+DATA_CLEANED_DIR = BASE_DIR / "data" / "cleaned"
 OUTPUTS_LOGS_DIR = BASE_DIR / "outputs" / "logs"
 
 # Pastikan folder target tersedia
-for d in [DATA_RAW_DIR, DATA_PROCESSED_DIR, OUTPUTS_LOGS_DIR]:
+for d in [DATA_RAW_DIR, DATA_CLEANED_DIR, OUTPUTS_LOGS_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
 RAW_OUTPUT_CSV = DATA_RAW_DIR / "sewa_index.csv"
-PROCESSED_OUTPUT_CSV = DATA_PROCESSED_DIR / "biaya_operasional.csv"
+CLEANED_OUTPUT_CSV = DATA_CLEANED_DIR / "biaya_operasional.csv"
 
 # ==============================================================================
 # 2. STANDARISASI WILAYAH TARGET (D.I. YOGYAKARTA)

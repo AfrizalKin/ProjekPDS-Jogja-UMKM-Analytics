@@ -25,8 +25,8 @@ from scripts.dataset2_ekonomi.clean_ekonomi import (
     merge_and_validate,
     find_file,
     resolve_input_dir,
-    PROCESSED_OUTPUT_CSV as P2_OUT,
-    PROCESSED_SIBAKUL_CSV as P5_OUT
+    CLEANED_OUTPUT_CSV as P2_OUT,
+    CLEANED_SIBAKUL_CSV as P5_OUT
 )
 from scripts.dataset3_sewa.clean_harga import clean_and_standardize_harga
 from scripts.dataset4_tren.clean_tren import process_and_merge_tren
@@ -41,7 +41,7 @@ def run_all(skip_osm_fetch: bool = True):
     # 1. Dataset 1: OpenStreetMap (Kompetitor UMKM)
     print("\n[DATASET 1/4] Pembersihan & Deduplikasi POI OpenStreetMap...")
     df_osm = clean_and_deduplicate()
-    print(f"  [OK] Sukses: {len(df_osm)} titik lokasi usaha UMKM siap di data/processed/kompetitor_per_wilayah.csv")
+    print(f"  [OK] Sukses: {len(df_osm)} titik lokasi usaha UMKM siap di data/cleaned/kompetitor_per_wilayah.csv")
 
     # 2. Dataset 2 & 5: BPS Kondisi Ekonomi Wilayah & Data UMKM SiBakul
     print("\n[DATASET 2 & 5] Pembersihan & Integrasi Indikator Ekonomi BPS & SiBakul DIY...")
@@ -64,17 +64,17 @@ def run_all(skip_osm_fetch: bool = True):
     # 3. Dataset 3: Indeks Biaya Sewa Properti Komersial
     print("\n[DATASET 3/4] Standardisasi Biaya Operasional Sewa Lokasi...")
     df_sewa = clean_and_standardize_harga()
-    print(f"  [OK] Sukses: {len(df_sewa)} wilayah terdata di data/processed/biaya_operasional.csv")
+    print(f"  [OK] Sukses: {len(df_sewa)} wilayah terdata di data/cleaned/biaya_operasional.csv")
 
     # 4. Dataset 4: Tren Permintaan Pasar & Pertumbuhan Usaha
     print("\n[DATASET 4/4] Pengolahan Laju Pertumbuhan Usaha & Google Trends...")
     load_bps_files()
     df_tren = process_and_merge_tren()
-    print(f"  [OK] Sukses: {len(df_tren)} data tren tersimpan di data/processed/tren_sektor.csv")
+    print(f"  [OK] Sukses: {len(df_tren)} data tren tersimpan di data/cleaned/tren_sektor.csv")
 
     print("\n" + "=" * 80)
     print("[SUKSES] SEMUA DATASET (1-4) BERHASIL DIBERSIHKAN DAN SIAP DIGUNAKAN!")
-    print("Lokasi data siap pakai: data/processed/")
+    print("Lokasi data siap pakai: data/cleaned/")
     print("=" * 80 + "\n")
 
 

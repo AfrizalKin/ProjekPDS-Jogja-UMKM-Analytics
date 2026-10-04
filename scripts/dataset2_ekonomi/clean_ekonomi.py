@@ -13,7 +13,7 @@ Skrip ini melakukan:
    - luas_km2 (satuan: km2)
    - pengeluaran_per_kapita (dari "Jumlah", total makanan + bukan makanan, satuan: Rupiah/kapita/bulan)
 5. Menggabungkan (inner join) ketiga dataset berdasarkan 'kabupaten_kota' dan memverifikasi integritas join.
-6. Menyimpan hasil bersih ke 'data/processed/kondisi_ekonomi_wilayah.csv' dan menampilkan hasil verifikasi.
+6. Menyimpan hasil bersih ke 'data/cleaned/kondisi_ekonomi_wilayah.csv' dan menampilkan hasil verifikasi.
 """
 
 import sys
@@ -33,8 +33,8 @@ DATA_RAW_BPS = BASE_DIR / "data" / "raw" / "bps"
 DATA_RAW_BPS_EKONOMI = BASE_DIR / "data" / "raw" / "bps_ekonomi"
 DATA_RAW_SIBAKUL = BASE_DIR / "data" / "raw" / "sibakul"
 DATA_RAW_UMKM_SIBAKUL = BASE_DIR / "data" / "raw" / "umkm_sibakul"
-PROCESSED_OUTPUT_CSV = BASE_DIR / "data" / "processed" / "kondisi_ekonomi_wilayah.csv"
-PROCESSED_SIBAKUL_CSV = BASE_DIR / "data" / "processed" / "umkm_sibakul.csv"
+CLEANED_OUTPUT_CSV = BASE_DIR / "data" / "cleaned" / "kondisi_ekonomi_wilayah.csv"
+CLEANED_SIBAKUL_CSV = BASE_DIR / "data" / "cleaned" / "umkm_sibakul.csv"
 
 # ==============================================================================
 # 2. DICTIONARY MAPPING DAN FILTER AGREGAT PROVINSI
@@ -292,12 +292,12 @@ def clean_sibakul(sibakul_dir: Path | None = None) -> pd.DataFrame | None:
     tren_file = target_dir / "umkm_tren_tahunan_diy.csv"
     if tren_file.exists():
         df_tren = pd.read_csv(tren_file, encoding="utf-8-sig")
-        df_tren.to_csv(BASE_DIR / "data" / "processed" / "umkm_tren_tahunan_diy.csv", index=False)
+        df_tren.to_csv(BASE_DIR / "data" / "cleaned" / "umkm_tren_tahunan_diy.csv", index=False)
 
     sektor_file = target_dir / "umkm_sektor_diy.csv"
     if sektor_file.exists():
         df_sektor = pd.read_csv(sektor_file, encoding="utf-8-sig")
-        df_sektor.to_csv(BASE_DIR / "data" / "processed" / "umkm_sektor_diy.csv", index=False)
+        df_sektor.to_csv(BASE_DIR / "data" / "cleaned" / "umkm_sektor_diy.csv", index=False)
 
     return df_clean
 
@@ -376,7 +376,7 @@ def merge_and_validate(
             ).round(2)
             target_columns.extend(["jumlah_umkm_2025", "rasio_umkm_per_1000_penduduk"])
 
-        # Buat dataframe khusus processed SiBakul
+        # Buat dataframe khusus cleaned SiBakul
         sibakul_cols = ["kabupaten_kota", "jumlah_umkm_2025"]
         if "jumlah_umkm_ktp_domisili_2025" in df_merged.columns:
             sibakul_cols.append("jumlah_umkm_ktp_domisili_2025")
@@ -422,8 +422,8 @@ def main():
     parser.add_argument(
         "--output-file",
         type=str,
-        default=str(PROCESSED_OUTPUT_CSV),
-        help="Path file CSV hasil (default: data/processed/kondisi_ekonomi_wilayah.csv)"
+        default=str(CLEANED_OUTPUT_CSV),
+        help="Path file CSV hasil (default: data/cleaned/kondisi_ekonomi_wilayah.csv)"
     )
     args = parser.parse_args()
 
@@ -454,16 +454,16 @@ def main():
     # Gabungkan dan validasi
     df_final, df_sibakul_out = merge_and_validate(df_pdrb, df_kepadatan, df_pengeluaran, df_sibakul)
 
-    # Simpan kondisi ekonomi wilayah ke data/processed/
+    # Simpan kondisi ekonomi wilayah ke data/cleaned/
     output_file.parent.mkdir(parents=True, exist_ok=True)
     df_final.to_csv(output_file, index=False)
     print(f"\n[SUKSES] Data gabungan berhasil disimpan ke: {output_file}")
 
-    # Simpan berkas khusus SiBakul ke data/processed/ jika ada
+    # Simpan berkas khusus SiBakul ke data/cleaned/ jika ada
     if df_sibakul_out is not None:
-        PROCESSED_SIBAKUL_CSV.parent.mkdir(parents=True, exist_ok=True)
-        df_sibakul_out.to_csv(PROCESSED_SIBAKUL_CSV, index=False)
-        print(f"[SUKSES] Data SiBakul berhasil disimpan ke: {PROCESSED_SIBAKUL_CSV}")
+        CLEANED_SIBAKUL_CSV.parent.mkdir(parents=True, exist_ok=True)
+        df_sibakul_out.to_csv(CLEANED_SIBAKUL_CSV, index=False)
+        print(f"[SUKSES] Data SiBakul berhasil disimpan ke: {CLEANED_SIBAKUL_CSV}")
 
     # Cetak hasil akhir untuk verifikasi manual user
     print("\n" + "=" * 70)

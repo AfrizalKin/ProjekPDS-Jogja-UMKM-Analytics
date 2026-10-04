@@ -7,7 +7,7 @@ Sifat:
 - Level analisis: Wilayah administratif (5 baris data kabupaten/kota).
 - Mengelompokkan wilayah berdasarkan multivariat ekonomi, demografi, kompetisi, dan biaya sewa.
 - Mereduksi dimensi dengan PCA (2 Komponen) untuk koordinat visualisasi 2D pada website.
-- Output disimpan ke: data/processed/hasil_clustering_wilayah.csv
+- Output disimpan ke: outputs/hasil/hasil_clustering_wilayah.csv
 - Model tersimpan di: models/saved/kmeans_wilayah.joblib
 """
 
@@ -26,10 +26,10 @@ if str(BASE_DIR) not in sys.path:
     sys.path.append(str(BASE_DIR))
 
 # Path berkas input & output
-KOMPETITOR_CSV = BASE_DIR / "data" / "processed" / "kompetitor_per_wilayah.csv"
-EKONOMI_CSV = BASE_DIR / "data" / "processed" / "kondisi_ekonomi_wilayah.csv"
-SEWA_CSV = BASE_DIR / "data" / "processed" / "biaya_operasional.csv"
-OUTPUT_CLUSTERING_CSV = BASE_DIR / "data" / "processed" / "hasil_clustering_wilayah.csv"
+KOMPETITOR_CSV = BASE_DIR / "data" / "cleaned" / "kompetitor_per_wilayah.csv"
+EKONOMI_CSV = BASE_DIR / "data" / "cleaned" / "kondisi_ekonomi_wilayah.csv"
+SEWA_CSV = BASE_DIR / "data" / "cleaned" / "biaya_operasional.csv"
+OUTPUT_CLUSTERING_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_clustering_wilayah.csv"
 SAVED_MODELS_DIR = BASE_DIR / "models" / "saved"
 
 WILAYAH_CONFIG = [
@@ -41,7 +41,7 @@ WILAYAH_CONFIG = [
 ]
 
 
-def run_pilar2_clustering(n_clusters: int = 3) -> pd.DataFrame:
+def run_clustering(n_clusters: int = 3) -> pd.DataFrame:
     print("=" * 75)
     print("MEMULAI PILAR 2: CLUSTERING KARAKTERISTIK EKONOMI WILAYAH (K-MEANS & PCA)")
     print("=" * 75)
@@ -159,7 +159,7 @@ def run_pilar2_clustering(n_clusters: int = 3) -> pd.DataFrame:
     joblib.dump(kmeans, SAVED_MODELS_DIR / "kmeans_wilayah.joblib")
     joblib.dump(pca, SAVED_MODELS_DIR / "pca_wilayah.joblib")
 
-    # 9. Simpan Hasil ke data/processed/hasil_clustering_wilayah.csv
+    # 9. Simpan Hasil ke outputs/hasil/hasil_clustering_wilayah.csv
     output_cols = [
         "wilayah",
         "wilayah_label",
@@ -192,4 +192,4 @@ def run_pilar2_clustering(n_clusters: int = 3) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    run_pilar2_clustering()
+    run_clustering()

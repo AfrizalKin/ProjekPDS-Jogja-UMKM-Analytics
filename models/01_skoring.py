@@ -5,7 +5,7 @@ Projek PDS - Rekomendasi Kelayakan Usaha UMKM D.I. Yogyakarta
 Sifat:
 - Batch process (offline, tanpa input user).
 - Menghasilkan tabel skor kelayakan untuk setiap kombinasi wilayah x sektor usaha (25 baris).
-- Output disimpan ke: data/processed/hasil_skoring_sektor.csv
+- Output disimpan ke: outputs/hasil/hasil_skoring_sektor.csv
 """
 
 import sys
@@ -19,10 +19,10 @@ if str(BASE_DIR) not in sys.path:
     sys.path.append(str(BASE_DIR))
 
 # Path berkas input & output
-KOMPETITOR_CSV = BASE_DIR / "data" / "processed" / "kompetitor_per_wilayah.csv"
-EKONOMI_CSV = BASE_DIR / "data" / "processed" / "kondisi_ekonomi_wilayah.csv"
-SEWA_CSV = BASE_DIR / "data" / "processed" / "biaya_operasional.csv"
-OUTPUT_SKORING_CSV = BASE_DIR / "data" / "processed" / "hasil_skoring_sektor.csv"
+KOMPETITOR_CSV = BASE_DIR / "data" / "cleaned" / "kompetitor_per_wilayah.csv"
+EKONOMI_CSV = BASE_DIR / "data" / "cleaned" / "kondisi_ekonomi_wilayah.csv"
+SEWA_CSV = BASE_DIR / "data" / "cleaned" / "biaya_operasional.csv"
+OUTPUT_SKORING_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_skoring_sektor.csv"
 
 # Daftar Wilayah & Sektor Baku
 WILAYAH_CONFIG = [
@@ -51,7 +51,7 @@ def min_max_norm(series: pd.Series) -> pd.Series:
     return (series - s_min) / (s_max - s_min)
 
 
-def run_pilar1_skoring() -> pd.DataFrame:
+def run_skoring() -> pd.DataFrame:
     print("=" * 75)
     print("MEMULAI PILAR 1: SKORING KELAYAKAN SEKTOR USAHA (BATCH PROCESS)")
     print("=" * 75)
@@ -195,7 +195,7 @@ def run_pilar1_skoring() -> pd.DataFrame:
     ]
     df_result = df_panel[final_cols].sort_values(by=["sektor", "skor"], ascending=[True, False]).reset_index(drop=True)
 
-    # 6. Simpan ke data/processed/
+    # 6. Simpan ke data/cleaned/
     OUTPUT_SKORING_CSV.parent.mkdir(parents=True, exist_ok=True)
     df_result.to_csv(OUTPUT_SKORING_CSV, index=False)
 
@@ -211,4 +211,4 @@ def run_pilar1_skoring() -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    run_pilar1_skoring()
+    run_skoring()

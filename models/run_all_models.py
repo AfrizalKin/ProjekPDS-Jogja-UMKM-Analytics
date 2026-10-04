@@ -16,10 +16,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.append(str(BASE_DIR))
 
-from models.pilar1_skoring import run_pilar1_skoring, OUTPUT_SKORING_CSV
-from models.pilar2_clustering import run_pilar2_clustering, OUTPUT_CLUSTERING_CSV
-from models.pilar3_forecasting import run_pilar3_forecasting, OUTPUT_FORECAST_CSV
-from models.pilar4_rekomendasi import UMKMRecommender
+# Nama modul diawali angka (01_skoring, dst.) sehingga tidak dapat diimpor dengan
+# pernyataan `import` biasa; dimuat melalui importlib.
+import importlib
+
+_skoring = importlib.import_module("models.01_skoring")
+_clustering = importlib.import_module("models.02_clustering")
+_forecasting = importlib.import_module("models.03_forecasting")
+_rekomendasi = importlib.import_module("models.04_rekomendasi")
+
+run_skoring, OUTPUT_SKORING_CSV = _skoring.run_skoring, _skoring.OUTPUT_SKORING_CSV
+run_clustering, OUTPUT_CLUSTERING_CSV = _clustering.run_clustering, _clustering.OUTPUT_CLUSTERING_CSV
+run_forecasting, OUTPUT_FORECAST_CSV = _forecasting.run_forecasting, _forecasting.OUTPUT_FORECAST_CSV
+UMKMRecommender = _rekomendasi.UMKMRecommender
 
 
 def run_all_models():
@@ -28,17 +37,17 @@ def run_all_models():
     print("=" * 80 + "\n")
 
     # 1. Eksekusi Pilar 1: Skoring Kelayakan Sektor (MCDA)
-    df_skor = run_pilar1_skoring()
+    df_skor = run_skoring()
 
     # 2. Eksekusi Pilar 2: Clustering Wilayah (K-Means + PCA)
-    df_cluster = run_pilar2_clustering()
+    df_cluster = run_clustering()
 
     # 3. Eksekusi Pilar 3: Forecasting Tren Pertumbuhan Sektor (Linear Trend)
-    df_forecast = run_pilar3_forecasting()
+    df_forecast = run_forecasting()
 
     # 4. Validasi Keberadaan Seluruh Berkas Output
     print("\n" + "=" * 80)
-    print("[VALIDASI] MEMERIKSA KELENGKAPAN ARTEFAK ANALISIS DI data/processed/:")
+    print("[VALIDASI] MEMERIKSA KELENGKAPAN ARTEFAK ANALISIS DI outputs/hasil/:")
     print("=" * 80)
     artifacts = [
         ("Pilar 1 (Skor Kelayakan)", OUTPUT_SKORING_CSV, len(df_skor)),

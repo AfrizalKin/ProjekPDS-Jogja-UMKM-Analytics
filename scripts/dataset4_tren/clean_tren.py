@@ -8,7 +8,7 @@ Modul ini:
 3. Menggabungkan data tren pencarian dari trends_raw.csv (jika ada) menggunakan LEFT JOIN,
    sehingga tidak ada satu baris pun data BPS yang hilang.
 4. Menghitung laju pertumbuhan tahunan (YoY Growth Rate) per sektor per wilayah.
-5. Mengekspor hasil final ke data/processed/tren_sektor.csv (siap pakai untuk forecasting Pilar 3).
+5. Mengekspor hasil final ke data/cleaned/tren_sektor.csv (siap pakai untuk forecasting Pilar 3).
 """
 
 import sys
@@ -25,7 +25,7 @@ if str(BASE_DIR) not in sys.path:
 from scripts.dataset4_tren.config import (
     BPS_CLEANED_CSV,
     TRENDS_RAW_CSV,
-    PROCESSED_TREN_CSV,
+    CLEANED_TREN_CSV,
     WILAYAH_MAPPING,
     WILAYAH_LABELS
 )
@@ -119,13 +119,13 @@ def process_and_merge_tren() -> pd.DataFrame:
     kolom_ada = [c for c in kolom_final if c in df_merged.columns]
     df_output = df_merged[kolom_ada].copy()
 
-    # 7. Simpan ke data/processed/tren_sektor.csv
-    df_output.to_csv(PROCESSED_TREN_CSV, index=False, encoding="utf-8")
+    # 7. Simpan ke data/cleaned/tren_sektor.csv
+    df_output.to_csv(CLEANED_TREN_CSV, index=False, encoding="utf-8")
 
     print("\n" + "=" * 70)
     print("HASIL AKHIR STANDARISASI TREN SEKTOR USAHA (DATASET 4)")
     print("=" * 70)
-    print(f"Output File Tersimpan di : {PROCESSED_TREN_CSV}")
+    print(f"Output File Tersimpan di : {CLEANED_TREN_CSV}")
     print(f"Total Baris Data         : {len(df_output)}")
     print(f"Jumlah Wilayah Tercover  : {df_output['wilayah'].nunique()} ({', '.join(df_output['wilayah'].unique())})")
     print(f"Jumlah Sektor Tercover   : {df_output['sektor_usaha'].nunique()} ({', '.join(df_output['sektor_usaha'].unique())})")

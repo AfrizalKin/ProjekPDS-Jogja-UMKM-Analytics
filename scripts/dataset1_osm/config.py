@@ -12,11 +12,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 DATA_RAW_OSM_DIR = BASE_DIR / "data" / "raw" / "osm"
 DATA_INTERIM_DIR = BASE_DIR / "data" / "interim"
-DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+DATA_CLEANED_DIR = BASE_DIR / "data" / "cleaned"
 OUTPUTS_LOGS_DIR = BASE_DIR / "outputs" / "logs"
 
 # Pastikan seluruh direktori target telah terbentuk
-for d in [DATA_RAW_OSM_DIR, DATA_INTERIM_DIR, DATA_PROCESSED_DIR, OUTPUTS_LOGS_DIR]:
+for d in [DATA_RAW_OSM_DIR, DATA_INTERIM_DIR, DATA_CLEANED_DIR, OUTPUTS_LOGS_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
 # ==============================================================================

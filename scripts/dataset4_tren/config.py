@@ -13,16 +13,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_RAW_BPS_DIR = BASE_DIR / "data" / "raw" / "bps"
 DATA_RAW_TRENDS_DIR = BASE_DIR / "data" / "raw" / "trends"
 DATA_INTERIM_DIR = BASE_DIR / "data" / "interim"
-DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+DATA_CLEANED_DIR = BASE_DIR / "data" / "cleaned"
 OUTPUTS_LOGS_DIR = BASE_DIR / "outputs" / "logs"
 
 # Pastikan folder target tersedia
-for d in [DATA_RAW_BPS_DIR, DATA_RAW_TRENDS_DIR, DATA_INTERIM_DIR, DATA_PROCESSED_DIR, OUTPUTS_LOGS_DIR]:
+for d in [DATA_RAW_BPS_DIR, DATA_RAW_TRENDS_DIR, DATA_INTERIM_DIR, DATA_CLEANED_DIR, OUTPUTS_LOGS_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
 BPS_CLEANED_CSV = DATA_INTERIM_DIR / "bps_cleaned.csv"
 TRENDS_RAW_CSV = DATA_RAW_TRENDS_DIR / "trends_raw.csv"
-PROCESSED_TREN_CSV = DATA_PROCESSED_DIR / "tren_sektor.csv"
+CLEANED_TREN_CSV = DATA_CLEANED_DIR / "tren_sektor.csv"
 LOG_TRENDS_ERROR = OUTPUTS_LOGS_DIR / "fetch_trends_errors.log"
 
 # ==============================================================================

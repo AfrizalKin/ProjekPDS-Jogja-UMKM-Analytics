@@ -5,7 +5,7 @@ Projek PDS - Sistem Rekomendasi Kelayakan Usaha UMKM
 Modul ini:
 1. Menstandardisasi penulisan nama wilayah agar 100% konsisten dengan Dataset 1 & 2
 2. Menormalisasi seluruh harga sewa ke satuan standar: Rp per m2 per tahun
-3. Menyimpan hasil bersih ke data/processed/biaya_operasional.csv
+3. Menyimpan hasil bersih ke data/cleaned/biaya_operasional.csv
 """
 
 import sys
@@ -19,7 +19,7 @@ if str(BASE_DIR) not in sys.path:
 
 from scripts.dataset3_sewa.config import (
     RAW_OUTPUT_CSV,
-    PROCESSED_OUTPUT_CSV,
+    CLEANED_OUTPUT_CSV,
     WILAYAH_MAPPING,
     WILAYAH_LABELS
 )
@@ -54,7 +54,7 @@ def standardize_wilayah_id(raw_name: str) -> str:
 def clean_and_standardize_harga() -> pd.DataFrame:
     """
     Membaca data/raw/sewa_index.csv, melakukan normalisasi harga dan wilayah,
-    lalu mengekspor ke data/processed/biaya_operasional.csv.
+    lalu mengekspor ke data/cleaned/biaya_operasional.csv.
     """
     if not RAW_OUTPUT_CSV.exists():
         print(f"[Error] Berkas mentah tidak ditemukan: {RAW_OUTPUT_CSV}")
@@ -98,13 +98,13 @@ def clean_and_standardize_harga() -> pd.DataFrame:
     ]
     df_output = df[kolom_final].sort_values(by="harga_sewa_per_m2_tahun", ascending=False).reset_index(drop=True)
 
-    # Simpan ke data/processed/biaya_operasional.csv
-    df_output.to_csv(PROCESSED_OUTPUT_CSV, index=False, encoding="utf-8")
+    # Simpan ke data/cleaned/biaya_operasional.csv
+    df_output.to_csv(CLEANED_OUTPUT_CSV, index=False, encoding="utf-8")
 
     print("\n" + "=" * 70)
     print("HASIL STANDARISASI BIAYA OPERASIONAL (DATASET 3)")
     print("=" * 70)
-    print(f"File Hasil Disimpan ke : {PROCESSED_OUTPUT_CSV}")
+    print(f"File Hasil Disimpan ke : {CLEANED_OUTPUT_CSV}")
     print(f"Total Wilayah          : {len(df_output)}")
     print("\nTabel Data Biaya Operasional Properti Komersial:")
     print(df_output[["wilayah", "wilayah_label", "harga_sewa_per_m2_tahun", "kategori_biaya"]].to_string(index=False))

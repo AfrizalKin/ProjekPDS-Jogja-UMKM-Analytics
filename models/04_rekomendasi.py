@@ -20,9 +20,9 @@ if str(BASE_DIR) not in sys.path:
     sys.path.append(str(BASE_DIR))
 
 # Path berkas hasil dari Pilar 1, 2, dan 3
-SKORING_CSV = BASE_DIR / "data" / "processed" / "hasil_skoring_sektor.csv"
-CLUSTERING_CSV = BASE_DIR / "data" / "processed" / "hasil_clustering_wilayah.csv"
-FORECAST_CSV = BASE_DIR / "data" / "processed" / "hasil_forecasting_sektor.csv"
+SKORING_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_skoring_sektor.csv"
+CLUSTERING_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_clustering_wilayah.csv"
+FORECAST_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_forecasting_sektor.csv"
 
 
 class UMKMRecommender:

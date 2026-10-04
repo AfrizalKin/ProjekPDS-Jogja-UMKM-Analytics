@@ -5,7 +5,7 @@ Projek PDS - Sistem Rekomendasi Kelayakan Usaha UMKM
 Alur Eksekusi:
 1. Menjalankan fetch_bps.py (WAJIB - Sumber data utama time series resmi)
 2. Menjalankan fetch_trends.py (OPSIONAL - Pelengkap sinyal minat pencarian, toleran terhadap kegagalan)
-3. Menjalankan clean_tren.py (Standardisasi, kalkulasi laju pertumbuhan, dan ekspor ke processed)
+3. Menjalankan clean_tren.py (Standardisasi, kalkulasi laju pertumbuhan, dan ekspor ke cleaned)
 """
 
 import sys
@@ -62,7 +62,7 @@ def run_pipeline(skip_trends: bool = False):
 
     print("\n" + "#" * 75)
     print("[SELESAI] PIPELINE DATASET 4 BERHASIL DIJALANKAN LENGKAP!")
-    print(f"File Hasil Akhir Siap Pakai: data/processed/tren_sektor.csv ({len(df_final)} baris)")
+    print(f"File Hasil Akhir Siap Pakai: data/cleaned/tren_sektor.csv ({len(df_final)} baris)")
     print("#" * 75)
 
 

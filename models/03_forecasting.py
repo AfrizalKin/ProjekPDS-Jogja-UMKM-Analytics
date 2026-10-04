@@ -7,7 +7,7 @@ Sifat:
 - Level analisis: Sektor usaha (Kafe, Restoran, Minimarket, Laundry, Toko Kelontong).
 - Memproyeksikan estimasi jumlah usaha untuk 1-3 tahun ke depan (2024 - 2026).
 - Menghitung Confidence Interval 95% dan menentukan arah tren (Naik / Stabil / Turun).
-- Output disimpan ke: data/processed/hasil_forecasting_sektor.csv
+- Output disimpan ke: outputs/hasil/hasil_forecasting_sektor.csv
 """
 
 import sys
@@ -20,8 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.append(str(BASE_DIR))
 
-TREN_SEKTOR_CSV = BASE_DIR / "data" / "processed" / "tren_sektor.csv"
-OUTPUT_FORECAST_CSV = BASE_DIR / "data" / "processed" / "hasil_forecasting_sektor.csv"
+TREN_SEKTOR_CSV = BASE_DIR / "data" / "cleaned" / "tren_sektor.csv"
+OUTPUT_FORECAST_CSV = BASE_DIR / "outputs" / "hasil" / "hasil_forecasting_sektor.csv"
 
 SEKTOR_LABELS = {
     "cafe": "Kafe / Kedai Kopi",
@@ -32,7 +32,7 @@ SEKTOR_LABELS = {
 }
 
 
-def run_pilar3_forecasting(forecast_years: list[int] = [2024, 2025, 2026]) -> pd.DataFrame:
+def run_forecasting(forecast_years: list[int] = [2024, 2025, 2026]) -> pd.DataFrame:
     print("=" * 75)
     print("MEMULAI PILAR 3: FORECASTING TREN PERTUMBUHAN SEKTOR USAHA (BATCH PROCESS)")
     print("=" * 75)
@@ -136,7 +136,7 @@ def run_pilar3_forecasting(forecast_years: list[int] = [2024, 2025, 2026]) -> pd
 
     df_forecast = pd.DataFrame(all_results)
 
-    # Simpan hasil ke data/processed/hasil_forecasting_sektor.csv
+    # Simpan hasil ke outputs/hasil/hasil_forecasting_sektor.csv
     OUTPUT_FORECAST_CSV.parent.mkdir(parents=True, exist_ok=True)
     df_forecast.to_csv(OUTPUT_FORECAST_CSV, index=False)
 
@@ -159,4 +159,4 @@ def run_pilar3_forecasting(forecast_years: list[int] = [2024, 2025, 2026]) -> pd
 
 
 if __name__ == "__main__":
-    run_pilar3_forecasting()
+    run_forecasting()

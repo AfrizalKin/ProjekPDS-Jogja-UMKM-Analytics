@@ -16,7 +16,7 @@ if str(BASE_DIR) not in sys.path:
 
 from scripts.dataset1_osm.config import (
     DATA_RAW_OSM_DIR,
-    DATA_PROCESSED_DIR
+    DATA_CLEANED_DIR
 )
 
 
@@ -75,7 +75,7 @@ def extract_poi_from_json(json_path: Path) -> List[Dict]:
 def clean_and_deduplicate() -> pd.DataFrame:
     """
     Membaca semua file JSON di data/raw/osm/, mem-parsing, menghapus duplikasi,
-    dan menyimpan hasilnya ke data/processed/kompetitor_per_wilayah.csv.
+    dan menyimpan hasilnya ke data/cleaned/kompetitor_per_wilayah.csv.
     """
     json_files = list(DATA_RAW_OSM_DIR.glob("*.json"))
 
@@ -120,7 +120,7 @@ def clean_and_deduplicate() -> pd.DataFrame:
     kolom_final = ["nama_tempat", "lat", "lon", "kategori", "wilayah"]
     df_output = df_final[kolom_final].copy()
 
-    output_path = DATA_PROCESSED_DIR / "kompetitor_per_wilayah.csv"
+    output_path = DATA_CLEANED_DIR / "kompetitor_per_wilayah.csv"
     df_output.to_csv(output_path, index=False, encoding="utf-8")
 
     print("\n" + "=" * 70)
