@@ -45,7 +45,7 @@ Pilar 1: Skoring         Pilar 2: Klaster        Pilar 3: Tren
                     (UMKMRecommender Engine)
                              │
                              ▼
-                  Fase 3: Web Application (app/)
+                  Fase 3: Web Application (prototype/, Streamlit)
 ```
 
 ---
@@ -76,14 +76,14 @@ Seluruh komputasi pemodelan analitik dikembangkan di folder `models/` secara mod
 ### 2. Pilar 2: Clustering Karakteristik Ekonomi Wilayah (`02_clustering.py`)
 - **Metode:** Unsupervised *K-Means Clustering* ($k=3$) dan reduksi dimensi *Principal Component Analysis* (PCA 2D, variansi terjelaskan $94,09\%$).
 - **Hasil Segmentasi:**
-  - **Klaster 0 (Urban Padat & Jenuh):** Kota Yogyakarta.
-  - **Klaster 1 (Semi-Urban Bertumbuh):** Kabupaten Sleman dan Kabupaten Bantul.
-  - **Klaster 2 (Rural Potensial & Biaya Rendah):** Kabupaten Kulon Progo dan Kabupaten Gunungkidul.
-- **Output:** `outputs/hasil/hasil_clustering_wilayah.csv` dan model serialisasi di `models/saved/`.
+  - **Pasar Padat & Biaya Tinggi:** Kota Yogyakarta.
+  - **Pasar Berkembang & Biaya Menengah:** Kabupaten Sleman.
+  - **Pasar Perintis & Biaya Terjangkau:** Kabupaten Bantul, Kulon Progo, dan Gunungkidul.
+- **Output:** `outputs/hasil/hasil_clustering_wilayah.csv`. Model (`scaler`, `K-Means`, `PCA`) disimpan ke `models/saved/` saat `run_all_models.py` dijalankan.
 
 ### 3. Pilar 3: Forecasting Tren Pertumbuhan Sektor (`03_forecasting.py`)
 - **Metode:** *Linear Trend Regression* pada data deret waktu tahunan BPS dengan estimasi *Confidence Interval* (CI) $95\%$ untuk proyeksi 2024–2026.
-- **Output:** Estimasi jumlah unit usaha di masa depan beserta indikator arah tren (*Naik Signifikan*, *Stabil / Bertumbuh Moderat*, *Cenderung Melambat*) di `outputs/hasil/hasil_forecasting_sektor.csv`.
+- **Output:** Estimasi jumlah unit usaha di masa depan beserta indikator arah tren (*Naik (Ekspansif)*, *Stabil*, *Turun (Kontraksi)*) di `outputs/hasil/hasil_forecasting_sektor.csv`.
 
 ### 4. Pilar 4: Mesin Rekomendasi Personal (`04_rekomendasi.py`)
 - **Metode:** Real-time lookup dan multi-criteria matching engine (`UMKMRecommender`).
@@ -97,23 +97,11 @@ Seluruh komputasi pemodelan analitik dikembangkan di folder `models/` secara mod
 
 ```text
 Projek PDS/
-├── app/                          # Fase 3: Antarmuka Web App & Dashboard
-│   └── .gitkeep
 ├── data/
 │   ├── raw/                      # Data mentah asli (BPS, OSM JSON, SiBakul, Trends, Sewa)
 │   ├── interim/                  # Checkpoint data perantara
 │   └── cleaned/                  # 7 CSV data bersih hasil pipeline (input pemodelan)
-├── file/                         # Berkas presentasi (PDF) dan proposal
-├── media/                        # Direncanakan: situs final (Laravel)
-├── prototype/                    # Direncanakan: prototipe web (Streamlit)
-├── milestones/                   # Laporan, panduan, dan materi presentasi
-│   ├── MILESTONE_4_CLEAN_DATASET.md
-│   ├── MILESTONE_5_DATA_QUALITY_AUDIT.md
-│   ├── PANDUAN_PROPOSAL_UTS.md
-│   ├── PANDUAN_SLIDE_PPT_UTS.md
-│   ├── konsep_pemahaman.md       # Panduan pemahaman konseptual dan teknis (+ PDF)
-│   ├── script_presentasi.md      # Script presentasi 15 menit (+ PDF)
-│   └── evaluasi.md               # Evaluasi kritis metodologi
+├── prototype/                    # Fase 3: prototipe web Streamlit (membaca CSV hasil)
 ├── models/                       # Fase 2: Implementasi 4 Pilar Analitik
 │   ├── 01_skoring.py             # Skoring Kelayakan MCDA
 │   ├── 02_clustering.py          # K-Means & PCA Profil Wilayah
@@ -126,8 +114,7 @@ Projek PDS/
 │   └── analisis/                 # 4 notebook analisis (01_mcda_*.ipynb dst.)
 ├── outputs/
 │   ├── hasil/                    # CSV hasil Pilar 1-3 (skoring, klaster, forecasting)
-│   ├── logs/                     # Folder log sistem
-│   └── *.png                     # Gambar hasil analisis
+│   └── logs/                     # Folder log sistem
 ├── scripts/                      # Fase 1: Pipeline ETL Data
 │   ├── dataset1_osm/             # Pipeline ekstraksi OpenStreetMap
 │   ├── dataset2_ekonomi/         # Pipeline data BPS Makroekonomi
@@ -147,8 +134,8 @@ Projek PDS/
 
 ```bash
 # Kloning repositori
-git clone https://github.com/username/projek-pds.git
-cd "projek-pds"
+git clone https://github.com/AfrizalKin/ProjekPDS-Jogja-UMKM-Analytics.git
+cd ProjekPDS-Jogja-UMKM-Analytics
 
 # Buat virtual environment (disarankan Python 3.10+)
 python -m venv .venv
@@ -183,15 +170,27 @@ python models/04_rekomendasi.py
 
 ---
 
-## 📑 Dokumentasi & Berkas Penyerahan Projek
+### 5. Menjalankan Prototipe Web (Fase 3)
+```bash
+pip install -r prototype/requirements.txt
+streamlit run prototype/app.py
+```
+Rincian ada di [`prototype/README.md`](./prototype/README.md).
 
-### Panduan Arsitektur & Rangkuman Insight:
-- [**konsep_pemahaman.md**](./milestones/konsep_pemahaman.md): Dokumen pemahaman konseptual dan teknis: latar belakang, alur data, metode 4 pilar, keputusan metodologis, keterbatasan, dan glosarium istilah.
+---
 
-### Laporan Akademik Terstruktur (Milestones PDS):
-Laporan resmi untuk evaluasi mata kuliah Pengantar Data Sains pada folder [`milestones/`](./milestones/):
-- [**Milestone 4 — Clean Dataset & Data Preparation**](./milestones/MILESTONE_4_CLEAN_DATASET.md): Dokumentasi pembersihan data, penanganan duplikasi OSM, normalisasi biaya sewa, transformasi BPS, dan Kamus Data (Data Dictionary) lengkap.
-- [**Milestone 5 — Data Quality Audit & Analytical Task Selection**](./milestones/MILESTONE_5_DATA_QUALITY_AUDIT.md): *Data Quality Scorecard* 4 dimensi, 4 temuan data riil & mitigasi, serta justifikasi pemilihan pendekatan analitik.
+## 📑 Berkas Utama untuk Ditinjau
+
+| Yang dicari | Lokasi |
+|---|---|
+| Notebook pembersihan data (5 dataset) | `notebooks/data_cleaning/` |
+| Notebook analisis (4 pilar) | `notebooks/analisis/` |
+| Kode pengambilan dan pembersihan data | `scripts/` |
+| Kode pemodelan | `models/` |
+| Dataset mentah | `data/raw/` |
+| Dataset bersih | `data/cleaned/` |
+| Hasil analisis (skor, klaster, proyeksi) | `outputs/hasil/` |
+| Prototipe web | `prototype/` |
 
 ---
 

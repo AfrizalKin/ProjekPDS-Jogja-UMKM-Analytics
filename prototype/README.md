@@ -35,7 +35,6 @@ Izinkan Python lewat firewall Windows bila diminta. Aplikasi hanya hidup selama 
 | `components/` | Kartu, lencana, dan grafik Plotly |
 | `halaman/` | Satu berkas per menu |
 | `assets/style.css` | CSS tambahan di atas tema `.streamlit/config.toml` |
-| `design/` | Tangkapan layar dan catatan desain dari Google Stitch |
 
 Memperbarui hasil: jalankan `python models/run_all_models.py`, lalu muat ulang halaman.
 Keterangan periode data dibaca dari `data/cleaned/metadata_data.json`.

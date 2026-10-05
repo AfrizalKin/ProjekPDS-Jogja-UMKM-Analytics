@@ -31,3 +31,16 @@ Thumbs.db
 
 # Kecualikan .gitkeep agar struktur folder tetap terlacak git
 !.gitkeep
+
+# Bukan kode/dataset (dokumen kerja, presentasi, turunan yang bisa dibuat ulang)
+file/
+milestones/
+outputs/*.png
+models/saved/*.joblib
+prototype/design/
+prototype/PRD.md
+
+# Rahasia dan konfigurasi lokal
+.env
+.mcp.json
+.streamlit/secrets.toml
